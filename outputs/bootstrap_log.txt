@@ -1,0 +1,47 @@
+[load] 7,143 val patients, 511 eligible diseases  (0.4s)
+[fit] age_sex refit on train minus patient 402867, K=1000  (0.1s)
+[model] transformer loaded from checkpoints/best.pt on mps
+[points] transformer: 172,280 prediction points  (35.8s)
+[group] transformer scores sorted and tie-grouped  (10.8s)
+[points] age_sex: 172,280 prediction points  (1.2s)
+[group] age_sex scores sorted and tie-grouped  (2.7s)
+correctness check, all weights equal to 1:
+  max |AUROC diff| vs committed CSVs: 2.220e-16  (transformer 2.220e-16, age_sex 2.220e-16; must be < 1e-09)
+  max |mean NLL diff| vs model_comparison.csv: 3.133e-08  (transformer 3.133e-08, age_sex 1.230e-08; must be <= 1e-06)
+  OK
+[timing] setup 52.9s, 1.31s per resample over 5 resamples
+[timing] choice: 1000 resamples: projected total 22.7 min is under the 30 min budget
+[bootstrap] 50/1000  elapsed 1.2 min  remaining 22.6 min
+[bootstrap] 100/1000  elapsed 2.3 min  remaining 21.1 min
+[bootstrap] 150/1000  elapsed 3.3 min  remaining 18.8 min
+[bootstrap] 200/1000  elapsed 4.4 min  remaining 17.5 min
+[bootstrap] 250/1000  elapsed 5.4 min  remaining 16.1 min
+[bootstrap] 300/1000  elapsed 6.3 min  remaining 14.8 min
+[bootstrap] 350/1000  elapsed 7.3 min  remaining 13.6 min
+[bootstrap] 400/1000  elapsed 8.3 min  remaining 12.5 min
+[bootstrap] 450/1000  elapsed 9.3 min  remaining 11.4 min
+[bootstrap] 500/1000  elapsed 10.3 min  remaining 10.3 min
+[bootstrap] 550/1000  elapsed 11.3 min  remaining 9.3 min
+[bootstrap] 600/1000  elapsed 12.3 min  remaining 8.2 min
+[bootstrap] 650/1000  elapsed 13.3 min  remaining 7.2 min
+[bootstrap] 700/1000  elapsed 14.3 min  remaining 6.1 min
+[bootstrap] 750/1000  elapsed 15.4 min  remaining 5.1 min
+[bootstrap] 800/1000  elapsed 16.3 min  remaining 4.1 min
+[bootstrap] 850/1000  elapsed 17.3 min  remaining 3.1 min
+[bootstrap] 900/1000  elapsed 18.2 min  remaining 2.0 min
+[bootstrap] 950/1000  elapsed 19.1 min  remaining 1.0 min
+[bootstrap] 1000/1000  elapsed 20.0 min  remaining 0.0 min
+
+=== Bootstrap over val patients: 1000 resamples, seed 0 ===
+nll_transformer            5.2508  95% CI [5.2424, 5.2594]
+nll_age_sex                5.4190  95% CI [5.4111, 5.4269]
+nll_diff                   0.1682  95% CI [0.1638, 0.1727]
+mean_auroc_transformer     0.7023  95% CI [0.6997, 0.7050]
+mean_auroc_age_sex         0.6483  95% CI [0.6456, 0.6509]
+mean_auroc_diff            0.0540  95% CI [0.0511, 0.0571]
+frac_transformer_higher    0.8885  95% CI [0.8376, 0.8826]
+skipped disease-resample pairs: 0 of 511,000
+Saved outputs/bootstrap_summary.json
+Saved outputs/bootstrap_panel.csv
+Saved outputs/bootstrap_draws.csv
+total runtime 20.9 min

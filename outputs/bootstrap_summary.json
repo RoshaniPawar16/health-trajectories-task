@@ -1,0 +1,61 @@
+{
+  "seed": 0,
+  "n_resamples": 1000,
+  "n_resamples_reason": "1000 resamples: projected total 22.7 min is under the 30 min budget",
+  "sec_per_resample_timed": 1.3062549591064454,
+  "interval": "95 percent percentile interval over resamples of val patients",
+  "device": "mps",
+  "age_sex_K": 1000.0,
+  "n_val_patients": 7143,
+  "n_points": 172280,
+  "n_eligible_diseases": 511,
+  "correctness_check": {
+    "max_auc_diff_transformer": 2.220446049250313e-16,
+    "max_auc_diff_age_sex": 2.220446049250313e-16,
+    "max_nll_diff_transformer": 3.133412818101533e-08,
+    "max_nll_diff_age_sex": 1.2300118257257964e-08
+  },
+  "metrics": {
+    "nll_transformer": {
+      "point": 5.250809408238731,
+      "ci95_lo": 5.242423570717378,
+      "ci95_hi": 5.259404899613793
+    },
+    "nll_age_sex": {
+      "point": 5.419012596171556,
+      "ci95_lo": 5.411099865859749,
+      "ci95_hi": 5.426922426973966
+    },
+    "nll_diff": {
+      "point": 0.16820318793282496,
+      "ci95_lo": 0.16376818001628562,
+      "ci95_hi": 0.17269545295953107
+    },
+    "mean_auroc_transformer": {
+      "point": 0.7023336794395598,
+      "ci95_lo": 0.699672365831381,
+      "ci95_hi": 0.7049971658470348
+    },
+    "mean_auroc_age_sex": {
+      "point": 0.6483303756506675,
+      "ci95_lo": 0.6456256696244412,
+      "ci95_hi": 0.650921923350666
+    },
+    "mean_auroc_diff": {
+      "point": 0.05400330378889235,
+      "ci95_lo": 0.051063460088495445,
+      "ci95_hi": 0.057105283059672156
+    },
+    "frac_transformer_higher": {
+      "point": 0.8884540117416829,
+      "ci95_lo": 0.837573385518591,
+      "ci95_hi": 0.8825831702544031
+    }
+  },
+  "skips": {
+    "total_disease_resample_pairs_skipped": 0,
+    "total_disease_resample_pairs": 511000,
+    "n_resamples_with_any_skip": 0,
+    "per_disease": {}
+  }
+}
