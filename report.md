@@ -85,7 +85,7 @@ I show one patient, chosen by a fixed rule. The true next diagnosis ranked 50 un
 
 ## 8. Calibration and failures
 
-Per disease, I compared observed positives with the total probability assigned. The median ratio is 1.014, with an interquartile range of 0.930 to 1.108, so the total mass per disease is about right. In the highest bin, predicted probability 0.1 and above, the mean prediction is 0.141 and the observed rate is 0.107, over 21,124 pairs. The model is overconfident when it is most confident.
+Per disease, I compared observed positives with the total probability assigned. The median ratio is 1.014, with an interquartile range of 0.930 to 1.108, so the total mass per disease is about right. In the highest bin, predicted probability 0.1 and above, the mean prediction is 0.141 and the observed rate is 0.107, over 21,124 pairs. The model is overconfident when it is most confident. One temperature fitted on dev, T = 1.05, moved the top bin's observed-to-predicted ratio on val from 0.756 to 0.892, over fewer pairs, and lowered NLL from 5.251 to 5.247, with top-k accuracy unchanged and mean AUROC at 0.702. The per-disease O/E median moved from 1.014 to 0.975, so one temperature trades one calibration error for another. The top bin is still overconfident.
 
 I did not test causes for the 23 failure codes. I measured whether age alone, or the previous event alone, carries signal for each. Age distance is how far the AUROC of age alone sits from one half. 20 of 23 failure codes have no previous-event pair seen at least 5 times in train, against 29.4 percent of all 511 eligible diseases. All 15 low-AUROC codes have a below-median age distance. 5 of the 8 underperforms_age_sex codes have an above-median age distance. The failures are consistent with missing signal of the kinds I measured, not with a fault specific to the model. Lift covers only the previous event, not the whole history.
 
@@ -95,6 +95,6 @@ The intervals hold the trained model fixed, so they cover which patients are in 
 
 ## 10. Next, not done
 
-None of this is done. I would add a time-to-event head, try temperature scaling for the top bin, test the output head and deeper layers for chapter structure, and add dated biomarker or omics events to the sequence.
+None of this is done. I would add a time-to-event head, test the output head and deeper layers for chapter structure, and add dated biomarker or omics events to the sequence.
 
 Full detail is in `results.ipynb`.

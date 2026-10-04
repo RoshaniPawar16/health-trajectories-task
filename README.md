@@ -104,13 +104,19 @@ Run every command from the repo root. The order matters, because later steps rea
     python -m src.failure_why 2>&1 | tee outputs/failure_why_log.txt
     ```
 
-11. Open the walkthrough and run all cells.
+11. Fit one temperature on the dev split and check calibration on val.
+
+    ```bash
+    python -m src.calibrate 2>&1 | tee outputs/calibrate_log.txt
+    ```
+
+12. Open the walkthrough and run all cells.
 
     ```bash
     python -m notebook results.ipynb
     ```
 
-The `checkpoints/` folder is gitignored, so a fresh clone has no trained model. Step 3 has to run before steps 4, 5, 6 and 9, and before sections 8 and 13 of the notebook, which load the checkpoint. Step 5 also needs the baseline files from step 2 and the transformer files from step 4. Steps 6, 8 and 10 read files that step 5 writes, so they come after it. Step 8 also needs the four runs from step 7. The notebook reads the outputs of every step, so it comes last.
+The `checkpoints/` folder is gitignored, so a fresh clone has no trained model. Step 3 has to run before steps 4, 5, 6, 9 and 11, and before sections 8 and 13 of the notebook, which load the checkpoint. Step 5 also needs the baseline files from step 2 and the transformer files from step 4. Steps 6, 8, 10 and 11 read files that step 5 writes, so they come after it. Step 8 also needs the four runs from step 7. The notebook reads the outputs of every step, so it comes last.
 
 Training is quick. Summing the `elapsed_sec` column of `outputs/train_log.csv` gives 146.9 seconds over 19 epochs on my machine. The cap is 30 epochs and early stopping waits 4 epochs without improvement, both set in `src/train.py`.
 
@@ -171,6 +177,11 @@ Everything lands in `outputs/`, which is committed so the results can be read wi
 | `embeddings_log.txt` | Step 9. The printed report. |
 | `failure_why.csv` | Step 10. Age signal and previous-event lift for every eligible disease, with flags for the failure and panel codes. |
 | `failure_why_log.txt` | Step 10. The printed report, one line per failure code. |
+| `transformer_tempscaled_per_disease_auc.csv` | Step 11. AUROC and positive count per eligible disease, transformer after temperature scaling. |
+| `transformer_tempscaled_stratified_auc.csv` | Step 11. The same within each sex and each age band. |
+| `calibration_tempscaled.csv` | Step 11. Mean predicted probability, observed rate and count for each probability bin, before and after scaling. |
+| `calibration_tempscaled.json` | Step 11. The fitted temperature, dev and val NLL, val metrics, observed over expected and the top bin, before and after, with the declared criterion. |
+| `calibrate_log.txt` | Step 11. The printed report, with the check against the committed files. |
 
 The tagged checkpoints from step 7 go to `checkpoints/`, which is gitignored.
 
@@ -216,6 +227,6 @@ The committed notebook was executed in the environment that trained the model: P
 
 ## Where are the results?
 
-Open `results.ipynb`. It is committed with its outputs, so it reads without running. It walks through the data checks, the headline table, the per-disease and per-stratum comparisons, the shuffle control, the leakage test with its positive control, history length, calibration, the failures and the limitations. Sections 13 to 19 add one patient followed end to end, what the result means for the role, the bootstrap intervals, the cardiometabolic panel, the seed and data fraction runs, the embedding test and the failure analysis. Every number in it is read from a file in `outputs/` or computed in the cell that shows it.
+Open `results.ipynb`. It is committed with its outputs, so it reads without running. It walks through the data checks, the headline table, the per-disease and per-stratum comparisons, the shuffle control, the leakage test with its positive control, history length, calibration, the failures and the limitations. Sections 13 to 20 add one patient followed end to end, what the result means for the role, the bootstrap intervals, the cardiometabolic panel, the seed and data fraction runs, the embedding test, the failure analysis and the temperature scaling result. Every number in it is read from a file in `outputs/` or computed in the cell that shows it.
 
 For the headline table alone, read `outputs/model_comparison.csv`. For the numbers behind the analysis summary, read `outputs/analysis_summary.json`.
