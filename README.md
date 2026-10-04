@@ -144,6 +144,8 @@ The seeds are fixed in the code. Training uses seed 42 for PyTorch and NumPy, se
 
 I tested one part directly. After the results were first committed, I ran `python -m src.run_eval` again. The two files it regenerates from the checkpoint, `transformer_per_disease_auc.csv` and `transformer_stratified_auc.csv`, came out byte for byte identical to the versions committed in `a68b5fd`. Git shows no later commit touching either file even though both were rewritten on disk.
 
+I then built a fresh conda environment from `requirements.txt` and ran `python -m src.run_eval` again. `model_comparison.csv` and both transformer CSVs came out identical to the committed versions.
+
 The analysis also checks itself. It recomputes the age_sex baseline's NLL and stops with an error if it differs from `outputs/baselines_summary.csv` by more than the tolerance in `src/analysis.py`. The notebook does the same for the transformer's NLL between `model_comparison.csv` and `analysis_summary.json`.
 
 There is a limit to what this shows. I trained once, with one seed. Re-running evaluation on a fixed checkpoint was deterministic in the one re-run I did, but I have not measured how much the results move between training runs.

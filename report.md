@@ -4,7 +4,7 @@
 
 ## 1. Framing
 
-I predicted the next recorded diagnosis token. At prediction point k the model sees the tokens and ages at positions 0 to k-1. Padding and the two sex tokens are masked at the output.
+I predicted the next recorded diagnosis token. I chose it because every model, from a frequency table to a transformer, can be scored on it by exactly the same rule, so the comparison is fair. The cost is that it predicts what comes next, not when. At prediction point k the model sees the tokens and ages at positions 0 to k-1. Padding and the two sex tokens are masked at the output.
 
 I left out time-to-event prediction, survival heads and ensembling.
 
@@ -18,7 +18,7 @@ The cohort is synthetic and uses the Delphi-2M format (Shmatko et al., Nature 20
 
 I dropped training patient 402867, whose 26 events start with an asthma code and include no sex token, which breaks the rule that every patient starts with one.
 
-65 tokens appear in val but never in train, covering 96 val events, and I kept them in the NLL and excluded them from AUROC.
+65 tokens appear in val but never in train, covering 96 val events. I kept them in the NLL because removing them would flatter every model, and excluded them from AUROC because a disease never seen in training says nothing about ranking.
 
 A disease is eligible for AUROC only if it is the target at least 20 times in val.
 
@@ -28,9 +28,9 @@ Same-age ties are rare, 225 of 172,222 prediction points in train and 243 of 172
 
 ## 3. Models
 
-The transformer is a causal model with 4 layers, 4 heads and width 128, 1,065,088 parameters in total. It has no positional embedding. A sinusoidal encoding of age is added to each token, so age carries time. Training stopped early after 19 epochs, with the best dev NLL at epoch 15.
+The transformer is a causal model with 4 layers, 4 heads and width 128, 1,065,088 parameters in total. It has no positional embedding. A sinusoidal encoding of age is added to each token instead, because gaps between events are irregular, and a position index would treat a gap of one day and twenty years as the same step. Training stopped early after 19 epochs, with the best dev NLL at epoch 15.
 
-Marginal predicts the train frequencies. The age_sex baseline conditions on sex and a five-year age band. Bigram conditions on the previous token. The last two are blended with the marginal through a constant K, tuned on a dev split over ten values from 20 to 20,000. Both chose 1000. The baselines were then refit on all of train, while the transformer trained on 90 percent with 10 percent held out as dev, so the comparison favours the baselines.
+The three baselines each isolate one source of signal. Marginal uses overall frequency, age_sex uses sex and a five-year age band, and bigram uses the previous event. Beating all three shows that no single one of these signals, in this simple form, explains its performance. The last two are blended with the marginal through a constant K, tuned on a dev split over ten values from 20 to 20,000. Both chose 1000. The baselines were then refit on all of train, while the transformer trained on 90 percent with 10 percent held out as dev, so the comparison favours the baselines.
 
 ## 4. Results
 
@@ -43,7 +43,7 @@ Marginal predicts the train frequencies. The age_sex baseline conditions on sex 
 | bigram | 5.467 | 0.037 | 0.126 | 0.308 | 0.607 | 0.593 |
 | transformer | 5.251 | 0.054 | 0.166 | 0.361 | 0.702 | 0.685 |
 
-The transformer is best in every column. Among the baselines, age_sex is strongest on NLL and AUROC, and bigram is slightly ahead of it on top-k accuracy. I use age_sex as the reference from here on.
+The transformer is best in every column. Among the baselines, age_sex is strongest on NLL and AUROC, and bigram is slightly ahead of it on top-k accuracy.
 
 The transformer has the higher AUROC on 454 of 511 eligible diseases. The mean difference is 0.054 and the median 0.050.
 
@@ -55,9 +55,9 @@ Mean AUROC is higher in every stratum. The difference is 0.062 for female patien
 
 ## 5. Is the gain real?
 
-First, leakage. I held the history fixed, replaced every later token and age with random values, and compared the logits at the last history position. Over 150 cases, 50 val patients at three positions each, on CPU, the largest difference was 0.0. I also ran a positive control. For one patient with 21 events and k of 10, the difference at position k-1 was 0.00 and at position k it was 2.08. So the test can detect a change.
+I held the history fixed, replaced every later token and age with random values, and compared the logits at the last history position. Over 150 cases, 50 val patients at three positions each, on CPU, the largest difference was 0.0. I also ran a positive control. For one patient with 21 events and k of 10, the difference at position k-1 was 0.00 and at position k it was 2.08. So the test can detect a change.
 
-Second, order. I shuffled the diagnoses within each val patient and left ages and sex in place. Both models were scored on the same shuffle. The age_sex baseline is the control, because its predictions do not change and only its targets move.
+I then shuffled the diagnoses within each val patient and left ages and sex in place. Both models were scored on the same shuffle, with age_sex as the control, because its predictions do not change and only its targets move.
 
 **Table 2. Shuffle control.** Source: `outputs/analysis_summary.json`. Advantage is positive when the transformer is better.
 
@@ -67,17 +67,17 @@ Second, order. I shuffled the diagnoses within each val patient and left ages an
 | age_sex | 5.419 | 5.645 | 0.648 | 0.547 |
 | transformer advantage | 0.168 | -0.031 | 0.054 | 0.035 |
 
-Shuffling removes all of the NLL advantage. The transformer ends up slightly worse than age_sex. It removes about a third of the AUROC advantage. The rest survives, since a shuffled history still contains the patient's own diagnoses. The direction is clear. The size is uncertain, because shuffled sequences are out of distribution for the transformer, and some of its drop is that shift.
+Shuffling removes all of the NLL advantage, leaving the transformer slightly worse than age_sex, and about a third of the AUROC advantage. The rest survives, since a shuffled history still contains the patient's own diagnoses. The direction is clear. The size is uncertain, because shuffled sequences are out of distribution for the transformer.
 
-The transformer's top-20 lead over age_sex is 0.039 at 1 to 4 events seen and 0.077 at 30 or more. That comparison is confounded with age. The Spearman correlation between history length and age is 0.712.
+The transformer's top-20 lead over age_sex grows from 0.039 at 1 to 4 events seen to 0.077 at 30 or more. That is confounded with age. The Spearman correlation between history length and age is 0.712.
 
 ## 6. Calibration and failures
 
 Per disease, I compared observed positives with the total probability assigned. The median ratio is 1.014, with an interquartile range of 0.930 to 1.108. So the total mass per disease is about right.
 
-The top of the range is not. In the highest bin, predicted probability 0.1 and above, the mean prediction is 0.141 and the observed rate is 0.107, over 21,124 pairs. The model is overconfident when it is most confident. The bin below is closer, 0.0196 against 0.0181.
+The top of the range is not. In the highest bin, predicted probability 0.1 and above, the mean prediction is 0.141 and the observed rate is 0.107, over 21,124 pairs. The model is overconfident when it is most confident.
 
-The failure list has 23 diseases. Two well-populated oral codes sit near 0.5: dental caries at 0.482 with 132 positives, and salivary gland disease at 0.502 with 133. Two more oral codes are also low, but on 27 and 28 positives. Four cancer codes fall below age_sex on small counts, between 21 and 50 positives. The lowest AUROC of all is 0.380, on 21 positives. I describe these and tested no cause.
+The failure list has 23 diseases. Two well-populated oral codes sit near 0.5: dental caries at 0.482 with 132 positives, and salivary gland disease at 0.502 with 133. Two more oral codes are also low, but on 27 and 28 positives. Four cancer codes fall below age_sex on small counts, between 21 and 50 positives. I describe these and tested no cause.
 
 ## 7. Limitations
 
@@ -85,6 +85,6 @@ There are no confidence intervals. The rarest eligible disease has 20 positives,
 
 ## 8. What I would do next
 
-None of this is done. I would bootstrap over patients to put intervals on the per-disease differences. I would train several seeds. I would add a time-to-event head. I would try temperature scaling for the overconfident top bin.
+None of this is done. I would bootstrap over patients for intervals, train several seeds, add a time-to-event head, and try temperature scaling for the top bin.
 
 Full detail is in `results.ipynb`.
