@@ -675,15 +675,24 @@ def run_failure_analysis() -> dict:
     fig.savefig(OUTPUTS_DIR / "auc_vs_prevalence.png", dpi=150)
     plt.close(fig)
 
-    min_auc = float(j.nsmallest(15, "auc_transformer")["auc_transformer"].max())  # worst of bottom-15
+    lowest_auc = float(j["auc_transformer"].min())  # true minimum transformer AUROC
+    bottom15_auc_threshold = float(
+        j.nsmallest(15, "auc_transformer")["auc_transformer"].max()
+    )  # 15th-lowest AUROC: the cut-off a disease must fall at or below to enter the bottom-15 set
     worst_gap = float(j.nsmallest(15, "diff")["diff"].min())
     print(
         f"\n[7] Failure analysis  {len(failures)} unique failure-mode diseases"
         f"  (low_auc={len(low_auc - low_gap)}, underperforms={len(low_gap - low_auc)}, both={len(low_auc & low_gap)})"
     )
-    print(f"    Bottom-15 by AUROC: max in set = {min_auc:.4f}")
-    print(f"    Bottom-15 by gap:   worst diff = {worst_gap:+.4f}")
-    return {"n_failures": len(failures), "min_auc": min_auc, "worst_gap": worst_gap}
+    print(f"    Lowest transformer AUROC   = {lowest_auc:.4f}")
+    print(f"    Bottom-15 AUROC threshold  = {bottom15_auc_threshold:.4f}  (15th lowest)")
+    print(f"    Bottom-15 by gap: worst diff = {worst_gap:+.4f}")
+    return {
+        "n_failures": len(failures),
+        "lowest_auc": lowest_auc,
+        "bottom15_auc_threshold": bottom15_auc_threshold,
+        "worst_gap": worst_gap,
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -781,7 +790,8 @@ if __name__ == "__main__":
         },
         "failures": {
             "n_failures": int(r7["n_failures"]),
-            "min_auc": float(r7["min_auc"]),
+            "lowest_auc": float(r7["lowest_auc"]),
+            "bottom15_auc_threshold": float(r7["bottom15_auc_threshold"]),
             "worst_gap": float(r7["worst_gap"]),
         },
     }
@@ -804,14 +814,14 @@ if __name__ == "__main__":
         f"The causal-mask leakage test {s['leakage']['status']} (max |logit diff| "
         f"{s['leakage']['max_diff']:.1e} over {s['leakage']['n_cases']} cases: "
         f"{s['leakage']['n_patients']} val patients × 3 positions, CPU). "
-        f"Top-20 accuracy improves with prefix length: "
-        f"{s['history_length']['transformer_top20_prefix_1_4']:.3f} for 1–4 events seen vs "
+        f"Transformer top-20 accuracy is "
+        f"{s['history_length']['transformer_top20_prefix_1_4']:.3f} for 1–4 events seen and "
         f"{s['history_length']['transformer_top20_prefix_30plus']:.3f} for 30+ events seen. "
         f"Per-disease observed/expected ratios have median {s['calibration']['o_e_median']:.3f} "
         f"(IQR {s['calibration']['o_e_q25']:.3f}–{s['calibration']['o_e_q75']:.3f}) over "
         f"{s['calibration']['n_diseases']} diseases. "
         f"{s['failures']['n_failures']} diseases are identified as failure modes (lowest transformer AUROC "
-        f"in bottom-15: up to {s['failures']['min_auc']:.3f}; worst gap vs age_sex: "
-        f"{s['failures']['worst_gap']:+.3f})."
+        f"{s['failures']['lowest_auc']:.3f}; bottom-15 AUROC threshold {s['failures']['bottom15_auc_threshold']:.3f}; "
+        f"worst gap vs age_sex: {s['failures']['worst_gap']:+.3f})."
     )
     print("=" * 72)

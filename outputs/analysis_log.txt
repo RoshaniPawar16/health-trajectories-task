@@ -1,0 +1,69 @@
+Device: mps
+age_sex refitted with K=1000 (argmin dev_nll over age_sex rows of baseline_K_tuning.csv)
+
+[1] Per-disease paired  n=511  transformer > age_sex: 88.8% (454/511)  mean diff: +0.0540  median: +0.0503
+
+[2] Stratified comparison:
+    Female        transformer=0.6789  age_sex=0.6171  n_diseases=506
+    Male          transformer=0.6672  age_sex=0.6045  n_diseases=496
+    age<40        transformer=0.6172  age_sex=0.5668  n_diseases=462
+    age40-60      transformer=0.6587  age_sex=0.5640  n_diseases=506
+    age>60        transformer=0.6528  age_sex=0.5942  n_diseases=500
+
+=== transformer_shuffled ===
+n_points               172,280
+mean_nll (nats)        5.6759
+top1_acc               0.0315
+top5_acc               0.1112
+top20_acc              0.2710
+auroc_mean             0.5820  (over 511 diseases)
+auroc_median           0.5645
+
+=== age_sex_shuffled ===
+n_points               172,280
+mean_nll (nats)        5.6446
+top1_acc               0.0212
+top5_acc               0.0923
+top20_acc              0.2609
+auroc_mean             0.5474  (over 511 diseases)
+auroc_median           0.5301
+
+[3] Shuffled-history test  (shuffle seed = 0, same permutation for both models)
+    age_sex NLL check: recomputed 5.419013  baselines_summary.csv 5.419013  |diff| = 0.00e+00 <= 0.0001 OK
+    model         NLL unshuf   NLL shuf     ΔNLL    AUROC unshuf  AUROC shuf   ΔAUROC
+    transformer       5.2508     5.6759  +0.4251          0.7023      0.5820  -0.1203
+    age_sex           5.4190     5.6446  +0.2256          0.6483      0.5474  -0.1010
+    Interpretation: age_sex sees the same shuffle, so its drop measures how much of the
+    change comes from breaking the age-to-diagnosis pairing alone. The transformer's drop
+    beyond that is attributable to temporal structure in the history (order and age
+    alignment), beyond which diagnoses co-occur in the patient. Shuffled prefixes still
+    contain diagnoses from the patient's future, so co-occurrence survives the shuffle.
+
+[4] Leakage test: PASS  max |logit diff| = 0.00e+00  (150 cases = 50 patients × 3 positions [k=1, L//2, L-1], tokens and ages after k perturbed, CPU)
+
+[5] History-length curve:
+    transformer   bucket=1–4     NLL=5.2078  top20=0.3838  n=28,572
+    transformer   bucket=5–9     NLL=5.1813  top20=0.3773  n=35,715
+    transformer   bucket=10–19   NLL=5.2425  top20=0.3616  n=65,312
+    transformer   bucket=20–29   NLL=5.3318  top20=0.3364  n=30,842
+    transformer   bucket=30+     NLL=5.3994  top20=0.3227  n=11,839
+    age_sex       bucket=1–4     NLL=5.3833  top20=0.3450  n=28,572
+    age_sex       bucket=5–9     NLL=5.3379  top20=0.3308  n=35,715
+    age_sex       bucket=10–19   NLL=5.4040  top20=0.3047  n=65,312
+    age_sex       bucket=20–29   NLL=5.5030  top20=0.2722  n=30,842
+    age_sex       bucket=30+     NLL=5.6141  top20=0.2461  n=11,839
+
+[6] Calibration  ECE=0.0001  n_bins=7 (decades 1e-7..1e0)  n_diseases=511  n_points=172,280  n_pairs=88,035,080
+    per-disease O/E: median=1.0139  IQR=[0.9297, 1.1079]
+
+[7] Failure analysis  23 unique failure-mode diseases  (low_auc=8, underperforms=8, both=7)
+    Lowest transformer AUROC   = 0.3804
+    Bottom-15 AUROC threshold  = 0.5392  (15th lowest)
+    Bottom-15 by gap: worst diff = -0.1535
+
+Saved outputs/analysis_summary.json
+
+========================================================================
+SUMMARY
+The transformer outperforms age_sex on 88.8% of 511 diseases (mean AUROC gap +0.054, median +0.050). Shuffling diagnosis order within each patient (seed 0) changes transformer NLL by +0.425 nats and mean AUROC by -0.120; the same shuffle changes age_sex NLL by +0.226 and AUROC by -0.101 (unshuffled age_sex AUROC 0.648). The causal-mask leakage test PASS (max |logit diff| 0.0e+00 over 150 cases: 50 val patients × 3 positions, CPU). Transformer top-20 accuracy is 0.384 for 1–4 events seen and 0.323 for 30+ events seen. Per-disease observed/expected ratios have median 1.014 (IQR 0.930–1.108) over 511 diseases. 23 diseases are identified as failure modes (lowest transformer AUROC 0.380; bottom-15 AUROC threshold 0.539; worst gap vs age_sex: -0.153).
+========================================================================

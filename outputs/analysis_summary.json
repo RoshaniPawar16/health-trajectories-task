@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "checkpoint": "checkpoints/best.pt",
+    "device": "mps",
+    "age_sex_K": 1000,
+    "shuffle_seed": 0,
+    "n_val_patients": 7143
+  },
+  "per_disease": {
+    "n_diseases": 511,
+    "frac_better": 0.8884540117416829,
+    "mean_diff": 0.05400330378889234,
+    "median_diff": 0.0503046096120503
+  },
+  "shuffle": {
+    "shuffle_seed": 0,
+    "transformer_unshuffled_nll": 5.250809376904603,
+    "transformer_shuffled_nll": 5.675903960848618,
+    "transformer_nll_delta": 0.42509458394401545,
+    "transformer_unshuffled_auroc": 0.7023336794395598,
+    "transformer_shuffled_auroc": 0.5819863923902676,
+    "transformer_auroc_delta": -0.1203472870492922,
+    "age_sex_unshuffled_nll": 5.419012608471674,
+    "age_sex_shuffled_nll": 5.644564693921233,
+    "age_sex_nll_delta": 0.22555208544955896,
+    "age_sex_unshuffled_auroc": 0.6483303756506675,
+    "age_sex_shuffled_auroc": 0.547377555979881,
+    "age_sex_auroc_delta": -0.10095281967078651
+  },
+  "leakage": {
+    "status": "PASS",
+    "max_diff": 0.0,
+    "n_patients": 50,
+    "n_cases": 150,
+    "device": "cpu"
+  },
+  "history_length": {
+    "transformer_top20_prefix_1_4": 0.3838373232535349,
+    "transformer_top20_prefix_30plus": 0.32266238702593125
+  },
+  "calibration": {
+    "ece": 0.00013762617711927472,
+    "n_bins": 7,
+    "n_diseases": 511,
+    "n_points": 172280,
+    "n_pairs": 88035080,
+    "o_e_median": 1.013862783183161,
+    "o_e_q25": 0.9297412271954875,
+    "o_e_q75": 1.1078844484901007,
+    "o_e_iqr": 0.17814322129461324
+  },
+  "failures": {
+    "n_failures": 23,
+    "lowest_auc": 0.3804073821286274,
+    "bottom15_auc_threshold": 0.5391781680184271,
+    "worst_gap": -0.1534509635131373
+  }
+}
