@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import time
 from pathlib import Path
 
@@ -143,9 +144,38 @@ def _eval_nll(
 
 
 if __name__ == "__main__":
-    print(f"Random seed: {SEED}")
-    torch.manual_seed(SEED)
-    np.random.seed(SEED)
+    parser = argparse.ArgumentParser(description="Train HealthTransformer with early stopping on dev NLL.")
+    parser.add_argument("--seed", type=int, default=SEED, help="torch and numpy seed (default: SEED)")
+    parser.add_argument(
+        "--train-frac", type=float, default=1.0,
+        help="fraction of train_part to train on, in (0, 1]; dev_part is never subsampled (default: 1.0)",
+    )
+    parser.add_argument(
+        "--tag", type=str, default=None,
+        help="write checkpoints/TAG.pt, outputs/train_log_TAG.csv and outputs/train_curve_TAG.png",
+    )
+    args = parser.parse_args()
+
+    if not 0.0 < args.train_frac <= 1.0:
+        parser.error("--train-frac must be in (0, 1]")
+
+    # Output paths. No tag: the original three paths. With a tag: new names, never overwritten.
+    checkpoint_path = CHECKPOINT_PATH
+    log_path = OUTPUTS_DIR / "train_log.csv"
+    curve_path = OUTPUTS_DIR / "train_curve.png"
+    if args.tag is not None:
+        if not args.tag or Path(args.tag).name != args.tag:
+            parser.error("--tag must be a plain name with no path separators")
+        checkpoint_path = CHECKPOINT_DIR / f"{args.tag}.pt"
+        log_path = OUTPUTS_DIR / f"train_log_{args.tag}.csv"
+        curve_path = OUTPUTS_DIR / f"train_curve_{args.tag}.png"
+        existing = [p for p in (checkpoint_path, log_path, curve_path) if p.exists()]
+        if existing:
+            parser.error("refusing to overwrite: " + ", ".join(str(p) for p in existing))
+
+    print(f"Random seed: {args.seed}")
+    torch.manual_seed(args.seed)
+    np.random.seed(args.seed)
 
     device = select_device()
     print(f"Device: {device}")
@@ -158,6 +188,15 @@ if __name__ == "__main__":
 
     # Same frac=0.1, seed=0 split as src/baselines.py — dev patients are identical
     train_part, dev_part = split_train_dev(train_sequences)
+    if args.train_frac < 1.0:
+        # Nested subsets: one fixed shuffle of train_part (own generator, seed 0), keep the
+        # first round(F * n) patients.  dev_part is untouched.  Skipped entirely when F = 1.
+        order = np.random.default_rng(0).permutation(len(train_part))
+        n_keep = round(args.train_frac * len(train_part))
+        if n_keep < 1:
+            parser.error("--train-frac leaves no training patients")
+        train_part = [train_part[i] for i in order[:n_keep]]
+        print(f"Train fraction: {args.train_frac} (first {n_keep:,} patients of a seed-0 shuffle of train_part)")
     print(f"Train patients: {len(train_part):,}  Dev patients: {len(dev_part):,}")
 
     train_loader = DataLoader(
@@ -217,7 +256,7 @@ if __name__ == "__main__":
 
         if dev_nll < best_dev_nll:
             best_dev_nll = dev_nll
-            torch.save(model.state_dict(), CHECKPOINT_PATH)
+            torch.save(model.state_dict(), checkpoint_path)
             patience_counter = 0
         else:
             patience_counter += 1
@@ -225,11 +264,11 @@ if __name__ == "__main__":
                 print(f"Early stopping at epoch {epoch} (patience={PATIENCE})")
                 break
 
-    print(f"\nBest dev NLL: {best_dev_nll:.4f}  Checkpoint: {CHECKPOINT_PATH}")
+    print(f"\nBest dev NLL: {best_dev_nll:.4f}  Checkpoint: {checkpoint_path}")
 
     log_df = pd.DataFrame(log_rows)
-    log_df.to_csv(OUTPUTS_DIR / "train_log.csv", index=False)
-    print(f"Saved {OUTPUTS_DIR}/train_log.csv")
+    log_df.to_csv(log_path, index=False)
+    print(f"Saved {log_path}")
 
     fig, ax1 = plt.subplots(figsize=(8, 4))
     ax2 = ax1.twinx()
@@ -245,6 +284,6 @@ if __name__ == "__main__":
     ax1.legend(lines, [l.get_label() for l in lines], loc="upper right")
     ax1.set_title("Training curve")
     fig.tight_layout()
-    fig.savefig(OUTPUTS_DIR / "train_curve.png", dpi=150)
+    fig.savefig(curve_path, dpi=150)
     plt.close(fig)
-    print(f"Saved {OUTPUTS_DIR}/train_curve.png")
+    print(f"Saved {curve_path}")
