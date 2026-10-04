@@ -1,0 +1,130 @@
+{
+  "checkpoint": "checkpoints/best.pt",
+  "embedding": "token_emb.weight (input embedding), mean-centred over the selected tokens, cosine",
+  "min_train_count": 20,
+  "n_tokens": 512,
+  "n_chapters": 16,
+  "n_perm": 1000,
+  "perm_seed": 0,
+  "p_value_rule": "one-sided: (1 + shuffles with statistic >= observed) / (n_perm + 1)",
+  "statistic": 0.002956332842680265,
+  "mean_within": 0.0007820358528646024,
+  "mean_between": -0.0021742969898156626,
+  "test1_label_shuffle": {
+    "p_value": 0.000999000999000999,
+    "null_mean": 3.821332573738043e-06,
+    "null_max": 0.002825301544065455
+  },
+  "test2_frequency_control": {
+    "grouping": "10 equal-size groups by rank of train count",
+    "p_value": 0.000999000999000999,
+    "null_mean": 4.319217061827611e-05,
+    "null_max": 0.002910314174540216
+  },
+  "test3_negative_control": {
+    "model": "untrained HealthTransformer(), torch.manual_seed(42)",
+    "statistic": 0.001470769078533896,
+    "mean_within": -0.0005903696099662894,
+    "mean_between": -0.0020611386885001854,
+    "p_value": 0.053946053946053944,
+    "null_mean": 4.0840350133482636e-06,
+    "null_max": 0.0027956000981954354
+  },
+  "declared_check": {
+    "anchor": "E11",
+    "n_candidates": 511,
+    "targets": {
+      "H36": {
+        "status": "testable",
+        "rank": 158,
+        "cosine": 0.031835040274885505
+      },
+      "G63": {
+        "status": "not testable"
+      }
+    },
+    "anchor_status": "testable"
+  },
+  "per_chapter_description_only": {
+    "I": {
+      "title": "Certain infectious and parasitic diseases",
+      "n_tokens": 35,
+      "mean_within_cosine": 0.0030749491137227083
+    },
+    "II": {
+      "title": "Neoplasms",
+      "n_tokens": 25,
+      "mean_within_cosine": -0.010515696130176225
+    },
+    "III": {
+      "title": "Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism",
+      "n_tokens": 14,
+      "mean_within_cosine": 0.01262421583923715
+    },
+    "IV": {
+      "title": "Endocrine, nutritional and metabolic diseases",
+      "n_tokens": 28,
+      "mean_within_cosine": 0.0024166921200473495
+    },
+    "V": {
+      "title": "Mental and behavioural disorders",
+      "n_tokens": 22,
+      "mean_within_cosine": 0.007630225295935779
+    },
+    "VI": {
+      "title": "Diseases of the nervous system",
+      "n_tokens": 29,
+      "mean_within_cosine": -0.0022734910340947824
+    },
+    "VII": {
+      "title": "Diseases of the eye and adnexa",
+      "n_tokens": 31,
+      "mean_within_cosine": 0.006062645912156484
+    },
+    "VIII": {
+      "title": "Diseases of the ear and mastoid process",
+      "n_tokens": 13,
+      "mean_within_cosine": -0.004938640902219267
+    },
+    "IX": {
+      "title": "Diseases of the circulatory system",
+      "n_tokens": 51,
+      "mean_within_cosine": 0.0016272460329674685
+    },
+    "X": {
+      "title": "Diseases of the respiratory system",
+      "n_tokens": 38,
+      "mean_within_cosine": -6.768347331336826e-05
+    },
+    "XI": {
+      "title": "Diseases of the digestive system",
+      "n_tokens": 58,
+      "mean_within_cosine": -0.0003744596168994241
+    },
+    "XII": {
+      "title": "Diseases of the skin and subcutaneous tissue",
+      "n_tokens": 41,
+      "mean_within_cosine": 0.0025052526847012097
+    },
+    "XIII": {
+      "title": "Diseases of the musculoskeletal system and connective tissue",
+      "n_tokens": 54,
+      "mean_within_cosine": -0.0007043065304820636
+    },
+    "XIV": {
+      "title": "Diseases of the genitourinary system",
+      "n_tokens": 54,
+      "mean_within_cosine": 0.0005296139622685519
+    },
+    "XV": {
+      "title": "Pregnancy, childbirth and the puerperium",
+      "n_tokens": 12,
+      "mean_within_cosine": 0.008859487936161066
+    },
+    "XVII": {
+      "title": "Congenital malformations, deformations and chromosomal abnormalities",
+      "n_tokens": 7,
+      "mean_within_cosine": -0.0014914034029011956
+    }
+  }
+}

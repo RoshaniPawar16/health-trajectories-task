@@ -1,0 +1,31 @@
+code,label,chapter,train_count,neighbour_rank,neighbour_code,neighbour_label,neighbour_chapter,cosine,same_chapter
+I10,I10 (essential (primary) hypertension),IX,4180,1,N28,"N28 (other disorders of kidney and ureter, not elsewhere classified)",XIV,0.2592361458250976,False
+I10,I10 (essential (primary) hypertension),IX,4180,2,G57,G57 (mononeuropathies of lower limb),VI,0.24511062428582572,False
+I10,I10 (essential (primary) hypertension),IX,4180,3,I00,I00 (rheumatic fever without mention of heart involvement),IX,0.2372188323546005,True
+M79,"M79 (other soft tissue disorders, not elsewhere classified)",XIII,3676,1,I50,I50 (heart failure),IX,0.26876177174151283,False
+M79,"M79 (other soft tissue disorders, not elsewhere classified)",XIII,3676,2,B49,B49 (unspecified mycosis),I,0.23538788099107222,False
+M79,"M79 (other soft tissue disorders, not elsewhere classified)",XIII,3676,3,L24,L24 (irritant contact dermatitis),XII,0.23423847761461303,False
+M25,"M25 (other joint disorders, not elsewhere classified)",XIII,3301,1,G25,G25 (other extrapyramidal and movement disorders),VI,0.2839062330767373,False
+M25,"M25 (other joint disorders, not elsewhere classified)",XIII,3301,2,G44,G44 (other headache syndromes),VI,0.21301929836005665,False
+M25,"M25 (other joint disorders, not elsewhere classified)",XIII,3301,3,E11,E11 (non-insulin-dependent diabetes mellitus),IV,0.19019485266257674,False
+E78,E78 (disorders of lipoprotein metabolism and other lipidaemias),IV,3082,1,O03,O03 (spontaneous abortion),XV,0.29749531706064025,False
+E78,E78 (disorders of lipoprotein metabolism and other lipidaemias),IV,3082,2,D06,D06 Carcinoma in situ of cervix uteri,II,0.2583352886964388,False
+E78,E78 (disorders of lipoprotein metabolism and other lipidaemias),IV,3082,3,D86,D86 (sarcoidosis),III,0.22264504035083468,False
+M19,M19 (other arthrosis),XIII,2917,1,H68,H68 (eustachian salpingitis and obstruction),VIII,0.2727970166129791,False
+M19,M19 (other arthrosis),XIII,2917,2,F41,F41 (other anxiety disorders),V,0.2517315628501392,False
+M19,M19 (other arthrosis),XIII,2917,3,K62,K62 (other diseases of anus and rectum),XI,0.24952686641960073,False
+J22,J22 (unspecified acute lower respiratory infection),X,2882,1,A41,A41 (other septicaemia),I,0.27020037958896265,False
+J22,J22 (unspecified acute lower respiratory infection),X,2882,2,A15,"A15 (respiratory tuberculosis, bacteriologically and histologically confirmed)",I,0.25471409738315837,False
+J22,J22 (unspecified acute lower respiratory infection),X,2882,3,K14,K14 (diseases of tongue),XI,0.22989129654618246,False
+M54,M54 (dorsalgia),XIII,2686,1,J61,J61 (pneumoconiosis due to asbestos and other mineral fibres),X,0.2506061940027301,False
+M54,M54 (dorsalgia),XIII,2686,2,M13,M13 (other arthritis),XIII,0.24144350519690208,True
+M54,M54 (dorsalgia),XIII,2686,3,J20,J20 (acute bronchitis),X,0.2375810568205708,False
+H26,H26 (other cataract),VII,2407,1,K90,K90 (intestinal malabsorption),XI,0.25441263615561255,False
+H26,H26 (other cataract),VII,2407,2,J12,"J12 (viral pneumonia, not elsewhere classified)",X,0.24215559639431078,False
+H26,H26 (other cataract),VII,2407,3,H02,H02 (other disorders of eyelid),VII,0.22003174721196397,True
+K57,K57 (diverticular disease of intestine),XI,2347,1,H81,H81 (disorders of vestibular function),VIII,0.27298102498167226,False
+K57,K57 (diverticular disease of intestine),XI,2347,2,I05,I05 (rheumatic mitral valve diseases),IX,0.2530841338461676,False
+K57,K57 (diverticular disease of intestine),XI,2347,3,I63,I63 (cerebral infarction),IX,0.2352912145604282,False
+J06,J06 (acute upper respiratory infections of multiple and unspecified sites),X,2266,1,J35,J35 (chronic diseases of tonsils and adenoids),X,0.30324912897433176,True
+J06,J06 (acute upper respiratory infections of multiple and unspecified sites),X,2266,2,D51,D51 (vitamin b12 deficiency anaemia),III,0.21597646824008015,False
+J06,J06 (acute upper respiratory infections of multiple and unspecified sites),X,2266,3,H01,H01 (other inflammation of eyelid),VII,0.2149036968689837,False

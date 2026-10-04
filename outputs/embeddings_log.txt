@@ -1,0 +1,10 @@
+selected 512 diagnosis codes with >= 20 train events, in 16 chapters
+statistic (within - between): 0.0030  (within 0.0008, between -0.0022)
+test 1 label shuffle:       p = 0.0010  (null mean 0.0000, null max 0.0028)
+test 2 frequency control:   p = 0.0010  (null mean 0.0000, null max 0.0029)
+test 3 untrained model:     statistic 0.0015, p = 0.0539
+smallest possible p with 1000 shuffles: 0.0010
+declared check E11 -> H36: rank 158 of 511 (cosine 0.0318)
+declared check E11 -> G63: not testable
+Saved outputs/embedding_chapters.json
+Saved outputs/embedding_neighbours.csv
