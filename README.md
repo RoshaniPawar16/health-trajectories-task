@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This is my solution to an interview task. I built a small model that reads a patient's history of diagnoses and predicts which diagnosis is recorded next. The cohort is synthetic and uses the data format of Delphi-2M (Shmatko et al., Nature 2025), where each patient is a sequence of tokens and each token carries an age. I took the format from that paper and nothing else. No Delphi code is used here. The model, the baselines and the evaluation are written from scratch in PyTorch and NumPy.
+This is my solution to an interview task. I built a small model that reads a patient's history of diagnoses and predicts which diagnosis is recorded next. The cohort is synthetic and uses the data format of Delphi-2M (Shmatko et al., Nature 2025), where each patient is a sequence of tokens and each token carries an age. I took the format from that paper and nothing else. No Delphi code is used here. The model, the baselines and the evaluation are written from scratch in PyTorch and NumPy. The three-page report is report.pdf, with the same text in report.md. The walkthrough is results.ipynb.
 
 ## What did I predict, and why that target?
 
