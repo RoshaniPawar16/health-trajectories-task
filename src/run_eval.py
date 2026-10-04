@@ -63,3 +63,7 @@ if __name__ == "__main__":
 
     print("\n=== Comparison: baselines vs transformer ===")
     print(comparison.to_string(index=False, float_format="{:.4f}".format))
+
+    comparison_path = Path("outputs/model_comparison.csv")
+    comparison.to_csv(comparison_path, index=False)
+    print(f"Saved {comparison_path}")
