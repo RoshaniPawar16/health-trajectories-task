@@ -1,0 +1,33 @@
+dev split: 714 patients, 17,743 prediction points
+Device: mps
+chosen T = 1.05  (grid 0.50 to 3.00, step 0.01)
+dev NLL at T = 1: 5.242641   dev NLL at T = 1.05: 5.239701
+correctness check at T = 1 (wrapper returns the base probabilities untouched):
+  |mean NLL diff| vs model_comparison.csv: 3.133e-08  (must be <= 1e-06)
+  max |AUROC diff| vs transformer_per_disease_auc.csv: 2.220e-16  (must be < 1e-09)
+  general scaling path at T = 1, max |p ** 1 renormalised - p|: 1.788e-07  (must be <= 1e-06)
+  OK
+
+=== transformer_tempscaled ===
+n_points               172,280
+mean_nll (nats)        5.2473
+top1_acc               0.0539
+top5_acc               0.1662
+top20_acc              0.3614
+auroc_mean             0.7023  (over 511 diseases)
+auroc_median           0.6846
+
+=== Temperature scaling on val ===
+T = 1.05, fitted on dev
+mean_nll       before 5.2508   after 5.2473
+top1_acc       before 0.0539   after 0.0539
+top5_acc       before 0.1662   after 0.1662
+top20_acc      before 0.3614   after 0.3614
+mean_auroc     before 0.7023   after 0.7023
+median_auroc   before 0.6849   after 0.6846
+per-disease O/E before: median 1.0139, IQR [0.9297, 1.1079]
+per-disease O/E after:  median 0.9748, IQR [0.8717, 1.0449]
+top bin [1e-01, 1e+00): observed/predicted before 0.756 (n = 21,124), after 0.892 (n = 13,549)
+declared criterion, top bin ratio closer to 1: met
+Saved outputs/calibration_tempscaled.csv
+Saved outputs/calibration_tempscaled.json

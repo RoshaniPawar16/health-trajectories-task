@@ -1,0 +1,68 @@
+{
+  "checkpoint": "checkpoints/best.pt",
+  "device": "mps",
+  "temperature": 1.05,
+  "grid": {
+    "min": 0.5,
+    "max": 3.0,
+    "step": 0.01
+  },
+  "temperature_on_grid_edge": false,
+  "fit_split": "dev (split_train_dev, frac 0.1, seed 0); val is not used for fitting",
+  "dev": {
+    "n_patients": 714,
+    "n_points": 17743,
+    "nll_at_T_1": 5.242641380192706,
+    "nll_at_T": 5.239700685478397
+  },
+  "correctness_check_at_T_1": {
+    "nll_diff": 3.133412818101533e-08,
+    "max_auc_diff": 2.220446049250313e-16,
+    "general_path_max_prob_diff": 1.7881393432617188e-07
+  },
+  "val_before": {
+    "mean_nll": 5.250809376904603,
+    "top1_acc": 0.0538541908521012,
+    "top5_acc": 0.1662061759925702,
+    "top20_acc": 0.3613536104016717,
+    "mean_auroc": 0.7023336794395598,
+    "median_auroc": 0.6849422342424076
+  },
+  "val_after": {
+    "mean_nll": 5.247335913919201,
+    "top1_acc": 0.05385419085210123,
+    "top5_acc": 0.16620617599257023,
+    "top20_acc": 0.3613536104016717,
+    "mean_auroc": 0.7023237252862313,
+    "median_auroc": 0.6846389101035841
+  },
+  "n_diseases_auroc_after": 511,
+  "o_e_before": {
+    "median": 1.013862783183161,
+    "q25": 0.9297412271954875,
+    "q75": 1.1078844484901007
+  },
+  "o_e_after": {
+    "median": 0.974780688806344,
+    "q25": 0.8716687460745636,
+    "q75": 1.0449271695849227
+  },
+  "top_bin": {
+    "lower_edge": 0.1,
+    "upper_edge": 1.0,
+    "before": {
+      "mean_predicted": 0.14112963667395123,
+      "observed_rate": 0.10675061541374739,
+      "count": 21124,
+      "observed_over_predicted": 0.7564011211930705
+    },
+    "after": {
+      "mean_predicted": 0.1392975106282167,
+      "observed_rate": 0.12421580928481807,
+      "count": 13549,
+      "observed_over_predicted": 0.8917302881050654
+    }
+  },
+  "success_criterion": "top bin observed/predicted ratio moves closer to 1 on val",
+  "top_bin_ratio_closer_to_1": true
+}
