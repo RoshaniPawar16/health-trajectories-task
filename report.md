@@ -1,6 +1,6 @@
 # Next-diagnosis prediction on a synthetic cohort
 
-**Headline.** A 1.07M-parameter causal transformer ranks the next recorded diagnosis better than a tuned age and sex baseline. Mean per-disease AUROC is 0.702 against 0.648. The difference, 0.054, has a 95 percent interval of 0.051 to 0.057 over validation patients, and three training seeds give a mean AUROC of 0.700 to 0.702. It is higher on 454 of 511 diseases and in every sex and age stratum. On 12 of 16 pre-declared cardiometabolic codes the interval for the difference excludes zero. Shuffling the history removes all of its NLL advantage and about a third of its AUROC advantage, so part of the gain depends on the order of the history. The leakage test passes with a positive control.
+**Headline.** A causal transformer ranks the next recorded diagnosis better than a tuned age_sex baseline. Mean per-disease AUROC is 0.702 against 0.648. The difference is 0.054, with a 95 percent interval of 0.051 to 0.057. Three seeds give 0.700 to 0.702. It is higher on 454 of 511 diseases and in every stratum. 12 of 16 panel intervals exclude zero. Shuffling removes all of the NLL advantage and about a third of the AUROC advantage, so part of the gain depends on the order of the history. The leakage test passes with a positive control.
 
 ## 1. Framing
 
@@ -56,8 +56,6 @@ I then shuffled the diagnoses within each val patient and left ages and sex in p
 | transformer advantage | 0.168 | -0.031 | 0.054 | 0.035 |
 
 Shuffling removes all of the NLL advantage and about a third of the AUROC advantage. The rest survives, since a shuffled history still holds the patient's own diagnoses. The size is uncertain, because shuffled sequences are out of distribution for the transformer.
-
-The transformer's top-20 lead over age_sex grows from 0.039 at 1 to 4 events seen to 0.077 at 30 or more. That is confounded with age. The Spearman correlation between history length and age is 0.712.
 
 ## 6. Cardiometabolic endpoints
 

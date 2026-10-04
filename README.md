@@ -229,4 +229,4 @@ The committed notebook was executed in the environment that trained the model: P
 
 Open `results.ipynb`. It is committed with its outputs, so it reads without running. It walks through the data checks, the headline table, the per-disease and per-stratum comparisons, the shuffle control, the leakage test with its positive control, history length, calibration, the failures and the limitations. Sections 13 to 20 add one patient followed end to end, what the result means for the role, the bootstrap intervals, the cardiometabolic panel, the seed and data fraction runs, the embedding test, the failure analysis and the temperature scaling result. Every number in it is read from a file in `outputs/` or computed in the cell that shows it.
 
-For the headline table alone, read `outputs/model_comparison.csv`. For the numbers behind the analysis summary, read `outputs/analysis_summary.json`.
+For the headline table alone, read `outputs/model_comparison.csv`. For the numbers behind the analysis summary, read `outputs/analysis_summary.json`. report.pdf is report.md rendered to A4, three pages.
