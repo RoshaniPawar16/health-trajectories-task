@@ -1,0 +1,90 @@
+CHECK dev split: identical 714 dev patients for all 5 runs (seed42, seed1, seed2, frac025, frac050); no dev patient in any training subset  OK
+CHECK nesting: all 1,607 patients of the 0.25 subset are in the 0.5 subset (3,214)  OK
+CHECK subset size: fraction 0.25 gives 1,607 patients, train.py printed 1,607  OK
+CHECK subset size: fraction 0.5 gives 3,214 patients, train.py printed 3,214  OK
+age_sex K = 1000 for every fraction. K was tuned at full data (dev split of the full train set) and is not retuned per fraction.
+Device: mps
+
+=== transformer_seed1 ===
+n_points               172,280
+mean_nll (nats)        5.2576
+top1_acc               0.0535
+top5_acc               0.1642
+top20_acc              0.3583
+auroc_mean             0.6999  (over 511 diseases)
+auroc_median           0.6843
+
+=== transformer_seed2 ===
+n_points               172,280
+mean_nll (nats)        5.2547
+top1_acc               0.0541
+top5_acc               0.1652
+top20_acc              0.3603
+auroc_mean             0.7011  (over 511 diseases)
+auroc_median           0.6857
+
+=== transformer_frac025 ===
+n_points               172,280
+mean_nll (nats)        5.3851
+top1_acc               0.0431
+top5_acc               0.1399
+top20_acc              0.3244
+auroc_mean             0.6507  (over 511 diseases)
+auroc_median           0.6312
+
+=== age_sex_frac025 ===
+n_points               172,280
+mean_nll (nats)        5.4907
+top1_acc               0.0284
+top5_acc               0.1127
+top20_acc              0.2971
+auroc_mean             0.6207  (over 511 diseases)
+auroc_median           0.5956
+
+=== transformer_frac050 ===
+n_points               172,280
+mean_nll (nats)        5.3131
+top1_acc               0.0497
+top5_acc               0.1544
+top20_acc              0.3438
+auroc_mean             0.6812  (over 511 diseases)
+auroc_median           0.6612
+
+=== age_sex_frac050 ===
+n_points               172,280
+mean_nll (nats)        5.4499
+top1_acc               0.0292
+top5_acc               0.1144
+top20_acc              0.3036
+auroc_mean             0.6363  (over 511 diseases)
+auroc_median           0.6079
+
+=== age_sex_frac100 ===
+n_points               172,280
+mean_nll (nats)        5.4229
+top1_acc               0.0297
+top5_acc               0.1162
+top20_acc              0.3062
+auroc_mean             0.6463  (over 511 diseases)
+auroc_median           0.6175
+
+=== Seeds (transformer, full train_part) ===
+seed  mean_nll  top20_acc  mean_auroc  best_epoch
+  42    5.2508     0.3614      0.7023     15.0000
+   1    5.2576     0.3583      0.6999     13.0000
+   2    5.2547     0.3603      0.7011     15.0000
+mean    5.2544     0.3600      0.7011     14.3333
+ min    5.2508     0.3583      0.6999     13.0000
+ max    5.2576     0.3614      0.7023     15.0000
+
+=== Data efficiency (fraction of train_part; age_sex K tuned at full data) ===
+ fraction       model  mean_nll  mean_auroc  n_train_patients
+   0.2500 transformer    5.3851      0.6507              1607
+   0.2500     age_sex    5.4907      0.6207              1607
+   0.5000 transformer    5.3131      0.6812              3214
+   0.5000     age_sex    5.4499      0.6363              3214
+   1.0000 transformer    5.2508      0.7023              6428
+   1.0000     age_sex    5.4229      0.6463              6428
+Saved outputs/seeds_summary.csv
+Saved outputs/data_efficiency.csv
+Saved outputs/data_efficiency.png

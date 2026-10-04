@@ -1,0 +1,2471 @@
+disease,stratum,auc,n_positives
+A04 (other bacterial intestinal infections),Female,0.5280719214088003,138
+A07 (other protozoal intestinal diseases),Female,0.508909428467762,14
+A08 (viral and other specified intestinal infections),Female,0.5644328469595719,132
+A09 (diarrhoea and gastro-enteritis of presumed infectious origin),Female,0.6284620340884955,412
+"A15 (respiratory tuberculosis, bacteriologically and histologically confirmed)",Female,0.9316183061894708,21
+A37 (whooping cough),Female,0.8096742536698005,20
+A41 (other septicaemia),Female,0.678500470229902,157
+A49 (bacterial infection of unspecified site),Female,0.5627756332002596,38
+"A63 (other predominantly sexually transmitted diseases, not elsewhere classified)",Female,0.8454509256946834,14
+B00 (herpesviral [herpes simplex] infections),Female,0.5982480391277187,91
+B01 (varicella [chickenpox]),Female,0.9261074889753964,109
+B02 (zoster [herpes zoster]),Female,0.5950669184767646,428
+B05 (measles),Female,0.9628227717722823,55
+B06 (rubella [german measles]),Female,0.9460998654110709,31
+B07 (viral warts),Female,0.611342382186375,280
+"B08 (other viral infections characterised by skin and mucous membrane lesions, not elsewhere classified)",Female,0.5857186549844376,11
+B26 (mumps),Female,0.9394464325173402,44
+B27 (infectious mononucleosis),Female,0.9270105631295897,38
+B34 (viral infection of unspecified site),Female,0.561618656116343,242
+B35 (dermatophytosis),Female,0.6241481621089573,539
+B36 (other superficial mycoses),Female,0.5717478973922528,99
+B37 (candidiasis),Female,0.5615230727356368,214
+B49 (unspecified mycosis),Female,0.6432745483931261,12
+B80 (enterobiasis),Female,0.6113554536647108,18
+B86 (scabies),Female,0.6972404204175896,35
+B95 (streptococcus and staphylococcus as the cause of diseases classified to other chapters),Female,0.5833465998036562,68
+B96 (other bacterial agents as the cause of diseases classified to other chapters),Female,0.6194791819110248,182
+B97 (viral agents as the cause of diseases classified to other chapters),Female,0.5939748948404533,38
+B98 (other specified infectious agents as the cause of diseases classified to other chapters),Female,0.47075545603525937,44
+B99 (other and unspecified infectious diseases),Female,0.5493605693508931,21
+D50 (iron deficiency anaemia),Female,0.5814918497228073,473
+D51 (vitamin b12 deficiency anaemia),Female,0.5506053421708286,62
+D52 (folate deficiency anaemia),Female,0.6299113238060399,11
+D61 (other aplastic anaemias),Female,0.6406608753023972,25
+D63 (anaemia in chronic diseases classified elsewhere),Female,0.6621203790253112,30
+D64 (other anaemias),Female,0.6031566966462725,550
+D68 (other coagulation defects),Female,0.4330875721748694,40
+D69 (purpura and other haemorrhagic conditions),Female,0.5921324823943662,85
+D70 (agranulocytosis),Female,0.5761084402689599,135
+D72 (other disorders of white blood cells),Female,0.6215180590201208,26
+D73 (diseases of spleen),Female,0.5802691475681926,19
+D75 (other diseases of blood and blood-forming organs),Female,0.49862173071706106,39
+D86 (sarcoidosis),Female,0.5214051968685747,16
+"D89 (other disorders involving the immune mechanism, not elsewhere classified)",Female,0.4856970656495691,11
+E03 (other hypothyroidism),Female,0.6348233817998867,678
+E04 (other non-toxic goitre),Female,0.5276275031859088,126
+E05 (thyrotoxicosis [hyperthyroidism]),Female,0.6329372375584188,161
+E06 (thyroiditis),Female,0.5806112248518621,38
+E07 (other disorders of thyroid),Female,0.5225639376702785,47
+E10 (insulin-dependent diabetes mellitus),Female,0.5173405488106628,32
+E11 (non-insulin-dependent diabetes mellitus),Female,0.5822690665143226,453
+E14 (unspecified diabetes mellitus),Female,0.5949934021765538,174
+E16 (other disorders of pancreatic internal secretion),Female,0.6445165413360883,66
+E21 (hyperparathyroidism and other disorders of parathyroid gland),Female,0.6287815646146229,80
+E22 (hyperfunction of pituitary gland),Female,0.6054963661751933,14
+E23 (hypofunction and other disorders of pituitary gland),Female,0.7228808771490625,13
+E27 (other disorders of adrenal gland),Female,0.581218750986056,23
+E28 (ovarian dysfunction),Female,0.8752834753918065,40
+E29 (testicular dysfunction),Female,0.43904389696909735,2
+E53 (deficiency of other b group vitamins),Female,0.6252403617187999,107
+E55 (vitamin d deficiency),Female,0.7081019564203421,204
+E61 (deficiency of other nutrient elements),Female,0.6134657466924152,26
+E66 (obesity),Female,0.5441252967746828,618
+E73 (lactose intolerance),Female,0.6225730652454933,14
+E78 (disorders of lipoprotein metabolism and other lipidaemias),Female,0.5686370918673385,1389
+E79 (disorders of purine and pyrimidine metabolism),Female,0.6936467712559138,6
+E80 (disorders of porphyrin and bilirubin metabolism),Female,0.46684585531958234,19
+E83 (disorders of mineral metabolism),Female,0.6809813440364003,191
+E86 (volume depletion),Female,0.7240046232593979,120
+"E87 (other disorders of fluid, electrolyte and acid-base balance)",Female,0.7128726601760433,370
+E88 (other metabolic disorders),Female,0.5638726597968836,13
+"E89 (postprocedural endocrine and metabolic disorders, not elsewhere classified)",Female,0.5874212429703981,79
+F00 (dementia in alzheimer's disease),Female,0.8014496044010029,42
+F01 (vascular dementia),Female,0.7530553163265479,39
+F02 (dementia in other diseases classified elsewhere),Female,0.6678797074043128,9
+F03 (unspecified dementia),Female,0.7767569626466523,107
+"F05 (delirium, not induced by alcohol and other psychoactive substances)",Female,0.7972554092392277,93
+F06 (other mental disorders due to brain damage and dysfunction and to physical disease),Female,0.5660059121259926,19
+F10 (mental and behavioural disorders due to use of alcohol),Female,0.5074204358268262,77
+F17 (mental and behavioural disorders due to use of tobacco),Female,0.6660779078560247,501
+F20 (schizophrenia),Female,0.529994967041451,9
+F31 (bipolar affective disorder),Female,0.5170264380382694,21
+F32 (depressive episode),Female,0.6583845261306139,815
+F33 (recurrent depressive disorder),Female,0.6122949850904129,51
+F34 (persistent mood [affective] disorders),Female,0.491351265544426,16
+F39 (unspecified mood [affective] disorder),Female,0.6626032500003054,18
+F40 (phobic anxiety disorders),Female,0.523045944251014,74
+F41 (other anxiety disorders),Female,0.5144883551351296,581
+F42 (obsessive-compulsive disorder),Female,0.5683792206649915,11
+"F43 (reaction to severe stress, and adjustment disorders)",Female,0.7462143820415824,239
+F45 (somatoform disorders),Female,0.6395596409062235,58
+"F52 (sexual dysfunction, not caused by organic disorder or disease)",Female,0.5791332917349283,16
+"F53 (mental and behavioural disorders associated with the puerperium, not elsewhere classified)",Female,0.9516969109470677,26
+G03 (meningitis due to other and unspecified causes),Female,0.7476512956792174,19
+"G04 (encephalitis, myelitis and encephalomyelitis)",Female,0.4353796283061948,12
+G12 (spinal muscular atrophy and related syndromes),Female,0.6234223314313356,8
+G20 (parkinson's disease),Female,0.6676948287428214,59
+G24 (dystonia),Female,0.5247183868814852,26
+G25 (other extrapyramidal and movement disorders),Female,0.567720490077141,149
+G30 (alzheimer's disease),Female,0.8274872554608868,101
+"G31 (other degenerative diseases of nervous system, not elsewhere classified)",Female,0.7131276806334543,35
+G35 (multiple sclerosis),Female,0.677777979036464,34
+G40 (epilepsy),Female,0.6754135756107362,76
+G43 (migraine),Female,0.72632568360432,362
+G44 (other headache syndromes),Female,0.6438730928338188,98
+G45 (transient cerebral ischaemic attacks and related syndromes),Female,0.6288498920927502,242
+G47 (sleep disorders),Female,0.5733323664713454,233
+G50 (disorders of trigeminal nerve),Female,0.5305237141830396,63
+G51 (facial nerve disorders),Female,0.4864770470325793,41
+G54 (nerve root and plexus disorders),Female,0.5537397354638718,41
+G55 (nerve root and plexus compressions in diseases classified elsewhere),Female,0.6084416559583574,123
+G56 (mononeuropathies of upper limb),Female,0.5814121461138664,466
+G57 (mononeuropathies of lower limb),Female,0.604268601987543,130
+G58 (other mononeuropathies),Female,0.5603037422283796,18
+G62 (other polyneuropathies),Female,0.6226184538043611,81
+G63 (polyneuropathy in diseases classified elsewhere),Female,0.279373124154839,6
+G81 (hemiplegia),Female,0.6457106369457888,45
+G83 (other paralytic syndromes),Female,0.346173839953184,18
+G91 (hydrocephalus),Female,0.6034167642103696,13
+G93 (other disorders of brain),Female,0.5345455021589922,71
+G95 (other diseases of spinal cord),Female,0.4750145711677829,32
+"G98 (other disorders of nervous system, not elsewhere classified)",Female,0.7411280592339058,22
+G99 (other disorders of nervous system in diseases classified elsewhere),Female,0.5198680077787718,31
+H00 (hordeolum and chalazion),Female,0.6267778778463358,211
+H01 (other inflammation of eyelid),Female,0.5570698157443394,175
+H02 (other disorders of eyelid),Female,0.5113732536731479,258
+H04 (disorders of lachrymal system),Female,0.5962817907456862,410
+H05 (disorders of orbit),Female,0.3709286824335646,21
+H10 (conjunctivitis),Female,0.6393277363153591,419
+H11 (other disorders of conjunctiva),Female,0.5910376620823036,207
+H15 (disorders of sclera),Female,0.5351331464470953,33
+H16 (keratitis),Female,0.5824290439480481,37
+H17 (corneal scars and opacities),Female,0.70826959381567,7
+H18 (other disorders of cornea),Female,0.6776087840763034,111
+H20 (iridocyclitis),Female,0.547837947077938,62
+H21 (other disorders of iris and ciliary body),Female,0.678344407959842,19
+H25 (senile cataract),Female,0.7111703172228687,720
+H26 (other cataract),Female,0.6637528670481416,1311
+H27 (other disorders of lens),Female,0.7182111456833017,12
+H31 (other disorders of choroid),Female,0.6740052223007985,19
+H33 (retinal detachments and breaks),Female,0.507155726344144,118
+H34 (retinal vascular occlusions),Female,0.6333291617616319,72
+H35 (other retinal disorders),Female,0.6096143941940277,393
+H36 (retinal disorders in diseases classified elsewhere),Female,0.4793469535863123,22
+H40 (glaucoma),Female,0.5759435024702397,322
+H43 (disorders of vitreous body),Female,0.6444589606426588,300
+H44 (disorders of globe),Female,0.5401264915276002,37
+H46 (optic neuritis),Female,0.5685803142871363,19
+H47 (other disorders of optic [2nd] nerve and visual pathways),Female,0.5413955022818496,30
+H49 (paralytic strabismus),Female,0.587735692649426,26
+H50 (other strabismus),Female,0.5569701086879892,39
+H52 (disorders of refraction and accommodation),Female,0.6769509357580129,227
+H53 (visual disturbances),Female,0.5839231448770205,224
+H54 (blindness and low vision),Female,0.6538753052697195,73
+H57 (other disorders of eye and adnexa),Female,0.5699102563963656,183
+"H59 (postprocedural disorders of eye and adnexa, not elsewhere classified)",Female,0.4502990522681795,11
+H60 (otitis externa),Female,0.6176813820084809,413
+H61 (other disorders of external ear),Female,0.5916247908368457,529
+H65 (nonsuppurative otitis media),Female,0.648371726822786,83
+H66 (suppurative and unspecified otitis media),Female,0.6466755189297879,178
+H68 (eustachian salpingitis and obstruction),Female,0.6301292092785994,42
+H69 (other disorders of eustachian tube),Female,0.5841339918161613,62
+H72 (perforation of tympanic membrane),Female,0.4126467460204003,28
+H73 (other disorders of tympanic membrane),Female,0.5758645205740505,9
+H81 (disorders of vestibular function),Female,0.5745396461887293,393
+H83 (other diseases of inner ear),Female,0.6068967218443109,285
+H90 (conductive and sensorineural hearing loss),Female,0.5005995206282274,162
+H91 (other hearing loss),Female,0.637819751618287,361
+H92 (otalgia and effusion of ear),Female,0.6366803570919255,290
+"H93 (other disorders of ear, not elsewhere classified)",Female,0.6031277958441272,250
+I00 (rheumatic fever without mention of heart involvement),Female,0.9532876415401073,14
+I05 (rheumatic mitral valve diseases),Female,0.5826094923950889,15
+I07 (rheumatic tricuspid valve diseases),Female,0.660491586935005,35
+I08 (multiple valve diseases),Female,0.7842506070793379,108
+I10 (essential (primary) hypertension),Female,0.590763431497307,2016
+I11 (hypertensive heart disease),Female,0.6534964342983958,13
+I12 (hypertensive renal disease),Female,0.4429626860748917,7
+I20 (angina pectoris),Female,0.5538344290274984,324
+I21 (acute myocardial infarction),Female,0.5399492131604158,152
+I22 (subsequent myocardial infarction),Female,0.3931128749734321,3
+I24 (other acute ischaemic heart diseases),Female,0.6885898346446802,38
+I25 (chronic ischaemic heart disease),Female,0.6784111183078223,554
+I26 (pulmonary embolism),Female,0.6618743976777104,222
+I27 (other pulmonary heart diseases),Female,0.740957355402363,53
+I31 (other diseases of pericardium),Female,0.6596374228239701,39
+I34 (nonrheumatic mitral valve disorders),Female,0.6962912287804985,123
+I35 (nonrheumatic aortic valve disorders),Female,0.757051414421244,157
+"I38 (endocarditis, valve unspecified)",Female,0.6088672300520308,13
+I42 (cardiomyopathy),Female,0.6941323644063426,29
+I44 (atrioventricular and left bundle-branch block),Female,0.7184428313976772,165
+I45 (other conduction disorders),Female,0.6190454970567201,80
+I46 (cardiac arrest),Female,0.5284545604486228,20
+I47 (paroxysmal tachycardia),Female,0.5826594623054955,119
+I48 (atrial fibrillation and flutter),Female,0.6864193695168483,524
+I49 (other cardiac arrhythmias),Female,0.5711122150598705,182
+I50 (heart failure),Female,0.7558258719053372,191
+I51 (complications and ill-defined descriptions of heart disease),Female,0.7440936334004036,247
+I60 (subarachnoid haemorrhage),Female,0.5647174869397855,40
+I61 (intracerebral haemorrhage),Female,0.7235196325338085,36
+I62 (other nontraumatic intracranial haemorrhage),Female,0.7492554864830142,19
+I63 (cerebral infarction),Female,0.721479392567577,122
+"I64 (stroke, not specified as haemorrhage or infarction)",Female,0.521040480907309,105
+"I65 (occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction)",Female,0.6906066604351093,30
+I67 (other cerebrovascular diseases),Female,0.7304815412752176,188
+I69 (sequelae of cerebrovascular disease),Female,0.672195588591032,19
+I70 (atherosclerosis),Female,0.786173032299216,34
+I71 (aortic aneurysm and dissection),Female,0.7031475155870283,37
+I72 (other aneurysm),Female,0.5627934465885975,20
+I73 (other peripheral vascular diseases),Female,0.5744165806797594,209
+I74 (arterial embolism and thrombosis),Female,0.7769818056532958,21
+I77 (other disorders of arteries and arterioles),Female,0.6606129109143245,60
+I78 (diseases of capillaries),Female,0.45687093087047836,49
+I80 (phlebitis and thrombophlebitis),Female,0.5650531249842525,346
+I82 (other venous embolism and thrombosis),Female,0.49216179630871704,18
+I83 (varicose veins of lower extremities),Female,0.5733658056779677,383
+I84 (haemorrhoids),Female,0.6200198173512592,321
+I85 (oesophageal varices),Female,0.4563073231990071,9
+I86 (varicose veins of other sites),Female,0.5649284253578732,11
+I87 (other disorders of veins),Female,0.524920303314159,41
+I89 (other non-infective disorders of lymphatic vessels and lymph nodes),Female,0.6112568869134282,72
+I95 (hypotension),Female,0.6970919495008621,345
+J00 (acute nasopharyngitis [common cold]),Female,0.5619010847084112,117
+J01 (acute sinusitis),Female,0.6355787504810947,446
+J02 (acute pharyngitis),Female,0.6700487253106411,414
+J03 (acute tonsillitis),Female,0.7739230877340924,212
+J04 (acute laryngitis and tracheitis),Female,0.5393684326832049,101
+J06 (acute upper respiratory infections of multiple and unspecified sites),Female,0.6025725100046448,1159
+J10 (influenza due to identified influenza virus),Female,0.6746434241928024,38
+"J11 (influenza, virus not identified)",Female,0.6575422023220199,154
+"J12 (viral pneumonia, not elsewhere classified)",Female,0.711798262976362,24
+J13 (pneumonia due to streptococcus pneumoniae),Female,0.399262647140742,9
+"J15 (bacterial pneumonia, not elsewhere classified)",Female,0.5473948999300005,12
+"J18 (pneumonia, organism unspecified)",Female,0.6408512860305522,451
+J20 (acute bronchitis),Female,0.5298198851166446,117
+J22 (unspecified acute lower respiratory infection),Female,0.5741556376544522,1436
+J30 (vasomotor and allergic rhinitis),Female,0.7532282701867001,531
+"J31 (chronic rhinitis, nasopharyngitis and pharyngitis)",Female,0.5671438669821054,136
+J32 (chronic sinusitis),Female,0.6211798979257626,222
+J33 (nasal polyp),Female,0.643937950745699,73
+J34 (other disorders of nose and nasal sinuses),Female,0.5615079225136531,225
+J35 (chronic diseases of tonsils and adenoids),Female,0.561704026267795,27
+"J38 (diseases of vocal cords and larynx, not elsewhere classified)",Female,0.5115214002021832,59
+J39 (other diseases of upper respiratory tract),Female,0.5215135353091036,30
+"J40 (bronchitis, not specified as acute or chronic)",Female,0.5889317608256264,129
+J43 (emphysema),Female,0.7322271250842679,56
+J44 (other chronic obstructive pulmonary disease),Female,0.6605763751474747,355
+J45 (asthma),Female,0.7019730337924138,853
+J47 (bronchiectasis),Female,0.6016145725098311,102
+J61 (pneumoconiosis due to asbestos and other mineral fibres),Female,0.40327096296622034,3
+J69 (pneumonitis due to solids and liquids),Female,0.8012142305633716,39
+J84 (other interstitial pulmonary diseases),Female,0.7087172795517132,77
+"J90 (pleural effusion, not elsewhere classified)",Female,0.7384576502481444,180
+J92 (pleural plaque),Female,0.524937921608693,13
+J93 (pneumothorax),Female,0.6019715015744885,36
+J94 (other pleural conditions),Female,0.7361489804594163,9
+"J96 (respiratory failure, not elsewhere classified)",Female,0.753200372800868,89
+J98 (other respiratory disorders),Female,0.5845139928125342,377
+K01 (embedded and impacted teeth),Female,0.5576496802755753,36
+K02 (dental caries),Female,0.5140087314532971,67
+K04 (diseases of pulp and periapical tissues),Female,0.5917541519459641,147
+K05 (gingivitis and periodontal diseases),Female,0.5310601609591569,28
+K06 (other disorders of gingiva and edentulous alveolar ridge),Female,0.5740032437187311,20
+K07 (dentofacial anomalies [including malocclusion]),Female,0.5651151075180113,50
+K08 (other disorders of teeth and supporting structures),Female,0.5338096600286061,75
+"K09 (cysts of oral region, not elsewhere classified)",Female,0.5182511933427262,14
+K10 (other diseases of jaws),Female,0.45820799007153046,48
+K11 (diseases of salivary glands),Female,0.491593868045623,75
+K12 (stomatitis and related lesions),Female,0.5857024047031735,98
+K13 (other diseases of lip and oral mucosa),Female,0.5247089650389236,178
+K14 (diseases of tongue),Female,0.5185154127309242,87
+K20 (oesophagitis),Female,0.5462001010328903,201
+K21 (gastro-oesophageal reflux disease),Female,0.5466147327872144,1165
+K22 (other diseases of oesophagus),Female,0.5913513324730804,294
+K25 (gastric ulcer),Female,0.49849712840154525,154
+K26 (duodenal ulcer),Female,0.5658997914403666,59
+"K27 (peptic ulcer, site unspecified)",Female,0.6957676873179045,10
+K29 (gastritis and duodenitis),Female,0.5371782944753579,826
+K30 (dyspepsia),Female,0.5892224447833908,270
+K31 (other diseases of stomach and duodenum),Female,0.6038003849931699,302
+K35 (acute appendicitis),Female,0.6390862479823443,57
+K37 (unspecified appendicitis),Female,0.8372190415330285,38
+K40 (inguinal hernia),Female,0.5582512986217043,86
+K41 (femoral hernia),Female,0.6036921650877441,35
+K42 (umbilical hernia),Female,0.46076054837609604,62
+K43 (ventral hernia),Female,0.5417860126775431,110
+K44 (diaphragmatic hernia),Female,0.5820980957109195,946
+K46 (unspecified abdominal hernia),Female,0.40379977821560764,31
+K50 (crohn's disease [regional enteritis]),Female,0.5415846755067659,39
+K51 (ulcerative colitis),Female,0.5463968858424304,65
+K52 (other non-infective gastro-enteritis and colitis),Female,0.5486629270054688,412
+K55 (vascular disorders of intestine),Female,0.6769658013801181,82
+K56 (paralytic ileus and intestinal obstruction without hernia),Female,0.6329218982407976,172
+K57 (diverticular disease of intestine),Female,0.6203639046057232,1268
+K58 (irritable bowel syndrome),Female,0.6635140172322169,518
+K59 (other functional intestinal disorders),Female,0.6183129709973707,550
+K60 (fissure and fistula of anal and rectal regions),Female,0.6136981830849055,60
+K61 (abscess of anal and rectal regions),Female,0.6242347496649453,18
+K62 (other diseases of anus and rectum),Female,0.5203957317542167,653
+K63 (other diseases of intestine),Female,0.5886687930308901,481
+K64 (haemorrhoids and perianal venous thrombosis),Female,0.5086281880167974,741
+K65 (peritonitis),Female,0.7304365515724653,25
+K66 (other disorders of peritoneum),Female,0.6112231871358633,151
+K70 (alcoholic liver disease),Female,0.5821001770028253,6
+K74 (fibrosis and cirrhosis of liver),Female,0.4890448355941329,27
+K75 (other inflammatory liver diseases),Female,0.5230935137678638,33
+K76 (other diseases of liver),Female,0.6300368164536989,220
+K80 (cholelithiasis),Female,0.4896663816090402,594
+K81 (cholecystitis),Female,0.497125918739645,122
+K82 (other diseases of gallbladder),Female,0.4950082382390562,94
+K83 (other diseases of biliary tract),Female,0.6786706090123624,110
+K85 (acute pancreatitis),Female,0.47657356633252956,66
+K86 (other diseases of pancreas),Female,0.7126009562389402,74
+K90 (intestinal malabsorption),Female,0.4882326271123472,77
+"K91 (postprocedural disorders of digestive system, not elsewhere classified)",Female,0.628856780642495,56
+K92 (other diseases of digestive system),Female,0.595761044967353,299
+L01 (impetigo),Female,0.4553691201372243,19
+"L02 (cutaneous abscess, furuncle and carbuncle)",Female,0.5684207064244584,178
+L03 (cellulitis),Female,0.5495653931564833,605
+L05 (pilonidal cyst),Female,0.4760177811457608,13
+L08 (other local infections of skin and subcutaneous tissue),Female,0.5607910883366393,297
+L20 (atopic dermatitis),Female,0.5959842590805802,202
+L21 (seborrhoeic dermatitis),Female,0.5997777602945573,175
+L24 (irritant contact dermatitis),Female,0.4686365706066039,17
+L25 (unspecified contact dermatitis),Female,0.6093673064376812,66
+L27 (dermatitis due to substances taken internally),Female,0.4915847811744007,25
+L28 (lichen simplex chronicus and prurigo),Female,0.5374417201346624,44
+L29 (pruritus),Female,0.5474988888851192,273
+L30 (other dermatitis),Female,0.6313543369851649,842
+L40 (psoriasis),Female,0.6192039800995024,180
+L42 (pityriasis rosea),Female,0.7053946471377361,23
+L43 (lichen planus),Female,0.609053067810907,75
+L50 (urticaria),Female,0.5954906571630262,207
+L51 (erythema multiforme),Female,0.5087976240211337,7
+L53 (other erythematous conditions),Female,0.5659295219242431,35
+L56 (other acute skin changes due to ultraviolet radiation),Female,0.5303424583059975,18
+L57 (skin changes due to chronic exposure to nonionising radiation),Female,0.581848118261442,467
+L60 (nail disorders),Female,0.5714384650737979,181
+L63 (alopecia areata),Female,0.4348251963530016,11
+L65 (other nonscarring hair loss),Female,0.5519336828894985,92
+L70 (acne),Female,0.7881861769335399,71
+L71 (rosacea),Female,0.5769982422028042,109
+L72 (follicular cysts of skin and subcutaneous tissue),Female,0.5273143186623102,215
+L73 (other follicular disorders),Female,0.5271826438177809,62
+L74 (eccrine sweat disorders),Female,0.5406295946754751,33
+L80 (vitiligo),Female,0.6041761729100925,16
+L81 (other disorders of pigmentation),Female,0.5374951624035127,130
+L82 (seborrhoeic keratosis),Female,0.6004233097611029,607
+L84 (corns and callosities),Female,0.5521719428597959,82
+L85 (other epidermal thickening),Female,0.5738084760280701,70
+L89 (decubitus ulcer),Female,0.730960057544216,65
+L90 (atrophic disorders of skin),Female,0.5278901376928874,138
+L91 (hypertrophic disorders of skin),Female,0.5511285124118077,74
+L92 (granulomatous disorders of skin and subcutaneous tissue),Female,0.4748553896232432,31
+"L97 (ulcer of lower limb, not elsewhere classified)",Female,0.6780644168068706,26
+"L98 (other disorders of skin and subcutaneous tissue, not elsewhere classified)",Female,0.5768275228738402,1079
+M00 (pyogenic arthritis),Female,0.34514150009895106,11
+M05 (seropositive rheumatoid arthritis),Female,0.6202762289503043,36
+M06 (other rheumatoid arthritis),Female,0.5384463452236056,241
+M07 (psoriatic and enteropathic arthropathies),Female,0.5121849550117805,22
+M10 (gout),Female,0.5186556208465597,157
+M11 (other crystal arthropathies),Female,0.6828302911419066,26
+M12 (other specific arthropathies),Female,0.4595096900148194,18
+M13 (other arthritis),Female,0.6097409448570277,913
+M15 (polyarthrosis),Female,0.6124257277810252,403
+M16 (coxarthrosis [arthrosis of hip]),Female,0.5882746536052834,592
+M17 (gonarthrosis [arthrosis of knee]),Female,0.5802365807026277,736
+M18 (arthrosis of first carpometacarpal joint),Female,0.6189226559863856,81
+M19 (other arthrosis),Female,0.5189142271048617,1773
+M20 (acquired deformities of fingers and toes),Female,0.603881908187192,518
+M21 (other acquired deformities of limbs),Female,0.5732495841969624,89
+M22 (disorders of patella),Female,0.626036839199191,39
+M23 (internal derangement of knee),Female,0.5739875419248329,184
+M24 (other specific joint derangements),Female,0.4847880771896039,52
+"M25 (other joint disorders, not elsewhere classified)",Female,0.6008435236471144,1813
+M31 (other necrotising vasculopathies),Female,0.7126518500678148,57
+M35 (other systemic involvement of connective tissue),Female,0.6663739298121427,223
+M40 (kyphosis and lordosis),Female,0.5899081957628017,17
+M41 (scoliosis),Female,0.6122862488600986,105
+M43 (other deforming dorsopathies),Female,0.6194756817156004,128
+M45 (ankylosing spondylitis),Female,0.5229625048105998,20
+M46 (other inflammatory spondylopathies),Female,0.6075127180493407,115
+M47 (spondylosis),Female,0.512371023023341,714
+M48 (other spondylopathies),Female,0.5543983794495257,274
+M50 (cervical disk disorders),Female,0.5142480531487539,83
+M51 (other intervertebral disk disorders),Female,0.5670948292317063,406
+"M53 (other dorsopathies, not elsewhere classified)",Female,0.5758928195669508,157
+M54 (dorsalgia),Female,0.5373334773144767,1380
+M60 (myositis),Female,0.5237836071856588,14
+M62 (other disorders of muscle),Female,0.470479666533457,61
+M65 (synovitis and tenosynovitis),Female,0.5794189825182072,426
+M66 (spontaneous rupture of synovium and tendon),Female,0.5783670239833358,37
+M67 (other disorders of synovium and tendon),Female,0.5706086516644799,251
+"M70 (soft tissue disorders related to use, overuse and pressure)",Female,0.5804214416063299,382
+M71 (other bursopathies),Female,0.6109498503486743,106
+M72 (fibroblastic disorders),Female,0.6233405152723297,418
+M75 (shoulder lesions),Female,0.6135241677916434,605
+"M76 (enthesopathies of lower limb, excluding foot)",Female,0.611233967812264,153
+M77 (other enthesopathies),Female,0.6756527510700328,490
+"M79 (other soft tissue disorders, not elsewhere classified)",Female,0.5869103679886519,2018
+M80 (osteoporosis with pathological fracture),Female,0.6863835478901908,80
+M81 (osteoporosis without pathological fracture),Female,0.6041446526721603,762
+M84 (disorders of continuity of bone),Female,0.6346856902560777,132
+M85 (other disorders of bone density and structure),Female,0.6041884818782326,715
+M86 (osteomyelitis),Female,0.4840058116353184,23
+M87 (osteonecrosis),Female,0.6365514469355167,18
+M89 (other disorders of bone),Female,0.5629174579908305,121
+M90 (osteopathies in diseases classified elsewhere),Female,0.5955154886105143,23
+M94 (other disorders of cartilage),Female,0.5510555617214145,44
+M95 (other acquired deformities of musculoskeletal system and connective tissue),Female,0.734768817457699,35
+"M96 (postprocedural musculoskeletal disorders, not elsewhere classified)",Female,0.5621602588558594,23
+"M99 (biomechanical lesions, not elsewhere classified)",Female,0.626578527843439,10
+N02 (recurrent and persistent haematuria),Female,0.5174996701121619,25
+N03 (chronic nephritic syndrome),Female,0.48364246055741855,10
+N10 (acute tubulo-interstitial nephritis),Female,0.511254091480557,24
+"N12 (tubulo-interstitial nephritis, not specified as acute or chronic)",Female,0.5633761205521641,50
+N13 (obstructive and reflux uropathy),Female,0.7064284620350909,96
+N17 (acute renal failure),Female,0.7945745786407129,239
+N18 (chronic renal failure),Female,0.6154296673617333,497
+N19 (unspecified renal failure),Female,0.4933662865500291,28
+N20 (calculus of kidney and ureter),Female,0.5784025497640691,89
+N21 (calculus of lower urinary tract),Female,0.5068983978023911,13
+N23 (unspecified renal colic),Female,0.6717173780506966,49
+"N28 (other disorders of kidney and ureter, not elsewhere classified)",Female,0.5195399214779753,120
+N30 (cystitis),Female,0.5453499706587899,459
+"N31 (neuromuscular dysfunction of bladder, not elsewhere classified)",Female,0.5831694543843657,94
+N32 (other disorders of bladder),Female,0.5338627983397547,282
+N34 (urethritis and urethral syndrome),Female,0.5654541656421727,11
+N35 (urethral stricture),Female,0.5448100991246982,57
+N36 (other disorders of urethra),Female,0.5097278506515646,44
+N39 (other disorders of urinary system),Female,0.5617484976853633,954
+N40 (hyperplasia of prostate),Female,0.3316251085677848,8
+N41 (inflammatory diseases of prostate),Female,0.8889780572534189,1
+N42 (other disorders of prostate),Female,0.36695176740470375,3
+N45 (orchitis and epididymitis),Female,0.7209775295721385,1
+N48 (other disorders of penis),Female,0.16424440975352347,3
+N50 (other disorders of male genital organs),Female,0.6676487725508734,4
+N60 (benign mammary dysplasia),Female,0.82695580950526,289
+N61 (inflammatory disorders of breast),Female,0.6339785417835315,48
+N62 (hypertrophy of breast),Female,0.5904679855845227,17
+N63 (unspecified lump in breast),Female,0.7422417394890696,353
+N64 (other disorders of breast),Female,0.6287735794088448,358
+N72 (inflammatory disease of cervix uteri),Female,0.7395622401065729,28
+N73 (other female pelvic inflammatory diseases),Female,0.44444188282923985,68
+N75 (diseases of bartholin's gland),Female,0.7032505969018996,57
+N76 (other inflammation of vagina and vulva),Female,0.6588134401192633,103
+N80 (endometriosis),Female,0.8352345561433081,119
+N81 (female genital prolapse),Female,0.5475716467884671,506
+"N83 (noninflammatory disorders of ovary, fallopian tube and broad ligament)",Female,0.6676008768371632,198
+N84 (polyp of female genital tract),Female,0.6847005517447706,322
+"N85 (other noninflammatory disorders of uterus, except cervix)",Female,0.6497473301248422,92
+N86 (erosion and ectropion of cervix uteri),Female,0.8262922233830025,30
+N87 (dysplasia of cervix uteri),Female,0.8687218564568069,148
+N88 (other noninflammatory disorders of cervix uteri),Female,0.5951983620498809,47
+N89 (other noninflammatory disorders of vagina),Female,0.6851395602066982,302
+N90 (other noninflammatory disorders of vulva and perineum),Female,0.5862798531010435,171
+"N91 (absent, scanty and rare menstruation)",Female,0.875935741646964,30
+"N92 (excessive, frequent and irregular menstruation)",Female,0.8915089500270357,430
+N93 (other abnormal uterine and vaginal bleeding),Female,0.774033976548395,183
+N94 (pain and other conditions associated with female genital organs and menstrual cycle),Female,0.817494335862626,193
+N95 (menopausal and other perimenopausal disorders),Female,0.7136322273531666,918
+N97 (female infertility),Female,0.9511523956816992,61
+"N99 (postprocedural disorders of genito-urinary system, not elsewhere classified)",Female,0.5922962176838827,36
+O02 (other abnormal products of conception),Female,0.8875941641976307,37
+O03 (spontaneous abortion),Female,0.9469829163411065,96
+O04 (medical abortion),Female,0.9376206154093054,82
+O26 (maternal care for other conditions predominantly related to pregnancy),Female,0.911662043956769,26
+O34 (maternal care for known or suspected abnormality of pelvic organs),Female,0.9462532193918876,29
+O36 (maternal care for other known or suspected foetal problems),Female,0.9343819116316476,21
+O68 (labour and delivery complicated by foetal stress [distress]),Female,0.9533256147505573,28
+O70 (perineal laceration during delivery),Female,0.9585044773303171,66
+O72 (postpartum haemorrhage),Female,0.9259654292751583,21
+O80 (single spontaneous delivery),Female,0.9516300876853283,267
+O81 (single delivery by forceps and vacuum extractor),Female,0.9636216424709552,43
+O82 (single delivery by caesarean section),Female,0.9290581274235977,52
+"O99 (other maternal diseases classifiable elsewhere but complicating pregnancy, childbirth and the puerperium)",Female,0.9399115346331585,23
+Q21 (congenital malformations of cardiac septa),Female,0.5176953087607916,17
+"Q38 (other congenital malformations of tongue, mouth and pharynx)",Female,0.5519921720392278,9
+Q61 (cystic kidney disease),Female,0.59230637435452,12
+Q66 (congenital deformities of feet),Female,0.5849541633155725,21
+Q76 (congenital malformations of spine and bony thorax),Female,0.6171841500555232,12
+Q82 (other congenital malformations of skin),Female,0.6051640238191155,22
+C15 Malignant neoplasm of oesophagus,Female,0.5499508407333997,7
+C18 Malignant neoplasm of colon,Female,0.5886950130498695,55
+C20 Malignant neoplasm of rectum,Female,0.5211463208730848,18
+C25 Malignant neoplasm of pancreas,Female,0.7322932471359149,11
+C34 Malignant neoplasm of bronchus and lung,Female,0.6651593789159373,52
+C43 Malignant melanoma of skin,Female,0.5506712789109526,67
+C44 Other malignant neoplasms of skin,Female,0.5938937204508163,343
+C50 Malignant neoplasm of breast,Female,0.6454606133475566,381
+C54 Malignant neoplasm of corpus uteri,Female,0.614662462726695,45
+C56 Malignant neoplasm of ovary,Female,0.5585483126010569,31
+"C64 Malignant neoplasm of kidney, except renal pelvis",Female,0.5085546209247347,20
+C67 Malignant neoplasm of bladder,Female,0.33664946073419305,8
+C73 Malignant neoplasm of thyroid gland,Female,0.5710782966277804,16
+C82 Follicular [nodular] non-Hodgkin's lymphoma,Female,0.44904602743541533,12
+C83 Diffuse non-Hodgkin's lymphoma,Female,0.6332050764625681,17
+C90 Multiple myeloma and malignant plasma cell neoplasms,Female,0.7237020876233199,14
+C91 Lymphoid leukaemia,Female,0.5903397284371392,10
+D03 Melanoma in situ,Female,0.6598209808665054,25
+D04 Carcinoma in situ of skin,Female,0.5864661148865771,27
+D05 Carcinoma in situ of breast,Female,0.651629890623532,63
+D06 Carcinoma in situ of cervix uteri,Female,0.8792723157803747,70
+D07 Carcinoma in situ of other and unspecified genital organs,Female,0.607207563764292,5
+D09 Carcinoma in situ of other and unspecified sites,Female,0.47853561926540666,7
+D41 Neoplasm of uncertain or unknown behaviour of urinary organs,Female,0.5202118484639704,9
+"D47 Other neoplasms of uncertain or unknown behaviour of lymphoid, haematopoietic and related tissue",Female,0.5317729579214725,16
+A04 (other bacterial intestinal infections),Male,0.5421035444377371,144
+A07 (other protozoal intestinal diseases),Male,0.7218095152195956,9
+A08 (viral and other specified intestinal infections),Male,0.5470255389813727,123
+A09 (diarrhoea and gastro-enteritis of presumed infectious origin),Male,0.6231599107201988,345
+"A15 (respiratory tuberculosis, bacteriologically and histologically confirmed)",Male,0.9324953559609777,28
+A37 (whooping cough),Male,0.8527143117544504,22
+A41 (other septicaemia),Male,0.7282095392871688,166
+A49 (bacterial infection of unspecified site),Male,0.652721934557166,29
+"A63 (other predominantly sexually transmitted diseases, not elsewhere classified)",Male,0.7870374926195631,19
+B00 (herpesviral [herpes simplex] infections),Male,0.5973218401091893,55
+B01 (varicella [chickenpox]),Male,0.9262972540327545,105
+B02 (zoster [herpes zoster]),Male,0.5564626396662424,378
+B05 (measles),Male,0.9737676173299931,73
+B06 (rubella [german measles]),Male,0.9451280700027966,19
+B07 (viral warts),Male,0.604948335543644,251
+"B08 (other viral infections characterised by skin and mucous membrane lesions, not elsewhere classified)",Male,0.7090569994710881,16
+B26 (mumps),Male,0.9432213671056136,51
+B27 (infectious mononucleosis),Male,0.88975491744596,31
+B34 (viral infection of unspecified site),Male,0.545520187388276,200
+B35 (dermatophytosis),Male,0.623968249340877,721
+B36 (other superficial mycoses),Male,0.5787349957162033,112
+B37 (candidiasis),Male,0.6018622898726811,145
+B49 (unspecified mycosis),Male,0.5434121303060865,9
+B80 (enterobiasis),Male,0.5270640904227188,8
+B86 (scabies),Male,0.6298726319940317,41
+B95 (streptococcus and staphylococcus as the cause of diseases classified to other chapters),Male,0.5911455200693587,79
+B96 (other bacterial agents as the cause of diseases classified to other chapters),Male,0.6069926041292332,117
+B97 (viral agents as the cause of diseases classified to other chapters),Male,0.7748414872406113,27
+B98 (other specified infectious agents as the cause of diseases classified to other chapters),Male,0.4563616566911424,52
+B99 (other and unspecified infectious diseases),Male,0.43912177121771223,15
+D50 (iron deficiency anaemia),Male,0.6482627569521187,347
+D51 (vitamin b12 deficiency anaemia),Male,0.5393365185068643,69
+D52 (folate deficiency anaemia),Male,0.7431086510865108,15
+D61 (other aplastic anaemias),Male,0.680399857518468,23
+D63 (anaemia in chronic diseases classified elsewhere),Male,0.639181030701989,23
+D64 (other anaemias),Male,0.6630106649368225,482
+D68 (other coagulation defects),Male,0.5552540287858285,25
+D69 (purpura and other haemorrhagic conditions),Male,0.632413768417087,97
+D70 (agranulocytosis),Male,0.6575330785206677,106
+D72 (other disorders of white blood cells),Male,0.6214975099783544,33
+D73 (diseases of spleen),Male,0.5826044037148657,20
+D75 (other diseases of blood and blood-forming organs),Male,0.5298100043068972,50
+D86 (sarcoidosis),Male,0.6775867972264252,24
+"D89 (other disorders involving the immune mechanism, not elsewhere classified)",Male,0.6616906008556891,13
+E03 (other hypothyroidism),Male,0.5578412551118642,198
+E04 (other non-toxic goitre),Male,0.5291316296150487,32
+E05 (thyrotoxicosis [hyperthyroidism]),Male,0.5429102749984944,38
+E06 (thyroiditis),Male,0.24945272530499799,3
+E07 (other disorders of thyroid),Male,0.36534034900291157,14
+E10 (insulin-dependent diabetes mellitus),Male,0.48997947310678813,52
+E11 (non-insulin-dependent diabetes mellitus),Male,0.5545336034339542,781
+E14 (unspecified diabetes mellitus),Male,0.7181703537362304,373
+E16 (other disorders of pancreatic internal secretion),Male,0.6343642489356999,92
+E21 (hyperparathyroidism and other disorders of parathyroid gland),Male,0.6646213836712773,29
+E22 (hyperfunction of pituitary gland),Male,0.5701329689694346,11
+E23 (hypofunction and other disorders of pituitary gland),Male,0.49158123868431025,22
+E27 (other disorders of adrenal gland),Male,0.5929269537833217,24
+E28 (ovarian dysfunction),Male,0.6677832642569886,4
+E29 (testicular dysfunction),Male,0.47521284458016366,26
+E53 (deficiency of other b group vitamins),Male,0.6890903616530015,116
+E55 (vitamin d deficiency),Male,0.707230737277779,92
+E61 (deficiency of other nutrient elements),Male,0.6769863333866384,22
+E66 (obesity),Male,0.5244772705467667,556
+E73 (lactose intolerance),Male,0.5402341361595063,7
+E78 (disorders of lipoprotein metabolism and other lipidaemias),Male,0.6272102845509533,1647
+E79 (disorders of purine and pyrimidine metabolism),Male,0.5492263222632227,15
+E80 (disorders of porphyrin and bilirubin metabolism),Male,0.5406534580359341,55
+E83 (disorders of mineral metabolism),Male,0.6832232830304896,140
+E86 (volume depletion),Male,0.7340704520261117,125
+"E87 (other disorders of fluid, electrolyte and acid-base balance)",Male,0.6806896831387856,276
+E88 (other metabolic disorders),Male,0.583827533810314,13
+"E89 (postprocedural endocrine and metabolic disorders, not elsewhere classified)",Male,0.552793318892491,22
+F00 (dementia in alzheimer's disease),Male,0.8080946422161078,46
+F01 (vascular dementia),Male,0.7808912587814109,39
+F02 (dementia in other diseases classified elsewhere),Male,0.8184540650220774,21
+F03 (unspecified dementia),Male,0.7823722934788412,89
+"F05 (delirium, not induced by alcohol and other psychoactive substances)",Male,0.8113695401327592,88
+F06 (other mental disorders due to brain damage and dysfunction and to physical disease),Male,0.6915750193268999,31
+F10 (mental and behavioural disorders due to use of alcohol),Male,0.5008748075041525,171
+F17 (mental and behavioural disorders due to use of tobacco),Male,0.679386515804267,609
+F20 (schizophrenia),Male,0.7119971299712997,15
+F31 (bipolar affective disorder),Male,0.5796781018216706,16
+F32 (depressive episode),Male,0.6284406234537357,475
+F33 (recurrent depressive disorder),Male,0.6214497898450065,33
+F34 (persistent mood [affective] disorders),Male,0.6198487177910338,10
+F39 (unspecified mood [affective] disorder),Male,0.5570948896131849,10
+F40 (phobic anxiety disorders),Male,0.4358856550890484,41
+F41 (other anxiety disorders),Male,0.5628230921181144,263
+F42 (obsessive-compulsive disorder),Male,0.7256120226196237,9
+"F43 (reaction to severe stress, and adjustment disorders)",Male,0.7476154698854539,125
+F45 (somatoform disorders),Male,0.5264163334358659,40
+"F52 (sexual dysfunction, not caused by organic disorder or disease)",Male,0.6414836892404898,36
+G03 (meningitis due to other and unspecified causes),Male,0.9591155123631443,25
+"G04 (encephalitis, myelitis and encephalomyelitis)",Male,0.7379582129471434,11
+G12 (spinal muscular atrophy and related syndromes),Male,0.595829694412668,18
+G20 (parkinson's disease),Male,0.6182932686032687,83
+G24 (dystonia),Male,0.6214683961922125,19
+G25 (other extrapyramidal and movement disorders),Male,0.5345475943316768,118
+G30 (alzheimer's disease),Male,0.7852062688496337,80
+"G31 (other degenerative diseases of nervous system, not elsewhere classified)",Male,0.745323961041358,42
+G35 (multiple sclerosis),Male,0.8015930613812454,18
+G40 (epilepsy),Male,0.6612489312950993,90
+G43 (migraine),Male,0.7008696804832847,157
+G44 (other headache syndromes),Male,0.586486845339262,66
+G45 (transient cerebral ischaemic attacks and related syndromes),Male,0.5715319910241602,254
+G47 (sleep disorders),Male,0.5891304390977349,286
+G50 (disorders of trigeminal nerve),Male,0.604002296870514,45
+G51 (facial nerve disorders),Male,0.5592003845944269,42
+G54 (nerve root and plexus disorders),Male,0.5288424872378374,20
+G55 (nerve root and plexus compressions in diseases classified elsewhere),Male,0.5238006522858253,78
+G56 (mononeuropathies of upper limb),Male,0.5532151770945577,333
+G57 (mononeuropathies of lower limb),Male,0.6130728801358486,48
+G58 (other mononeuropathies),Male,0.5474690355829428,12
+G62 (other polyneuropathies),Male,0.5787950405543774,104
+G63 (polyneuropathy in diseases classified elsewhere),Male,0.5976371605986979,17
+G81 (hemiplegia),Male,0.6616606627436064,55
+G83 (other paralytic syndromes),Male,0.3618657921336756,11
+G91 (hydrocephalus),Male,0.452438645105402,14
+G93 (other disorders of brain),Male,0.4251032452814365,54
+G95 (other diseases of spinal cord),Male,0.43155622403490856,36
+"G98 (other disorders of nervous system, not elsewhere classified)",Male,0.8371375735572355,21
+G99 (other disorders of nervous system in diseases classified elsewhere),Male,0.6020716293806979,31
+H00 (hordeolum and chalazion),Male,0.5921755799454652,225
+H01 (other inflammation of eyelid),Male,0.6121331985146365,117
+H02 (other disorders of eyelid),Male,0.5338574779137574,226
+H04 (disorders of lachrymal system),Male,0.5990768363128778,244
+H05 (disorders of orbit),Male,0.5668331980170007,24
+H10 (conjunctivitis),Male,0.6392955047276679,306
+H11 (other disorders of conjunctiva),Male,0.5668286795588352,173
+H15 (disorders of sclera),Male,0.48364553444721825,19
+H16 (keratitis),Male,0.4528530218597385,24
+H17 (corneal scars and opacities),Male,0.5979335355549963,13
+H18 (other disorders of cornea),Male,0.6067291834319527,65
+H20 (iridocyclitis),Male,0.5123028564025145,53
+H21 (other disorders of iris and ciliary body),Male,0.739441392135966,22
+H25 (senile cataract),Male,0.6778832119445142,510
+H26 (other cataract),Male,0.6302336565824126,1082
+H27 (other disorders of lens),Male,0.5717614772268202,19
+H31 (other disorders of choroid),Male,0.5724145431285037,22
+H33 (retinal detachments and breaks),Male,0.554696613556404,127
+H34 (retinal vascular occlusions),Male,0.5212730206456797,95
+H35 (other retinal disorders),Male,0.5788678846019315,312
+H36 (retinal disorders in diseases classified elsewhere),Male,0.47338976369031016,63
+H40 (glaucoma),Male,0.5351359487092814,327
+H43 (disorders of vitreous body),Male,0.5453105074663198,177
+H44 (disorders of globe),Male,0.5888610153516844,26
+H46 (optic neuritis),Male,0.4727499692534744,5
+H47 (other disorders of optic [2nd] nerve and visual pathways),Male,0.4399525472851499,29
+H49 (paralytic strabismus),Male,0.5142016993930348,18
+H50 (other strabismus),Male,0.6233263619774045,30
+H52 (disorders of refraction and accommodation),Male,0.6651470452651118,132
+H53 (visual disturbances),Male,0.558074457735575,225
+H54 (blindness and low vision),Male,0.6613332071005917,65
+H57 (other disorders of eye and adnexa),Male,0.5554168959680528,104
+"H59 (postprocedural disorders of eye and adnexa, not elsewhere classified)",Male,0.5928116352007872,10
+H60 (otitis externa),Male,0.5967769391850795,442
+H61 (other disorders of external ear),Male,0.5941336319474573,743
+H65 (nonsuppurative otitis media),Male,0.6516716271223115,76
+H66 (suppurative and unspecified otitis media),Male,0.6262591155642017,141
+H68 (eustachian salpingitis and obstruction),Male,0.6501622802431013,32
+H69 (other disorders of eustachian tube),Male,0.5854353294285093,48
+H72 (perforation of tympanic membrane),Male,0.5230302339052555,37
+H73 (other disorders of tympanic membrane),Male,0.5076121361213612,15
+H81 (disorders of vestibular function),Male,0.5474165042461812,232
+H83 (other diseases of inner ear),Male,0.5900864316230536,189
+H90 (conductive and sensorineural hearing loss),Male,0.4928886921711475,192
+H91 (other hearing loss),Male,0.5965362168061388,419
+H92 (otalgia and effusion of ear),Male,0.6209948357585813,216
+"H93 (other disorders of ear, not elsewhere classified)",Male,0.5962814876526286,273
+I00 (rheumatic fever without mention of heart involvement),Male,0.8263086907148451,6
+I05 (rheumatic mitral valve diseases),Male,0.4202195436934998,10
+I07 (rheumatic tricuspid valve diseases),Male,0.8013344410856456,34
+I08 (multiple valve diseases),Male,0.7397105864315359,112
+I10 (essential (primary) hypertension),Male,0.5712546887417517,2107
+I11 (hypertensive heart disease),Male,0.6490262726655213,18
+I12 (hypertensive renal disease),Male,0.6034906441143757,14
+I20 (angina pectoris),Male,0.5103215915598049,715
+I21 (acute myocardial infarction),Male,0.5220337517295908,371
+I22 (subsequent myocardial infarction),Male,0.5742879674390062,18
+I24 (other acute ischaemic heart diseases),Male,0.6529235604718451,78
+I25 (chronic ischaemic heart disease),Male,0.6110876440298113,1170
+I26 (pulmonary embolism),Male,0.5939805153957196,164
+I27 (other pulmonary heart diseases),Male,0.6623490613043317,32
+I31 (other diseases of pericardium),Male,0.5997925115703159,41
+I34 (nonrheumatic mitral valve disorders),Male,0.6717946246153024,116
+I35 (nonrheumatic aortic valve disorders),Male,0.6724341663571995,189
+"I38 (endocarditis, valve unspecified)",Male,0.6364637097134883,11
+I42 (cardiomyopathy),Male,0.5416274441040029,48
+I44 (atrioventricular and left bundle-branch block),Male,0.6991783177477904,214
+I45 (other conduction disorders),Male,0.6769702747333542,153
+I46 (cardiac arrest),Male,0.5891657027657803,48
+I47 (paroxysmal tachycardia),Male,0.5314457991679848,119
+I48 (atrial fibrillation and flutter),Male,0.6119421766222622,896
+I49 (other cardiac arrhythmias),Male,0.5616312056118389,226
+I50 (heart failure),Male,0.7023458265083151,317
+I51 (complications and ill-defined descriptions of heart disease),Male,0.7128913776210073,315
+I60 (subarachnoid haemorrhage),Male,0.5331726057952118,18
+I61 (intracerebral haemorrhage),Male,0.6795986530968755,28
+I62 (other nontraumatic intracranial haemorrhage),Male,0.7093190227353814,32
+I63 (cerebral infarction),Male,0.6744567494301028,160
+"I64 (stroke, not specified as haemorrhage or infarction)",Male,0.49279938912288745,147
+"I65 (occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction)",Male,0.7611548520178382,49
+I67 (other cerebrovascular diseases),Male,0.7331578917953918,172
+I69 (sequelae of cerebrovascular disease),Male,0.6165629952661618,19
+I70 (atherosclerosis),Male,0.6449407778037629,72
+I71 (aortic aneurysm and dissection),Male,0.6664200546175498,147
+I72 (other aneurysm),Male,0.6081543886558096,36
+I73 (other peripheral vascular diseases),Male,0.6045514436323756,211
+I74 (arterial embolism and thrombosis),Male,0.5548570789642613,34
+I77 (other disorders of arteries and arterioles),Male,0.6385328082374417,60
+I78 (diseases of capillaries),Male,0.5431541648719054,60
+I80 (phlebitis and thrombophlebitis),Male,0.4835532822964783,296
+I82 (other venous embolism and thrombosis),Male,0.6294273940586752,20
+I83 (varicose veins of lower extremities),Male,0.5385758545162587,288
+I84 (haemorrhoids),Male,0.626090458686759,405
+I85 (oesophageal varices),Male,0.45705492754276844,18
+I86 (varicose veins of other sites),Male,0.5387195629104315,62
+I87 (other disorders of veins),Male,0.4845766232824331,38
+I89 (other non-infective disorders of lymphatic vessels and lymph nodes),Male,0.6734832990678798,23
+I95 (hypotension),Male,0.7001700907202117,351
+J00 (acute nasopharyngitis [common cold]),Male,0.5229007937502204,116
+J01 (acute sinusitis),Male,0.6632410664256786,221
+J02 (acute pharyngitis),Male,0.6495118011307548,275
+J03 (acute tonsillitis),Male,0.8499452694001495,155
+J04 (acute laryngitis and tracheitis),Male,0.6184049407915654,49
+J06 (acute upper respiratory infections of multiple and unspecified sites),Male,0.6054994029855544,1023
+J10 (influenza due to identified influenza virus),Male,0.6904609064993845,34
+"J11 (influenza, virus not identified)",Male,0.6760439350363011,145
+"J12 (viral pneumonia, not elsewhere classified)",Male,0.8223042622547512,20
+J13 (pneumonia due to streptococcus pneumoniae),Male,0.574038624958629,11
+"J15 (bacterial pneumonia, not elsewhere classified)",Male,0.48662111650239565,17
+"J18 (pneumonia, organism unspecified)",Male,0.676147512951424,502
+J20 (acute bronchitis),Male,0.5431047173297203,125
+J22 (unspecified acute lower respiratory infection),Male,0.5606650526702891,1414
+J30 (vasomotor and allergic rhinitis),Male,0.7806751909658692,504
+"J31 (chronic rhinitis, nasopharyngitis and pharyngitis)",Male,0.4978733596016093,144
+J32 (chronic sinusitis),Male,0.5809164633780852,169
+J33 (nasal polyp),Male,0.5973128613889651,110
+J34 (other disorders of nose and nasal sinuses),Male,0.6269182634290638,263
+J35 (chronic diseases of tonsils and adenoids),Male,0.7026373408674214,19
+"J38 (diseases of vocal cords and larynx, not elsewhere classified)",Male,0.5572497930324659,55
+J39 (other diseases of upper respiratory tract),Male,0.5702592932906998,26
+"J40 (bronchitis, not specified as acute or chronic)",Male,0.717256051650033,116
+J43 (emphysema),Male,0.6830159450962727,81
+J44 (other chronic obstructive pulmonary disease),Male,0.618981153992348,472
+J45 (asthma),Male,0.738483905873437,704
+J47 (bronchiectasis),Male,0.5969310348373187,91
+J61 (pneumoconiosis due to asbestos and other mineral fibres),Male,0.6291006950851941,30
+J69 (pneumonitis due to solids and liquids),Male,0.7818045456596004,36
+J84 (other interstitial pulmonary diseases),Male,0.6700634060985768,111
+"J90 (pleural effusion, not elsewhere classified)",Male,0.7255205481602585,179
+J92 (pleural plaque),Male,0.6578971942600128,115
+J93 (pneumothorax),Male,0.6466249409221517,49
+J94 (other pleural conditions),Male,0.5565066913492172,16
+"J96 (respiratory failure, not elsewhere classified)",Male,0.7360316678828587,70
+J98 (other respiratory disorders),Male,0.5632748963075163,361
+K01 (embedded and impacted teeth),Male,0.601524172714971,25
+K02 (dental caries),Male,0.4691474556213018,65
+K04 (diseases of pulp and periapical tissues),Male,0.6248386881416419,114
+K05 (gingivitis and periodontal diseases),Male,0.4962872771674273,32
+K06 (other disorders of gingiva and edentulous alveolar ridge),Male,0.6181354496833908,7
+K07 (dentofacial anomalies [including malocclusion]),Male,0.5224283317273883,31
+K08 (other disorders of teeth and supporting structures),Male,0.5590050430148552,64
+"K09 (cysts of oral region, not elsewhere classified)",Male,0.6238387508851587,14
+K10 (other diseases of jaws),Male,0.5084589202599906,30
+K11 (diseases of salivary glands),Male,0.49680515588471325,58
+K12 (stomatitis and related lesions),Male,0.506774058525896,86
+K13 (other diseases of lip and oral mucosa),Male,0.5313793952829609,120
+K14 (diseases of tongue),Male,0.5115720716813612,63
+K20 (oesophagitis),Male,0.49076418091999263,201
+K21 (gastro-oesophageal reflux disease),Male,0.5129267290038252,889
+K22 (other diseases of oesophagus),Male,0.5601742945987109,334
+K25 (gastric ulcer),Male,0.5807963552323527,154
+K26 (duodenal ulcer),Male,0.6254165248900686,128
+"K27 (peptic ulcer, site unspecified)",Male,0.4572744326219325,20
+K29 (gastritis and duodenitis),Male,0.5334256805052111,780
+K30 (dyspepsia),Male,0.5520889697217515,148
+K31 (other diseases of stomach and duodenum),Male,0.6133703826174368,237
+K35 (acute appendicitis),Male,0.6559684071004919,49
+K37 (unspecified appendicitis),Male,0.911869485497705,52
+K40 (inguinal hernia),Male,0.521145700552943,906
+K41 (femoral hernia),Male,0.5209103949476819,23
+K42 (umbilical hernia),Male,0.5218478304313234,177
+K43 (ventral hernia),Male,0.5559104683913693,129
+K44 (diaphragmatic hernia),Male,0.5465355781494545,654
+K46 (unspecified abdominal hernia),Male,0.5245899967962471,67
+K50 (crohn's disease [regional enteritis]),Male,0.5095299429751932,41
+K51 (ulcerative colitis),Male,0.5837393799880541,98
+K52 (other non-infective gastro-enteritis and colitis),Male,0.5201560136677686,274
+K55 (vascular disorders of intestine),Male,0.6221003490324679,70
+K56 (paralytic ileus and intestinal obstruction without hernia),Male,0.6289876874992049,153
+K57 (diverticular disease of intestine),Male,0.582824151666587,1066
+K58 (irritable bowel syndrome),Male,0.6908809044569388,256
+K59 (other functional intestinal disorders),Male,0.6339867605974977,432
+K60 (fissure and fistula of anal and rectal regions),Male,0.6422981430183647,90
+K61 (abscess of anal and rectal regions),Male,0.5947329062083161,63
+K62 (other diseases of anus and rectum),Male,0.5158072190744363,764
+K63 (other diseases of intestine),Male,0.5879877304180962,667
+K64 (haemorrhoids and perianal venous thrombosis),Male,0.5177307398255376,805
+K65 (peritonitis),Male,0.764653279283491,32
+K66 (other disorders of peritoneum),Male,0.6922531550019813,98
+K70 (alcoholic liver disease),Male,0.4271506950424407,25
+K74 (fibrosis and cirrhosis of liver),Male,0.5882811753316988,26
+K75 (other inflammatory liver diseases),Male,0.6119408809345128,32
+K76 (other diseases of liver),Male,0.5760821872284024,228
+K80 (cholelithiasis),Male,0.5646020120656248,365
+K81 (cholecystitis),Male,0.550807548689934,83
+K82 (other diseases of gallbladder),Male,0.622228273575624,46
+K83 (other diseases of biliary tract),Male,0.6871312873280004,93
+K85 (acute pancreatitis),Male,0.5119157362450496,55
+K86 (other diseases of pancreas),Male,0.6572488837136733,62
+K90 (intestinal malabsorption),Male,0.5718373173608902,56
+"K91 (postprocedural disorders of digestive system, not elsewhere classified)",Male,0.6461442653432318,45
+K92 (other diseases of digestive system),Male,0.6036467875712828,338
+L01 (impetigo),Male,0.3781957684974475,20
+"L02 (cutaneous abscess, furuncle and carbuncle)",Male,0.5747354157002805,207
+L03 (cellulitis),Male,0.5414358269282891,627
+L05 (pilonidal cyst),Male,0.7084669191711516,38
+L08 (other local infections of skin and subcutaneous tissue),Male,0.5516067597036036,299
+L20 (atopic dermatitis),Male,0.5968692359729898,224
+L21 (seborrhoeic dermatitis),Male,0.5396566398377665,178
+L24 (irritant contact dermatitis),Male,0.6250405929023926,20
+L25 (unspecified contact dermatitis),Male,0.5592442709422849,48
+L27 (dermatitis due to substances taken internally),Male,0.5671172611726117,15
+L28 (lichen simplex chronicus and prurigo),Male,0.4876302087663096,37
+L29 (pruritus),Male,0.5623341404234831,203
+L30 (other dermatitis),Male,0.6105550198051688,819
+L40 (psoriasis),Male,0.6082349585198482,231
+L42 (pityriasis rosea),Male,0.5257018075253078,16
+L43 (lichen planus),Male,0.5433016999703634,47
+L50 (urticaria),Male,0.5725771465737888,152
+L51 (erythema multiforme),Male,0.6139271701103659,14
+L53 (other erythematous conditions),Male,0.6073325133251333,15
+L56 (other acute skin changes due to ultraviolet radiation),Male,0.6103432099459551,7
+L57 (skin changes due to chronic exposure to nonionising radiation),Male,0.6173708678795491,651
+L60 (nail disorders),Male,0.5402967630121001,198
+L63 (alopecia areata),Male,0.7346208012004477,12
+L65 (other nonscarring hair loss),Male,0.5363723342007742,14
+L70 (acne),Male,0.817525344498373,44
+L71 (rosacea),Male,0.5292284264503974,101
+L72 (follicular cysts of skin and subcutaneous tissue),Male,0.5622780408404854,219
+L73 (other follicular disorders),Male,0.5685718682671591,90
+L74 (eccrine sweat disorders),Male,0.6312435906731992,19
+L80 (vitiligo),Male,0.5509932960206655,20
+L81 (other disorders of pigmentation),Male,0.5351494645585095,71
+L82 (seborrhoeic keratosis),Male,0.6221567689843042,588
+L84 (corns and callosities),Male,0.5515129659659186,76
+L85 (other epidermal thickening),Male,0.6093474253766564,96
+L89 (decubitus ulcer),Male,0.71826153541934,59
+L90 (atrophic disorders of skin),Male,0.5349994803546716,63
+L91 (hypertrophic disorders of skin),Male,0.56755085053912,74
+L92 (granulomatous disorders of skin and subcutaneous tissue),Male,0.46144334219742467,23
+"L97 (ulcer of lower limb, not elsewhere classified)",Male,0.6419367127288239,48
+"L98 (other disorders of skin and subcutaneous tissue, not elsewhere classified)",Male,0.5776555133927869,1021
+M00 (pyogenic arthritis),Male,0.6717220172201721,15
+M05 (seropositive rheumatoid arthritis),Male,0.5606693373045984,13
+M06 (other rheumatoid arthritis),Male,0.5102045157837458,121
+M07 (psoriatic and enteropathic arthropathies),Male,0.623679786797868,15
+M10 (gout),Male,0.5509573857315337,534
+M11 (other crystal arthropathies),Male,0.5755338876325073,33
+M12 (other specific arthropathies),Male,0.8049368443061482,8
+M13 (other arthritis),Male,0.5623039493053258,644
+M15 (polyarthrosis),Male,0.5501325132631425,193
+M16 (coxarthrosis [arthrosis of hip]),Male,0.5649650424746147,416
+M17 (gonarthrosis [arthrosis of knee]),Male,0.5470462335571862,652
+M18 (arthrosis of first carpometacarpal joint),Male,0.5119614091130479,34
+M19 (other arthrosis),Male,0.5297582056441686,1197
+M20 (acquired deformities of fingers and toes),Male,0.5446144215329338,155
+M21 (other acquired deformities of limbs),Male,0.5032712939514874,79
+M22 (disorders of patella),Male,0.7401676398385507,38
+M23 (internal derangement of knee),Male,0.6870481052459885,252
+M24 (other specific joint derangements),Male,0.564267603281081,70
+"M25 (other joint disorders, not elsewhere classified)",Male,0.6139429107131947,1532
+M31 (other necrotising vasculopathies),Male,0.5700258431913882,29
+M35 (other systemic involvement of connective tissue),Male,0.6113043258556086,96
+M40 (kyphosis and lordosis),Male,0.45503941201071435,17
+M41 (scoliosis),Male,0.68734392575928,35
+M43 (other deforming dorsopathies),Male,0.5187477875295784,82
+M45 (ankylosing spondylitis),Male,0.6794055189825472,33
+M46 (other inflammatory spondylopathies),Male,0.5842128096884962,64
+M47 (spondylosis),Male,0.5047819519794119,516
+M48 (other spondylopathies),Male,0.543685270318345,261
+M50 (cervical disk disorders),Male,0.4419474027998245,48
+M51 (other intervertebral disk disorders),Male,0.6145304263185479,305
+"M53 (other dorsopathies, not elsewhere classified)",Male,0.5495182797611,67
+M54 (dorsalgia),Male,0.5702507367426154,1175
+M60 (myositis),Male,0.5420011069429924,10
+M62 (other disorders of muscle),Male,0.5258843540672693,108
+M65 (synovitis and tenosynovitis),Male,0.5477858008210382,320
+M66 (spontaneous rupture of synovium and tendon),Male,0.5148037622773964,46
+M67 (other disorders of synovium and tendon),Male,0.5757323740605063,187
+"M70 (soft tissue disorders related to use, overuse and pressure)",Male,0.5921316779586009,393
+M71 (other bursopathies),Male,0.5543310675434381,82
+M72 (fibroblastic disorders),Male,0.6117447900526805,640
+M75 (shoulder lesions),Male,0.6093043332683921,613
+"M76 (enthesopathies of lower limb, excluding foot)",Male,0.6136730009681275,153
+M77 (other enthesopathies),Male,0.7110259389891208,581
+"M79 (other soft tissue disorders, not elsewhere classified)",Male,0.5922065667165968,1680
+M80 (osteoporosis with pathological fracture),Male,0.5764349779629916,33
+M81 (osteoporosis without pathological fracture),Male,0.5553588124572303,138
+M84 (disorders of continuity of bone),Male,0.5307580046356122,60
+M85 (other disorders of bone density and structure),Male,0.5536584199127699,137
+M86 (osteomyelitis),Male,0.6819651838099794,43
+M87 (osteonecrosis),Male,0.49365957932193644,22
+M89 (other disorders of bone),Male,0.4768911475747247,44
+M90 (osteopathies in diseases classified elsewhere),Male,0.700002844438431,16
+M94 (other disorders of cartilage),Male,0.5055504319783617,29
+M95 (other acquired deformities of musculoskeletal system and connective tissue),Male,0.7595062062517683,26
+"M96 (postprocedural musculoskeletal disorders, not elsewhere classified)",Male,0.535839472616134,8
+"M99 (biomechanical lesions, not elsewhere classified)",Male,0.5371239503292,14
+N02 (recurrent and persistent haematuria),Male,0.5902197944144996,28
+N03 (chronic nephritic syndrome),Male,0.6496900369003691,15
+N10 (acute tubulo-interstitial nephritis),Male,0.49350553505535055,15
+"N12 (tubulo-interstitial nephritis, not specified as acute or chronic)",Male,0.6125186926784603,23
+N13 (obstructive and reflux uropathy),Male,0.6452926306536808,147
+N17 (acute renal failure),Male,0.780331184279825,340
+N18 (chronic renal failure),Male,0.6162645928202247,491
+N19 (unspecified renal failure),Male,0.5579063614830632,39
+N20 (calculus of kidney and ureter),Male,0.5063890349651785,173
+N21 (calculus of lower urinary tract),Male,0.6276925173417265,70
+N23 (unspecified renal colic),Male,0.7206930938721302,108
+"N28 (other disorders of kidney and ureter, not elsewhere classified)",Male,0.6212920509712894,180
+N30 (cystitis),Male,0.5509065580456016,192
+"N31 (neuromuscular dysfunction of bladder, not elsewhere classified)",Male,0.5779291085951053,83
+N32 (other disorders of bladder),Male,0.568469662910844,487
+N34 (urethritis and urethral syndrome),Male,0.6017376359826632,24
+N35 (urethral stricture),Male,0.5355366619466847,100
+N36 (other disorders of urethra),Male,0.5481605179498187,29
+N39 (other disorders of urinary system),Male,0.566992622422821,556
+N40 (hyperplasia of prostate),Male,0.5455453358637221,1179
+N41 (inflammatory diseases of prostate),Male,0.5228136976114135,197
+N42 (other disorders of prostate),Male,0.5441130408939324,123
+N43 (hydrocele and spermatocele),Male,0.5443225067413157,103
+N45 (orchitis and epididymitis),Male,0.5375267959891588,132
+N46 (male infertility),Male,0.9267456041387696,21
+"N47 (redundant prepuce, phimosis and paraphimosis)",Male,0.5149794994888345,128
+N48 (other disorders of penis),Male,0.5698348958661672,298
+N50 (other disorders of male genital organs),Male,0.6444718840758821,400
+N60 (benign mammary dysplasia),Male,0.6557258934025344,6
+N61 (inflammatory disorders of breast),Male,0.8619207497048406,3
+N62 (hypertrophy of breast),Male,0.40459284584410204,43
+N63 (unspecified lump in breast),Male,0.6395497032144141,18
+N64 (other disorders of breast),Male,0.516932018076028,22
+N75 (diseases of bartholin's gland),Male,0.4085395349599895,3
+N76 (other inflammation of vagina and vulva),Male,0.37971640102321913,3
+N80 (endometriosis),Male,0.9476535405957154,1
+N81 (female genital prolapse),Male,0.09566238685556866,3
+"N83 (noninflammatory disorders of ovary, fallopian tube and broad ligament)",Male,0.5103726478907884,5
+N84 (polyp of female genital tract),Male,0.2730833558796763,1
+"N85 (other noninflammatory disorders of uterus, except cervix)",Male,0.9130039107656738,1
+N87 (dysplasia of cervix uteri),Male,0.990407555894434,1
+N88 (other noninflammatory disorders of cervix uteri),Male,0.5331343081672058,2
+N90 (other noninflammatory disorders of vulva and perineum),Male,0.20144687811297088,2
+"N91 (absent, scanty and rare menstruation)",Male,0.925297922841366,2
+"N92 (excessive, frequent and irregular menstruation)",Male,0.6171030462533666,2
+N93 (other abnormal uterine and vaginal bleeding),Male,0.7808310991957106,1
+N94 (pain and other conditions associated with female genital organs and menstrual cycle),Male,0.3004956096121209,1
+N95 (menopausal and other perimenopausal disorders),Male,0.784004820936639,3
+N97 (female infertility),Male,0.890800445204216,4
+"N99 (postprocedural disorders of genito-urinary system, not elsewhere classified)",Male,0.6661209701226337,16
+O02 (other abnormal products of conception),Male,0.9139447081683351,1
+O04 (medical abortion),Male,0.10240548982954967,1
+O36 (maternal care for other known or suspected foetal problems),Male,0.6929092056932966,3
+O70 (perineal laceration during delivery),Male,0.28654967164325945,1
+O80 (single spontaneous delivery),Male,0.5431522180270812,4
+O82 (single delivery by caesarean section),Male,0.8690077969353371,1
+Q21 (congenital malformations of cardiac septa),Male,0.6109287925004249,11
+"Q38 (other congenital malformations of tongue, mouth and pharynx)",Male,0.5194919006678721,12
+Q61 (cystic kidney disease),Male,0.6020853063081899,8
+Q66 (congenital deformities of feet),Male,0.7431323964827852,11
+Q76 (congenital malformations of spine and bony thorax),Male,0.7071423739653413,8
+Q82 (other congenital malformations of skin),Male,0.5071845619559557,18
+C15 Malignant neoplasm of oesophagus,Male,0.7136688335649886,16
+C18 Malignant neoplasm of colon,Male,0.5667901736072644,78
+C20 Malignant neoplasm of rectum,Male,0.5565135120850602,27
+C25 Malignant neoplasm of pancreas,Male,0.6336086916207946,13
+C34 Malignant neoplasm of bronchus and lung,Male,0.6355308594411877,52
+C43 Malignant melanoma of skin,Male,0.49737359076432697,46
+C44 Other malignant neoplasms of skin,Male,0.608432413355289,486
+C50 Malignant neoplasm of breast,Male,0.42384957629724374,8
+C61 Malignant neoplasm of prostate,Male,0.6603703092453517,391
+C62 Malignant neoplasm of testis,Male,0.8022464481210406,20
+"C64 Malignant neoplasm of kidney, except renal pelvis",Male,0.5185991197597933,26
+C67 Malignant neoplasm of bladder,Male,0.530926559232378,25
+C73 Malignant neoplasm of thyroid gland,Male,0.7737160408800778,4
+C82 Follicular [nodular] non-Hodgkin's lymphoma,Male,0.5438693241379687,18
+C83 Diffuse non-Hodgkin's lymphoma,Male,0.5237326365510311,19
+C90 Multiple myeloma and malignant plasma cell neoplasms,Male,0.7402701394784221,36
+C91 Lymphoid leukaemia,Male,0.42277415826652015,13
+D03 Melanoma in situ,Male,0.6307599878227286,16
+D04 Carcinoma in situ of skin,Male,0.6540067907537491,28
+D05 Carcinoma in situ of breast,Male,0.46256441159470196,2
+D07 Carcinoma in situ of other and unspecified genital organs,Male,0.6616605831560043,16
+D09 Carcinoma in situ of other and unspecified sites,Male,0.49834228965530164,21
+D41 Neoplasm of uncertain or unknown behaviour of urinary organs,Male,0.6562826912632542,27
+"D47 Other neoplasms of uncertain or unknown behaviour of lymphoid, haematopoietic and related tissue",Male,0.642244136132738,12
+A04 (other bacterial intestinal infections),age<40,0.5233941034040736,17
+A07 (other protozoal intestinal diseases),age<40,0.4809716844143272,9
+A08 (viral and other specified intestinal infections),age<40,0.4193680072573329,2
+A09 (diarrhoea and gastro-enteritis of presumed infectious origin),age<40,0.5268669941898289,27
+"A15 (respiratory tuberculosis, bacteriologically and histologically confirmed)",age<40,0.6862136571171724,41
+A37 (whooping cough),age<40,0.7098407732193481,33
+A41 (other septicaemia),age<40,0.4665895481763745,4
+A49 (bacterial infection of unspecified site),age<40,0.6345027824824583,5
+"A63 (other predominantly sexually transmitted diseases, not elsewhere classified)",age<40,0.4410539673847223,23
+B00 (herpesviral [herpes simplex] infections),age<40,0.4339776743564249,29
+B01 (varicella [chickenpox]),age<40,0.6563579772229149,189
+B02 (zoster [herpes zoster]),age<40,0.5359814470414475,38
+B05 (measles),age<40,0.7508421022326506,127
+B06 (rubella [german measles]),age<40,0.6960865324357652,48
+B07 (viral warts),age<40,0.4862540754672041,54
+"B08 (other viral infections characterised by skin and mucous membrane lesions, not elsewhere classified)",age<40,0.5030425840793613,5
+B26 (mumps),age<40,0.7770832479258347,86
+B27 (infectious mononucleosis),age<40,0.5772634345488825,58
+B34 (viral infection of unspecified site),age<40,0.6166949375012621,30
+B35 (dermatophytosis),age<40,0.6969602001051488,83
+B36 (other superficial mycoses),age<40,0.5876442102264634,17
+B37 (candidiasis),age<40,0.5542623781853399,16
+B80 (enterobiasis),age<40,0.6343838848224548,6
+B86 (scabies),age<40,0.6057971672416924,16
+B95 (streptococcus and staphylococcus as the cause of diseases classified to other chapters),age<40,0.5497640938785386,5
+B96 (other bacterial agents as the cause of diseases classified to other chapters),age<40,0.45949298160697,9
+B97 (viral agents as the cause of diseases classified to other chapters),age<40,0.3656788630178409,2
+B98 (other specified infectious agents as the cause of diseases classified to other chapters),age<40,0.5208824774693038,4
+B99 (other and unspecified infectious diseases),age<40,0.5750272166444902,3
+D50 (iron deficiency anaemia),age<40,0.6557553864183698,66
+D51 (vitamin b12 deficiency anaemia),age<40,0.5010586811857229,7
+D61 (other aplastic anaemias),age<40,0.5209542815674891,1
+D63 (anaemia in chronic diseases classified elsewhere),age<40,0.35156627963231735,1
+D64 (other anaemias),age<40,0.5490531067011519,46
+D68 (other coagulation defects),age<40,0.5391385881071926,6
+D69 (purpura and other haemorrhagic conditions),age<40,0.5207933627171376,7
+D70 (agranulocytosis),age<40,0.1986392500755972,2
+D72 (other disorders of white blood cells),age<40,0.4016993226898887,1
+D73 (diseases of spleen),age<40,0.11877116594097725,1
+D75 (other diseases of blood and blood-forming organs),age<40,0.87608104021772,2
+D86 (sarcoidosis),age<40,0.44642291864514094,13
+"D89 (other disorders involving the immune mechanism, not elsewhere classified)",age<40,0.5833030962747944,1
+E03 (other hypothyroidism),age<40,0.6475281281482119,173
+E04 (other non-toxic goitre),age<40,0.6357896648632114,19
+E05 (thyrotoxicosis [hyperthyroidism]),age<40,0.732910529187125,40
+E06 (thyroiditis),age<40,0.7488885864634367,4
+E07 (other disorders of thyroid),age<40,0.5030251694094869,9
+E10 (insulin-dependent diabetes mellitus),age<40,0.4275315179021684,12
+E11 (non-insulin-dependent diabetes mellitus),age<40,0.6171728264162376,32
+E14 (unspecified diabetes mellitus),age<40,0.6443207397943664,100
+E16 (other disorders of pancreatic internal secretion),age<40,0.11391677754929236,3
+E21 (hyperparathyroidism and other disorders of parathyroid gland),age<40,0.4409499616950929,3
+E22 (hyperfunction of pituitary gland),age<40,0.2351527063804052,2
+E23 (hypofunction and other disorders of pituitary gland),age<40,0.5848153973343011,6
+E27 (other disorders of adrenal gland),age<40,0.5766299745977985,3
+E28 (ovarian dysfunction),age<40,0.7165461223871554,32
+E29 (testicular dysfunction),age<40,0.9657414126753749,1
+E53 (deficiency of other b group vitamins),age<40,0.6831458635703919,1
+E61 (deficiency of other nutrient elements),age<40,0.5093286967039613,2
+E66 (obesity),age<40,0.5439323976750309,78
+E78 (disorders of lipoprotein metabolism and other lipidaemias),age<40,0.6035177472844857,274
+E79 (disorders of purine and pyrimidine metabolism),age<40,0.5209542815674891,1
+E80 (disorders of porphyrin and bilirubin metabolism),age<40,0.38597870796031936,5
+E83 (disorders of mineral metabolism),age<40,0.5518319117617405,6
+E86 (volume depletion),age<40,0.35156627963231735,1
+"E87 (other disorders of fluid, electrolyte and acid-base balance)",age<40,0.4780843282779391,9
+E88 (other metabolic disorders),age<40,0.35156627963231735,1
+"E89 (postprocedural endocrine and metabolic disorders, not elsewhere classified)",age<40,0.4476331599532276,3
+F06 (other mental disorders due to brain damage and dysfunction and to physical disease),age<40,0.11396347363328496,1
+F10 (mental and behavioural disorders due to use of alcohol),age<40,0.5907028105502312,21
+F17 (mental and behavioural disorders due to use of tobacco),age<40,0.5656621722778339,202
+F20 (schizophrenia),age<40,0.5929857084703992,11
+F31 (bipolar affective disorder),age<40,0.33408444740185106,6
+F32 (depressive episode),age<40,0.5528342044813509,331
+F33 (recurrent depressive disorder),age<40,0.6082536608979789,11
+F34 (persistent mood [affective] disorders),age<40,0.27739607639789127,7
+F40 (phobic anxiety disorders),age<40,0.5688930912758448,12
+F41 (other anxiety disorders),age<40,0.5834669134691546,71
+F42 (obsessive-compulsive disorder),age<40,0.47359363235452295,9
+"F43 (reaction to severe stress, and adjustment disorders)",age<40,0.5186725830273605,38
+F45 (somatoform disorders),age<40,0.4730576441102757,7
+"F52 (sexual dysfunction, not caused by organic disorder or disease)",age<40,0.46656282136591853,6
+"F53 (mental and behavioural disorders associated with the puerperium, not elsewhere classified)",age<40,0.7491000484496124,25
+G03 (meningitis due to other and unspecified causes),age<40,0.6748878141570822,33
+"G04 (encephalitis, myelitis and encephalomyelitis)",age<40,0.498129776379731,6
+G20 (parkinson's disease),age<40,0.49257635319020254,2
+G24 (dystonia),age<40,0.9657695796794677,2
+G25 (other extrapyramidal and movement disorders),age<40,0.4505888996450468,9
+"G31 (other degenerative diseases of nervous system, not elsewhere classified)",age<40,0.2833514755684567,1
+G35 (multiple sclerosis),age<40,0.5501390681270761,26
+G40 (epilepsy),age<40,0.640248117160837,59
+G43 (migraine),age<40,0.6331138943903596,242
+G44 (other headache syndromes),age<40,0.6495549067084461,17
+G45 (transient cerebral ischaemic attacks and related syndromes),age<40,0.5971547213377278,13
+G47 (sleep disorders),age<40,0.6500776761590017,38
+G50 (disorders of trigeminal nerve),age<40,0.2706569078151464,5
+G51 (facial nerve disorders),age<40,0.482733739269687,13
+G54 (nerve root and plexus disorders),age<40,0.5099693560743519,3
+G55 (nerve root and plexus compressions in diseases classified elsewhere),age<40,0.767609202008591,8
+G56 (mononeuropathies of upper limb),age<40,0.4842592549318353,78
+G57 (mononeuropathies of lower limb),age<40,0.5905987077053448,16
+G58 (other mononeuropathies),age<40,0.6831458635703919,1
+G62 (other polyneuropathies),age<40,0.44847463486301964,7
+G81 (hemiplegia),age<40,0.4362564257635319,2
+G83 (other paralytic syndromes),age<40,0.10116419715754463,2
+G91 (hydrocephalus),age<40,0.11877116594097725,1
+G93 (other disorders of brain),age<40,0.32829560585885487,15
+G95 (other diseases of spinal cord),age<40,0.5373245507895215,8
+"G98 (other disorders of nervous system, not elsewhere classified)",age<40,0.596246139405317,24
+G99 (other disorders of nervous system in diseases classified elsewhere),age<40,0.6225128515270638,2
+H00 (hordeolum and chalazion),age<40,0.45650633832716686,50
+H01 (other inflammation of eyelid),age<40,0.6023861368172746,4
+H02 (other disorders of eyelid),age<40,0.35753437102537705,26
+H04 (disorders of lachrymal system),age<40,0.536724500236542,11
+H10 (conjunctivitis),age<40,0.6288158142766564,78
+H11 (other disorders of conjunctiva),age<40,0.48191376701966715,12
+H15 (disorders of sclera),age<40,0.654554802806678,5
+H16 (keratitis),age<40,0.3004989416389477,2
+H18 (other disorders of cornea),age<40,0.46728081321473947,10
+H20 (iridocyclitis),age<40,0.4896189802512092,19
+H21 (other disorders of iris and ciliary body),age<40,0.7834421867440735,1
+H25 (senile cataract),age<40,0.2900409331962172,6
+H26 (other cataract),age<40,0.45388124921204687,51
+H31 (other disorders of choroid),age<40,0.7483368612035077,2
+H33 (retinal detachments and breaks),age<40,0.6285416475188623,29
+H34 (retinal vascular occlusions),age<40,0.5850269158652392,4
+H35 (other retinal disorders),age<40,0.4283722786447582,22
+H36 (retinal disorders in diseases classified elsewhere),age<40,0.4702146960991836,2
+H40 (glaucoma),age<40,0.6052129402129403,37
+H43 (disorders of vitreous body),age<40,0.5255740266027087,11
+H44 (disorders of globe),age<40,0.5370650377000927,3
+H46 (optic neuritis),age<40,0.5173006077229213,9
+H47 (other disorders of optic [2nd] nerve and visual pathways),age<40,0.6500967585873245,1
+H49 (paralytic strabismus),age<40,0.41774783765801726,4
+H50 (other strabismus),age<40,0.611021741763247,23
+H52 (disorders of refraction and accommodation),age<40,0.5157529040633344,18
+H53 (visual disturbances),age<40,0.5429003585890233,23
+H54 (blindness and low vision),age<40,0.5661868473045442,3
+H57 (other disorders of eye and adnexa),age<40,0.602757798034468,17
+H60 (otitis externa),age<40,0.6378427528435449,59
+H61 (other disorders of external ear),age<40,0.6083942813647946,55
+H65 (nonsuppurative otitis media),age<40,0.5328199715513589,16
+H66 (suppurative and unspecified otitis media),age<40,0.6026484221305953,45
+H68 (eustachian salpingitis and obstruction),age<40,0.5088556476495856,8
+H69 (other disorders of eustachian tube),age<40,0.7288168400677474,5
+H72 (perforation of tympanic membrane),age<40,0.6471920563857463,8
+H73 (other disorders of tympanic membrane),age<40,0.6858253190588519,4
+H81 (disorders of vestibular function),age<40,0.5181192722326593,36
+H83 (other diseases of inner ear),age<40,0.6039383112295363,24
+H90 (conductive and sensorineural hearing loss),age<40,0.5675832488726333,33
+H91 (other hearing loss),age<40,0.5754783105319177,28
+H92 (otalgia and effusion of ear),age<40,0.661859732072498,40
+"H93 (other disorders of ear, not elsewhere classified)",age<40,0.574467574342491,48
+I00 (rheumatic fever without mention of heart involvement),age<40,0.7427440455771469,18
+I08 (multiple valve diseases),age<40,0.6126028059990324,1
+I10 (essential (primary) hypertension),age<40,0.4877748570698779,151
+I20 (angina pectoris),age<40,0.6794066538448561,72
+I21 (acute myocardial infarction),age<40,0.7306372792357503,55
+I22 (subsequent myocardial infarction),age<40,0.886036526366715,1
+I25 (chronic ischaemic heart disease),age<40,0.5790957499477407,11
+I26 (pulmonary embolism),age<40,0.5381477124635274,21
+I27 (other pulmonary heart diseases),age<40,0.48208345932869673,2
+I31 (other diseases of pericardium),age<40,0.5546686018384132,1
+I34 (nonrheumatic mitral valve disorders),age<40,0.42979863451732786,7
+I35 (nonrheumatic aortic valve disorders),age<40,0.351557302691261,2
+"I38 (endocarditis, valve unspecified)",age<40,0.35156627963231735,1
+I42 (cardiomyopathy),age<40,0.5653338978949916,5
+I44 (atrioventricular and left bundle-branch block),age<40,0.6117175687934684,2
+I45 (other conduction disorders),age<40,0.6029034599564481,5
+I46 (cardiac arrest),age<40,0.2642114175133043,1
+I47 (paroxysmal tachycardia),age<40,0.5847800900908691,14
+I48 (atrial fibrillation and flutter),age<40,0.6508587703654968,35
+I49 (other cardiac arrhythmias),age<40,0.484833918730697,24
+I50 (heart failure),age<40,0.47266239264545784,3
+I51 (complications and ill-defined descriptions of heart disease),age<40,0.5691302770049594,3
+I60 (subarachnoid haemorrhage),age<40,0.5316677756941505,6
+I61 (intracerebral haemorrhage),age<40,0.38461538461538464,1
+I62 (other nontraumatic intracranial haemorrhage),age<40,0.5062590711175616,1
+I63 (cerebral infarction),age<40,0.11394012700332629,2
+"I64 (stroke, not specified as haemorrhage or infarction)",age<40,0.63637767148998,20
+"I65 (occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction)",age<40,0.7244496855345912,1
+I67 (other cerebrovascular diseases),age<40,0.5173571212579378,2
+I69 (sequelae of cerebrovascular disease),age<40,0.7834421867440735,1
+I71 (aortic aneurysm and dissection),age<40,0.6455548835802842,2
+I72 (other aneurysm),age<40,0.7834421867440735,1
+I73 (other peripheral vascular diseases),age<40,0.4829275219630415,32
+I74 (arterial embolism and thrombosis),age<40,0.2833514755684567,1
+I77 (other disorders of arteries and arterioles),age<40,0.11877116594097725,1
+I78 (diseases of capillaries),age<40,0.42389046841288086,6
+I80 (phlebitis and thrombophlebitis),age<40,0.5762459230267449,112
+I83 (varicose veins of lower extremities),age<40,0.5588145277014397,115
+I84 (haemorrhoids),age<40,0.5251175814914499,67
+I86 (varicose veins of other sites),age<40,0.5498461019704135,14
+I87 (other disorders of veins),age<40,0.21604172966434834,2
+I89 (other non-infective disorders of lymphatic vessels and lymph nodes),age<40,0.6389779256123375,2
+I95 (hypotension),age<40,0.5054984272925236,5
+J00 (acute nasopharyngitis [common cold]),age<40,0.6404810195556093,20
+J01 (acute sinusitis),age<40,0.6602844519637763,78
+J02 (acute pharyngitis),age<40,0.6531791183083187,80
+J03 (acute tonsillitis),age<40,0.5588889730374927,189
+J04 (acute laryngitis and tracheitis),age<40,0.596638354988833,11
+J06 (acute upper respiratory infections of multiple and unspecified sites),age<40,0.689369658119658,144
+"J11 (influenza, virus not identified)",age<40,0.6586256335695968,30
+"J12 (viral pneumonia, not elsewhere classified)",age<40,0.5581796189900212,2
+J13 (pneumonia due to streptococcus pneumoniae),age<40,0.6731839351599831,4
+"J15 (bacterial pneumonia, not elsewhere classified)",age<40,0.5218438772630136,3
+"J18 (pneumonia, organism unspecified)",age<40,0.6587857921911351,104
+J20 (acute bronchitis),age<40,0.4426790145874947,16
+J22 (unspecified acute lower respiratory infection),age<40,0.6420568877602741,96
+J30 (vasomotor and allergic rhinitis),age<40,0.6266083447970608,501
+"J31 (chronic rhinitis, nasopharyngitis and pharyngitis)",age<40,0.5342943062427199,21
+J32 (chronic sinusitis),age<40,0.5070203581341367,84
+J33 (nasal polyp),age<40,0.47156371124031005,25
+J34 (other disorders of nose and nasal sinuses),age<40,0.49569919058897016,70
+J35 (chronic diseases of tonsils and adenoids),age<40,0.4651358383251649,10
+"J38 (diseases of vocal cords and larynx, not elsewhere classified)",age<40,0.5148829330268014,8
+J39 (other diseases of upper respiratory tract),age<40,0.7558058663441185,2
+"J40 (bronchitis, not specified as acute or chronic)",age<40,0.6357886583599512,76
+J44 (other chronic obstructive pulmonary disease),age<40,0.4806499006136029,7
+J45 (asthma),age<40,0.6387677237879514,698
+J47 (bronchiectasis),age<40,0.5743367681827161,19
+J61 (pneumoconiosis due to asbestos and other mineral fibres),age<40,0.5173571212579378,2
+J84 (other interstitial pulmonary diseases),age<40,0.4623548621190131,1
+"J90 (pleural effusion, not elsewhere classified)",age<40,0.4072550561571189,6
+J93 (pneumothorax),age<40,0.7030173357621726,26
+J94 (other pleural conditions),age<40,0.35156627963231735,1
+J98 (other respiratory disorders),age<40,0.4308521485333384,19
+K01 (embedded and impacted teeth),age<40,0.5004859132939504,19
+K02 (dental caries),age<40,0.5971756698880882,13
+K04 (diseases of pulp and periapical tissues),age<40,0.5572347046774542,23
+K05 (gingivitis and periodontal diseases),age<40,0.4079557598854678,6
+K07 (dentofacial anomalies [including malocclusion]),age<40,0.6692351908997398,10
+K08 (other disorders of teeth and supporting structures),age<40,0.4304139693871378,8
+"K09 (cysts of oral region, not elsewhere classified)",age<40,0.9096819061441702,1
+K10 (other diseases of jaws),age<40,0.42862110674327186,2
+K11 (diseases of salivary glands),age<40,0.5349445284921835,12
+K12 (stomatitis and related lesions),age<40,0.25301453834210474,6
+K13 (other diseases of lip and oral mucosa),age<40,0.5842131724484665,13
+K14 (diseases of tongue),age<40,0.5608351985159196,6
+K20 (oesophagitis),age<40,0.5279094442330092,21
+K21 (gastro-oesophageal reflux disease),age<40,0.5920727838440856,158
+K22 (other diseases of oesophagus),age<40,0.6166367348036941,18
+K25 (gastric ulcer),age<40,0.5787781042411855,57
+K26 (duodenal ulcer),age<40,0.6146088981507958,59
+"K27 (peptic ulcer, site unspecified)",age<40,0.4950686755006959,10
+K29 (gastritis and duodenitis),age<40,0.5590412018115541,77
+K30 (dyspepsia),age<40,0.5254266071320405,28
+K31 (other diseases of stomach and duodenum),age<40,0.38636968889964896,15
+K35 (acute appendicitis),age<40,0.5243234243506689,20
+K37 (unspecified appendicitis),age<40,0.7035343908079965,69
+K40 (inguinal hernia),age<40,0.7569253072118576,135
+K41 (femoral hernia),age<40,0.6673220010888634,6
+K42 (umbilical hernia),age<40,0.6782401475939118,26
+K43 (ventral hernia),age<40,0.4396201306556981,5
+K44 (diaphragmatic hernia),age<40,0.5567056032122649,100
+K46 (unspecified abdominal hernia),age<40,0.36336963097398667,7
+K50 (crohn's disease [regional enteritis]),age<40,0.609136594817147,21
+K51 (ulcerative colitis),age<40,0.6243583071136241,41
+K52 (other non-infective gastro-enteritis and colitis),age<40,0.617431761248884,56
+K56 (paralytic ileus and intestinal obstruction without hernia),age<40,0.5392482729084036,13
+K57 (diverticular disease of intestine),age<40,0.43440011008347273,56
+K58 (irritable bowel syndrome),age<40,0.5339185808231823,193
+K59 (other functional intestinal disorders),age<40,0.4615959143301237,24
+K60 (fissure and fistula of anal and rectal regions),age<40,0.5950162557298924,30
+K61 (abscess of anal and rectal regions),age<40,0.6024188911082864,16
+K62 (other diseases of anus and rectum),age<40,0.539224932443315,102
+K63 (other diseases of intestine),age<40,0.36305453004902255,14
+K64 (haemorrhoids and perianal venous thrombosis),age<40,0.5967091473741581,167
+K65 (peritonitis),age<40,0.7037225112156993,22
+K66 (other disorders of peritoneum),age<40,0.44051579860060885,6
+K70 (alcoholic liver disease),age<40,0.7053243820813677,3
+K74 (fibrosis and cirrhosis of liver),age<40,0.5916087087995162,2
+K75 (other inflammatory liver diseases),age<40,0.5639784620969206,8
+K76 (other diseases of liver),age<40,0.5364983368612035,2
+K80 (cholelithiasis),age<40,0.5474953072850596,104
+K81 (cholecystitis),age<40,0.35925617750882505,12
+K82 (other diseases of gallbladder),age<40,0.398110896000968,8
+K85 (acute pancreatitis),age<40,0.4737247230289341,9
+K86 (other diseases of pancreas),age<40,0.4240912115163612,4
+K90 (intestinal malabsorption),age<40,0.5393477340110123,10
+K92 (other diseases of digestive system),age<40,0.5486901590377008,21
+L01 (impetigo),age<40,0.5592124364868134,5
+"L02 (cutaneous abscess, furuncle and carbuncle)",age<40,0.6161508480991696,41
+L03 (cellulitis),age<40,0.624488214664383,67
+L05 (pilonidal cyst),age<40,0.6778851182120937,22
+L08 (other local infections of skin and subcutaneous tissue),age<40,0.6350922854540746,29
+L20 (atopic dermatitis),age<40,0.4912853203701786,68
+L21 (seborrhoeic dermatitis),age<40,0.5330496941277926,45
+L25 (unspecified contact dermatitis),age<40,0.6909739679347523,13
+L27 (dermatitis due to substances taken internally),age<40,0.39404661102374905,3
+L28 (lichen simplex chronicus and prurigo),age<40,0.44135317124309503,3
+L29 (pruritus),age<40,0.7513670967872217,30
+L30 (other dermatitis),age<40,0.5719488316871161,347
+L40 (psoriasis),age<40,0.5586562883240295,109
+L42 (pityriasis rosea),age<40,0.5292682435021071,6
+L43 (lichen planus),age<40,0.5645857278244915,6
+L50 (urticaria),age<40,0.45028796605031823,42
+L51 (erythema multiforme),age<40,0.6673017601161313,4
+L57 (skin changes due to chronic exposure to nonionising radiation),age<40,0.6709074768994875,15
+L60 (nail disorders),age<40,0.47745329726146046,34
+L63 (alopecia areata),age<40,0.39217440152104405,7
+L65 (other nonscarring hair loss),age<40,0.41820657106552916,10
+L70 (acne),age<40,0.46808962837017243,69
+L71 (rosacea),age<40,0.577383616536167,23
+L72 (follicular cysts of skin and subcutaneous tissue),age<40,0.5341670767412441,54
+L73 (other follicular disorders),age<40,0.4580685188547909,16
+L74 (eccrine sweat disorders),age<40,0.462557255206983,7
+L80 (vitiligo),age<40,0.5320415078356628,10
+L81 (other disorders of pigmentation),age<40,0.5827508825012606,12
+L82 (seborrhoeic keratosis),age<40,0.588722949627205,40
+L84 (corns and callosities),age<40,0.7255595886267393,7
+L85 (other epidermal thickening),age<40,0.8274371069182389,1
+L90 (atrophic disorders of skin),age<40,0.5590942096751125,11
+L91 (hypertrophic disorders of skin),age<40,0.5847618855544799,9
+L92 (granulomatous disorders of skin and subcutaneous tissue),age<40,0.5513594024073065,4
+"L97 (ulcer of lower limb, not elsewhere classified)",age<40,0.6831458635703919,1
+"L98 (other disorders of skin and subcutaneous tissue, not elsewhere classified)",age<40,0.6046575088842095,88
+M05 (seropositive rheumatoid arthritis),age<40,0.7313123677048684,2
+M06 (other rheumatoid arthritis),age<40,0.5890862835489649,51
+M10 (gout),age<40,0.7552591496117046,85
+M12 (other specific arthropathies),age<40,0.5609160466944898,4
+M13 (other arthritis),age<40,0.48803986598987503,54
+M15 (polyarthrosis),age<40,0.5235009378592606,10
+M16 (coxarthrosis [arthrosis of hip]),age<40,0.48679907956885077,23
+M17 (gonarthrosis [arthrosis of knee]),age<40,0.5723054873054874,37
+M18 (arthrosis of first carpometacarpal joint),age<40,0.11396347363328496,1
+M19 (other arthrosis),age<40,0.5188533418124748,339
+M20 (acquired deformities of fingers and toes),age<40,0.6237395339884727,34
+M21 (other acquired deformities of limbs),age<40,0.22893351884338514,6
+M22 (disorders of patella),age<40,0.5928685015612576,23
+M23 (internal derangement of knee),age<40,0.5984586146818415,56
+M24 (other specific joint derangements),age<40,0.4954284503851774,14
+"M25 (other joint disorders, not elsewhere classified)",age<40,0.586757334133462,298
+M31 (other necrotising vasculopathies),age<40,0.578586115142719,1
+M35 (other systemic involvement of connective tissue),age<40,0.3742893001875037,4
+M40 (kyphosis and lordosis),age<40,0.6526307831871787,2
+M41 (scoliosis),age<40,0.5961503540947884,16
+M43 (other deforming dorsopathies),age<40,0.5864965644377409,13
+M45 (ankylosing spondylitis),age<40,0.619118982742961,22
+M46 (other inflammatory spondylopathies),age<40,0.6374790797088299,6
+M47 (spondylosis),age<40,0.5697950641443792,112
+M48 (other spondylopathies),age<40,0.5558996401641498,48
+M50 (cervical disk disorders),age<40,0.6552576664852113,4
+M51 (other intervertebral disk disorders),age<40,0.5303053280760287,157
+"M53 (other dorsopathies, not elsewhere classified)",age<40,0.5597376085450424,18
+M54 (dorsalgia),age<40,0.5748984349390461,334
+M62 (other disorders of muscle),age<40,0.5963550069915027,9
+M65 (synovitis and tenosynovitis),age<40,0.5209269318607022,47
+M66 (spontaneous rupture of synovium and tendon),age<40,0.6930164106286036,3
+M67 (other disorders of synovium and tendon),age<40,0.5927549714668634,34
+"M70 (soft tissue disorders related to use, overuse and pressure)",age<40,0.6700808986618487,33
+M71 (other bursopathies),age<40,0.5154604865061115,11
+M72 (fibroblastic disorders),age<40,0.6347740370033363,52
+M75 (shoulder lesions),age<40,0.615099857119546,61
+"M76 (enthesopathies of lower limb, excluding foot)",age<40,0.5834591928422581,19
+M77 (other enthesopathies),age<40,0.614884218648298,113
+"M79 (other soft tissue disorders, not elsewhere classified)",age<40,0.5986072901170413,180
+M80 (osteoporosis with pathological fracture),age<40,0.5173571212579378,2
+M81 (osteoporosis without pathological fracture),age<40,0.5174424301812837,52
+M84 (disorders of continuity of bone),age<40,0.3742715705845583,6
+M85 (other disorders of bone density and structure),age<40,0.5508171912832929,17
+M86 (osteomyelitis),age<40,0.813887207119937,20
+M87 (osteonecrosis),age<40,0.5422588448745087,2
+M89 (other disorders of bone),age<40,0.4622582374352634,14
+M94 (other disorders of cartilage),age<40,0.5212697614658399,13
+M95 (other acquired deformities of musculoskeletal system and connective tissue),age<40,0.6146935399265625,15
+"M96 (postprocedural musculoskeletal disorders, not elsewhere classified)",age<40,0.6980344723314182,2
+N02 (recurrent and persistent haematuria),age<40,0.6106810209265756,3
+N10 (acute tubulo-interstitial nephritis),age<40,0.488733288972234,6
+"N12 (tubulo-interstitial nephritis, not specified as acute or chronic)",age<40,0.6721812242922817,5
+N13 (obstructive and reflux uropathy),age<40,0.44761069441083956,5
+N17 (acute renal failure),age<40,0.41791661626547316,3
+N18 (chronic renal failure),age<40,0.5218629645312847,6
+N19 (unspecified renal failure),age<40,0.42138450371983305,4
+N20 (calculus of kidney and ureter),age<40,0.704342495610583,20
+N21 (calculus of lower urinary tract),age<40,0.4344492832516785,4
+N23 (unspecified renal colic),age<40,0.5951009685474675,42
+"N28 (other disorders of kidney and ureter, not elsewhere classified)",age<40,0.5741791209093662,22
+N30 (cystitis),age<40,0.6072980268190938,42
+"N31 (neuromuscular dysfunction of bladder, not elsewhere classified)",age<40,0.6639377987535547,10
+N32 (other disorders of bladder),age<40,0.4678098513147527,38
+N34 (urethritis and urethral syndrome),age<40,0.5802140296359075,18
+N35 (urethral stricture),age<40,0.5763968705260823,6
+N36 (other disorders of urethra),age<40,0.531551147131164,3
+N39 (other disorders of urinary system),age<40,0.6501745285897358,150
+N40 (hyperplasia of prostate),age<40,0.7898592483281652,65
+N41 (inflammatory diseases of prostate),age<40,0.6736960691209057,13
+N42 (other disorders of prostate),age<40,0.7516782582400967,2
+N43 (hydrocele and spermatocele),age<40,0.8125945079537894,4
+N45 (orchitis and epididymitis),age<40,0.7885707944962274,15
+N46 (male infertility),age<40,0.7885513134798137,16
+"N47 (redundant prepuce, phimosis and paraphimosis)",age<40,0.738327333776998,8
+N48 (other disorders of penis),age<40,0.8145986804345192,23
+N50 (other disorders of male genital organs),age<40,0.7965976835292112,57
+N60 (benign mammary dysplasia),age<40,0.7282046744370538,150
+N61 (inflammatory disorders of breast),age<40,0.5990573308011999,22
+N62 (hypertrophy of breast),age<40,0.4769675155767951,6
+N63 (unspecified lump in breast),age<40,0.7644824649313983,119
+N64 (other disorders of breast),age<40,0.7621297868326731,45
+N72 (inflammatory disease of cervix uteri),age<40,0.6713388804841149,12
+N73 (other female pelvic inflammatory diseases),age<40,0.7332226692479884,8
+N75 (diseases of bartholin's gland),age<40,0.6909600088074201,22
+N76 (other inflammation of vagina and vulva),age<40,0.754816557950073,22
+N80 (endometriosis),age<40,0.7044842932618484,70
+N81 (female genital prolapse),age<40,0.7144880651037354,41
+"N83 (noninflammatory disorders of ovary, fallopian tube and broad ligament)",age<40,0.7173510594419346,76
+N84 (polyp of female genital tract),age<40,0.7567184089255397,45
+"N85 (other noninflammatory disorders of uterus, except cervix)",age<40,0.7361788036482457,11
+N86 (erosion and ectropion of cervix uteri),age<40,0.7581089976393681,16
+N87 (dysplasia of cervix uteri),age<40,0.6931386850874559,85
+N88 (other noninflammatory disorders of cervix uteri),age<40,0.5452092910718607,5
+N89 (other noninflammatory disorders of vagina),age<40,0.8216371826371827,37
+N90 (other noninflammatory disorders of vulva and perineum),age<40,0.7845753689813695,5
+"N91 (absent, scanty and rare menstruation)",age<40,0.6810692921236291,17
+"N92 (excessive, frequent and irregular menstruation)",age<40,0.7611937708256202,185
+N93 (other abnormal uterine and vaginal bleeding),age<40,0.7514460397840985,48
+N94 (pain and other conditions associated with female genital organs and menstrual cycle),age<40,0.7582220591831743,87
+N95 (menopausal and other perimenopausal disorders),age<40,0.7247658559206706,56
+N97 (female infertility),age<40,0.7246328215087698,60
+"N99 (postprocedural disorders of genito-urinary system, not elsewhere classified)",age<40,0.35156627963231735,1
+O02 (other abnormal products of conception),age<40,0.7182519346076975,26
+O03 (spontaneous abortion),age<40,0.7333308513312639,89
+O04 (medical abortion),age<40,0.7085615441921735,76
+O26 (maternal care for other conditions predominantly related to pregnancy),age<40,0.766357062112679,24
+O34 (maternal care for known or suspected abnormality of pelvic organs),age<40,0.8223614869676685,17
+O36 (maternal care for other known or suspected foetal problems),age<40,0.7008006901979779,20
+O68 (labour and delivery complicated by foetal stress [distress]),age<40,0.8306613372093024,25
+O70 (perineal laceration during delivery),age<40,0.8241157701794483,59
+O72 (postpartum haemorrhage),age<40,0.67273714570574,17
+O80 (single spontaneous delivery),age<40,0.7620049594683285,261
+O81 (single delivery by forceps and vacuum extractor),age<40,0.7872778261862665,43
+O82 (single delivery by caesarean section),age<40,0.7023237810149284,47
+"O99 (other maternal diseases classifiable elsewhere but complicating pregnancy, childbirth and the puerperium)",age<40,0.8252012833706641,18
+Q21 (congenital malformations of cardiac septa),age<40,0.6576392669207041,4
+Q61 (cystic kidney disease),age<40,0.6205797386411762,8
+Q66 (congenital deformities of feet),age<40,0.7116536576511163,10
+Q76 (congenital malformations of spine and bony thorax),age<40,0.4136631072660173,8
+Q82 (other congenital malformations of skin),age<40,0.5075187969924813,7
+C18 Malignant neoplasm of colon,age<40,0.6509549736409991,7
+C20 Malignant neoplasm of rectum,age<40,0.846184083212385,1
+C34 Malignant neoplasm of bronchus and lung,age<40,0.5545055941941337,2
+C43 Malignant melanoma of skin,age<40,0.4320673171181769,21
+C44 Other malignant neoplasms of skin,age<40,0.486530198831013,47
+C50 Malignant neoplasm of breast,age<40,0.7898453049342008,49
+C54 Malignant neoplasm of corpus uteri,age<40,0.8005594194133656,2
+C56 Malignant neoplasm of ovary,age<40,0.762654974296946,2
+C61 Malignant neoplasm of prostate,age<40,0.8002078000715603,22
+C62 Malignant neoplasm of testis,age<40,0.59761976802824,12
+"C64 Malignant neoplasm of kidney, except renal pelvis",age<40,0.4574841245842153,2
+C67 Malignant neoplasm of bladder,age<40,0.6812942457796333,10
+C73 Malignant neoplasm of thyroid gland,age<40,0.4383203290388919,4
+C82 Follicular [nodular] non-Hodgkin's lymphoma,age<40,0.4646530118399447,7
+C83 Diffuse non-Hodgkin's lymphoma,age<40,0.71354702146961,2
+C90 Multiple myeloma and malignant plasma cell neoplasms,age<40,0.11396347363328496,1
+C91 Lymphoid leukaemia,age<40,0.4684494647069497,4
+D03 Melanoma in situ,age<40,0.4372694005927539,4
+D04 Carcinoma in situ of skin,age<40,0.43140308436649527,2
+D05 Carcinoma in situ of breast,age<40,0.8026914816383326,8
+D06 Carcinoma in situ of cervix uteri,age<40,0.7578112762131692,55
+D07 Carcinoma in situ of other and unspecified genital organs,age<40,0.8135470214696099,2
+D41 Neoplasm of uncertain or unknown behaviour of urinary organs,age<40,0.8326277166243297,3
+"D47 Other neoplasms of uncertain or unknown behaviour of lymphoid, haematopoietic and related tissue",age<40,0.375,1
+A04 (other bacterial intestinal infections),age40-60,0.507796714025534,88
+A07 (other protozoal intestinal diseases),age40-60,0.3828894691035683,5
+A08 (viral and other specified intestinal infections),age40-60,0.4409002790707289,53
+A09 (diarrhoea and gastro-enteritis of presumed infectious origin),age40-60,0.5098026440646009,101
+"A15 (respiratory tuberculosis, bacteriologically and histologically confirmed)",age40-60,0.6724513394744415,7
+A37 (whooping cough),age40-60,0.5838503332007161,4
+A41 (other septicaemia),age40-60,0.4972045285663758,23
+A49 (bacterial infection of unspecified site),age40-60,0.5572735895641423,7
+"A63 (other predominantly sexually transmitted diseases, not elsewhere classified)",age40-60,0.5245602878955278,7
+B00 (herpesviral [herpes simplex] infections),age40-60,0.6254423717461352,44
+B01 (varicella [chickenpox]),age40-60,0.6671054217501353,13
+B02 (zoster [herpes zoster]),age40-60,0.5676497132533955,194
+B07 (viral warts),age40-60,0.5310129675543585,175
+"B08 (other viral infections characterised by skin and mucous membrane lesions, not elsewhere classified)",age40-60,0.6516287825885656,13
+B26 (mumps),age40-60,0.5905458162377223,5
+B27 (infectious mononucleosis),age40-60,0.5828871971039927,7
+B34 (viral infection of unspecified site),age40-60,0.5250597110769245,135
+B35 (dermatophytosis),age40-60,0.5459050206258175,464
+B36 (other superficial mycoses),age40-60,0.5115440924136252,72
+B37 (candidiasis),age40-60,0.540980591807682,57
+B49 (unspecified mycosis),age40-60,0.4076905863046397,2
+B80 (enterobiasis),age40-60,0.6115488594661996,7
+B86 (scabies),age40-60,0.5278959810874705,35
+B95 (streptococcus and staphylococcus as the cause of diseases classified to other chapters),age40-60,0.5178487027040474,21
+B96 (other bacterial agents as the cause of diseases classified to other chapters),age40-60,0.5111350854363389,47
+B97 (viral agents as the cause of diseases classified to other chapters),age40-60,0.47633701364367304,6
+B98 (other specified infectious agents as the cause of diseases classified to other chapters),age40-60,0.41981742201880506,18
+B99 (other and unspecified infectious diseases),age40-60,0.3990401352762719,6
+D50 (iron deficiency anaemia),age40-60,0.6063181645980182,127
+D51 (vitamin b12 deficiency anaemia),age40-60,0.4856484476067271,24
+D52 (folate deficiency anaemia),age40-60,0.11388895795519532,1
+D61 (other aplastic anaemias),age40-60,0.35956460115376965,4
+D63 (anaemia in chronic diseases classified elsewhere),age40-60,0.46083533754187517,7
+D64 (other anaemias),age40-60,0.511397541234113,131
+D68 (other coagulation defects),age40-60,0.43967320545991306,24
+D69 (purpura and other haemorrhagic conditions),age40-60,0.5021181739022267,25
+D70 (agranulocytosis),age40-60,0.5042931806869089,40
+D72 (other disorders of white blood cells),age40-60,0.356409873841614,6
+D73 (diseases of spleen),age40-60,0.5654880019893075,5
+D75 (other diseases of blood and blood-forming organs),age40-60,0.5323878376065,17
+D86 (sarcoidosis),age40-60,0.5196580452623725,10
+"D89 (other disorders involving the immune mechanism, not elsewhere classified)",age40-60,0.3728729973228568,3
+E03 (other hypothyroidism),age40-60,0.6433536617347875,311
+E04 (other non-toxic goitre),age40-60,0.5383835324145536,54
+E05 (thyrotoxicosis [hyperthyroidism]),age40-60,0.6672760781920566,59
+E06 (thyroiditis),age40-60,0.6967999104522163,18
+E07 (other disorders of thyroid),age40-60,0.6422656712907472,22
+E10 (insulin-dependent diabetes mellitus),age40-60,0.5762047493491202,18
+E11 (non-insulin-dependent diabetes mellitus),age40-60,0.6242426434806339,273
+E14 (unspecified diabetes mellitus),age40-60,0.6169009569457751,228
+E16 (other disorders of pancreatic internal secretion),age40-60,0.5900262052436824,17
+E21 (hyperparathyroidism and other disorders of parathyroid gland),age40-60,0.5682276909302054,13
+E22 (hyperfunction of pituitary gland),age40-60,0.44599786154764276,4
+E23 (hypofunction and other disorders of pituitary gland),age40-60,0.49611912459587165,10
+E27 (other disorders of adrenal gland),age40-60,0.4944708330224731,9
+E28 (ovarian dysfunction),age40-60,0.7266218102887836,7
+E29 (testicular dysfunction),age40-60,0.6170328201174012,16
+E53 (deficiency of other b group vitamins),age40-60,0.41554322952940004,16
+E55 (vitamin d deficiency),age40-60,0.593702736318408,20
+E61 (deficiency of other nutrient elements),age40-60,0.49441012323662215,7
+E66 (obesity),age40-60,0.49988627433399613,304
+E73 (lactose intolerance),age40-60,0.3677865088443494,6
+E78 (disorders of lipoprotein metabolism and other lipidaemias),age40-60,0.5937952869950728,1008
+E79 (disorders of purine and pyrimidine metabolism),age40-60,0.7911376352107423,5
+E80 (disorders of porphyrin and bilirubin metabolism),age40-60,0.5322861477999155,17
+E83 (disorders of mineral metabolism),age40-60,0.5524258549560909,36
+E86 (volume depletion),age40-60,0.4441276697232135,17
+"E87 (other disorders of fluid, electrolyte and acid-base balance)",age40-60,0.5594050286283295,50
+E88 (other metabolic disorders),age40-60,0.4328223680938883,2
+"E89 (postprocedural endocrine and metabolic disorders, not elsewhere classified)",age40-60,0.5132701539686093,17
+F00 (dementia in alzheimer's disease),age40-60,0.5162054304042966,2
+F01 (vascular dementia),age40-60,0.8590964469529327,1
+F03 (unspecified dementia),age40-60,0.2526584943348998,3
+"F05 (delirium, not induced by alcohol and other psychoactive substances)",age40-60,0.3220572877815903,2
+F06 (other mental disorders due to brain damage and dysfunction and to physical disease),age40-60,0.23050002486448853,2
+F10 (mental and behavioural disorders due to use of alcohol),age40-60,0.6326915538272744,76
+F17 (mental and behavioural disorders due to use of tobacco),age40-60,0.5745859165951663,451
+F20 (schizophrenia),age40-60,0.40789484590772696,6
+F31 (bipolar affective disorder),age40-60,0.49393155590927174,12
+F32 (depressive episode),age40-60,0.5827297591519861,395
+F33 (recurrent depressive disorder),age40-60,0.5698652699100671,39
+F34 (persistent mood [affective] disorders),age40-60,0.42167943170703404,6
+F39 (unspecified mood [affective] disorder),age40-60,0.6397338639472703,15
+F40 (phobic anxiety disorders),age40-60,0.4730651458564279,27
+F41 (other anxiety disorders),age40-60,0.5544535271646106,227
+F42 (obsessive-compulsive disorder),age40-60,0.5659596160541104,6
+"F43 (reaction to severe stress, and adjustment disorders)",age40-60,0.5779668358781074,212
+F45 (somatoform disorders),age40-60,0.5733733879270373,38
+"F52 (sexual dysfunction, not caused by organic disorder or disease)",age40-60,0.557308079531931,19
+"F53 (mental and behavioural disorders associated with the puerperium, not elsewhere classified)",age40-60,0.918521096993958,1
+G03 (meningitis due to other and unspecified causes),age40-60,0.5316908705094412,6
+"G04 (encephalitis, myelitis and encephalomyelitis)",age40-60,0.5186547308218327,5
+G12 (spinal muscular atrophy and related syndromes),age40-60,0.6221664138714142,3
+G20 (parkinson's disease),age40-60,0.45719810831361346,14
+G24 (dystonia),age40-60,0.5190363093757772,10
+G25 (other extrapyramidal and movement disorders),age40-60,0.5814416461942564,41
+G30 (alzheimer's disease),age40-60,0.8415922822546558,1
+"G31 (other degenerative diseases of nervous system, not elsewhere classified)",age40-60,0.6070235638328734,3
+G35 (multiple sclerosis),age40-60,0.6421462322805273,10
+G40 (epilepsy),age40-60,0.6194286922349899,14
+G43 (migraine),age40-60,0.550503047033132,119
+G44 (other headache syndromes),age40-60,0.6398052290227795,62
+G45 (transient cerebral ischaemic attacks and related syndromes),age40-60,0.6162564933293684,79
+G47 (sleep disorders),age40-60,0.554466171374184,174
+G50 (disorders of trigeminal nerve),age40-60,0.47074881781981087,40
+G51 (facial nerve disorders),age40-60,0.4605978598878783,23
+G54 (nerve root and plexus disorders),age40-60,0.6250665340131825,15
+G55 (nerve root and plexus compressions in diseases classified elsewhere),age40-60,0.4567270453558549,31
+G56 (mononeuropathies of upper limb),age40-60,0.5330236444843901,266
+G57 (mononeuropathies of lower limb),age40-60,0.49967365000345715,45
+G58 (other mononeuropathies),age40-60,0.41862908439846824,6
+G62 (other polyneuropathies),age40-60,0.5569909018184881,26
+G63 (polyneuropathy in diseases classified elsewhere),age40-60,0.5636344422895221,2
+G81 (hemiplegia),age40-60,0.608907638612548,12
+G83 (other paralytic syndromes),age40-60,0.2593686278410504,6
+G91 (hydrocephalus),age40-60,0.5311200002842009,7
+G93 (other disorders of brain),age40-60,0.5528088506093722,34
+G95 (other diseases of spinal cord),age40-60,0.4508016646770129,12
+"G98 (other disorders of nervous system, not elsewhere classified)",age40-60,0.47414916269842033,13
+G99 (other disorders of nervous system in diseases classified elsewhere),age40-60,0.5314857640184011,5
+H00 (hordeolum and chalazion),age40-60,0.5733600949861929,144
+H01 (other inflammation of eyelid),age40-60,0.5430777843274646,47
+H02 (other disorders of eyelid),age40-60,0.5096631996136,113
+H04 (disorders of lachrymal system),age40-60,0.5838172742037455,134
+H05 (disorders of orbit),age40-60,0.5544833532298714,12
+H10 (conjunctivitis),age40-60,0.5167880878341806,295
+H11 (other disorders of conjunctiva),age40-60,0.5091772793929212,84
+H15 (disorders of sclera),age40-60,0.5519881840796019,20
+H16 (keratitis),age40-60,0.48354190142933395,13
+H17 (corneal scars and opacities),age40-60,0.4646252413987451,3
+H18 (other disorders of cornea),age40-60,0.40225373134328357,20
+H20 (iridocyclitis),age40-60,0.4882098864181731,35
+H21 (other disorders of iris and ciliary body),age40-60,0.45437252903001213,3
+H25 (senile cataract),age40-60,0.5959938314286326,71
+H26 (other cataract),age40-60,0.5522625537661299,232
+H27 (other disorders of lens),age40-60,0.6609682713347922,4
+H31 (other disorders of choroid),age40-60,0.6072831708772628,4
+H33 (retinal detachments and breaks),age40-60,0.4887944192085548,52
+H34 (retinal vascular occlusions),age40-60,0.5031952736318408,20
+H35 (other retinal disorders),age40-60,0.5460536589417726,90
+H36 (retinal disorders in diseases classified elsewhere),age40-60,0.6054826143563208,24
+H40 (glaucoma),age40-60,0.5252988362427266,120
+H43 (disorders of vitreous body),age40-60,0.5562998753117206,120
+H44 (disorders of globe),age40-60,0.5978704435316469,13
+H46 (optic neuritis),age40-60,0.8539589394203115,3
+H47 (other disorders of optic [2nd] nerve and visual pathways),age40-60,0.5120850742804085,12
+H49 (paralytic strabismus),age40-60,0.47427044562156845,9
+H50 (other strabismus),age40-60,0.6234694892731008,14
+H52 (disorders of refraction and accommodation),age40-60,0.5116823011271742,31
+H53 (visual disturbances),age40-60,0.48566343890136,71
+H54 (blindness and low vision),age40-60,0.5268104949017657,10
+H57 (other disorders of eye and adnexa),age40-60,0.5098082609227202,66
+"H59 (postprocedural disorders of eye and adnexa, not elsewhere classified)",age40-60,0.6175373598229604,3
+H60 (otitis externa),age40-60,0.4862111669340585,297
+H61 (other disorders of external ear),age40-60,0.5530518798273026,367
+H65 (nonsuppurative otitis media),age40-60,0.4526191588378463,73
+H66 (suppurative and unspecified otitis media),age40-60,0.49939553830819405,122
+H68 (eustachian salpingitis and obstruction),age40-60,0.5366613284762751,37
+H69 (other disorders of eustachian tube),age40-60,0.513117461718428,23
+H72 (perforation of tympanic membrane),age40-60,0.4766497824302268,23
+H73 (other disorders of tympanic membrane),age40-60,0.6462093014901948,9
+H81 (disorders of vestibular function),age40-60,0.5620192081922081,136
+H83 (other diseases of inner ear),age40-60,0.5677994260949832,157
+H90 (conductive and sensorineural hearing loss),age40-60,0.49995947828209364,79
+H91 (other hearing loss),age40-60,0.5743615007337332,112
+H92 (otalgia and effusion of ear),age40-60,0.5217370114550917,193
+"H93 (other disorders of ear, not elsewhere classified)",age40-60,0.5243588333373553,178
+I00 (rheumatic fever without mention of heart involvement),age40-60,0.11388895795519532,1
+I05 (rheumatic mitral valve diseases),age40-60,0.30478132226062304,1
+I07 (rheumatic tricuspid valve diseases),age40-60,0.8861110420448046,1
+I08 (multiple valve diseases),age40-60,0.5203122970773614,9
+I10 (essential (primary) hypertension),age40-60,0.6028151946418399,807
+I11 (hypertensive heart disease),age40-60,0.5477575817854804,3
+I12 (hypertensive renal disease),age40-60,0.3479913137893593,3
+I20 (angina pectoris),age40-60,0.6485955444655978,238
+I21 (acute myocardial infarction),age40-60,0.6525389484825024,111
+I22 (subsequent myocardial infarction),age40-60,0.7791066795965222,3
+I24 (other acute ischaemic heart diseases),age40-60,0.6357381479363027,9
+I25 (chronic ischaemic heart disease),age40-60,0.7051938479769281,196
+I26 (pulmonary embolism),age40-60,0.48113556035263016,44
+I27 (other pulmonary heart diseases),age40-60,0.7321290932146498,1
+I31 (other diseases of pericardium),age40-60,0.5702990283857275,12
+I34 (nonrheumatic mitral valve disorders),age40-60,0.530642162471396,16
+I35 (nonrheumatic aortic valve disorders),age40-60,0.6151494401207986,17
+"I38 (endocarditis, valve unspecified)",age40-60,0.11387935750161621,2
+I42 (cardiomyopathy),age40-60,0.7025843373559133,23
+I44 (atrioventricular and left bundle-branch block),age40-60,0.6604808314260125,24
+I45 (other conduction disorders),age40-60,0.4118892087851955,16
+I46 (cardiac arrest),age40-60,0.507126337964624,7
+I47 (paroxysmal tachycardia),age40-60,0.5223055624688899,40
+I48 (atrial fibrillation and flutter),age40-60,0.6341807036083773,157
+I49 (other cardiac arrhythmias),age40-60,0.5807661831611913,74
+I50 (heart failure),age40-60,0.6569764238796634,28
+I51 (complications and ill-defined descriptions of heart disease),age40-60,0.5401373557768949,27
+I60 (subarachnoid haemorrhage),age40-60,0.47779781148967915,10
+I61 (intracerebral haemorrhage),age40-60,0.6140769657939014,3
+I62 (other nontraumatic intracranial haemorrhage),age40-60,0.5684494948239136,3
+I63 (cerebral infarction),age40-60,0.6734632110014582,21
+"I64 (stroke, not specified as haemorrhage or infarction)",age40-60,0.5794165674503978,67
+"I65 (occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction)",age40-60,0.7588577537979562,1
+I67 (other cerebrovascular diseases),age40-60,0.4339460266136054,15
+I69 (sequelae of cerebrovascular disease),age40-60,0.6518239009349512,4
+I70 (atherosclerosis),age40-60,0.45842503481547797,8
+I71 (aortic aneurysm and dissection),age40-60,0.6377027844785423,9
+I72 (other aneurysm),age40-60,0.1920348866122936,4
+I73 (other peripheral vascular diseases),age40-60,0.49879242088489406,57
+I74 (arterial embolism and thrombosis),age40-60,0.7380389913960312,6
+I77 (other disorders of arteries and arterioles),age40-60,0.32604575976125344,10
+I78 (diseases of capillaries),age40-60,0.5092751222702457,28
+I80 (phlebitis and thrombophlebitis),age40-60,0.5120412108963736,129
+I82 (other venous embolism and thrombosis),age40-60,0.3431282950363075,8
+I83 (varicose veins of lower extremities),age40-60,0.5044778158798049,176
+I84 (haemorrhoids),age40-60,0.5439728258194355,269
+I85 (oesophageal varices),age40-60,0.2394072011139845,4
+I86 (varicose veins of other sites),age40-60,0.7509055942959186,23
+I87 (other disorders of veins),age40-60,0.4229104015480107,19
+I89 (other non-infective disorders of lymphatic vessels and lymph nodes),age40-60,0.5153143009593057,11
+I95 (hypotension),age40-60,0.48496635032209096,47
+J00 (acute nasopharyngitis [common cold]),age40-60,0.4821045119889807,69
+J01 (acute sinusitis),age40-60,0.5423821825820102,278
+J02 (acute pharyngitis),age40-60,0.5530529698359393,281
+J03 (acute tonsillitis),age40-60,0.600896933923594,95
+J04 (acute laryngitis and tracheitis),age40-60,0.5415442823716832,46
+J06 (acute upper respiratory infections of multiple and unspecified sites),age40-60,0.49477355282479324,722
+J10 (influenza due to identified influenza virus),age40-60,0.4118572210065645,4
+"J11 (influenza, virus not identified)",age40-60,0.5211300985406012,135
+"J12 (viral pneumonia, not elsewhere classified)",age40-60,0.5330030336184604,4
+J13 (pneumonia due to streptococcus pneumoniae),age40-60,0.6755675601750547,4
+"J15 (bacterial pneumonia, not elsewhere classified)",age40-60,0.34340174286211633,7
+"J18 (pneumonia, organism unspecified)",age40-60,0.5434032104642276,96
+J20 (acute bronchitis),age40-60,0.47603276974028236,61
+J22 (unspecified acute lower respiratory infection),age40-60,0.5112516622809631,776
+J30 (vasomotor and allergic rhinitis),age40-60,0.4990323654208166,243
+"J31 (chronic rhinitis, nasopharyngitis and pharyngitis)",age40-60,0.517136914231268,82
+J32 (chronic sinusitis),age40-60,0.5519953151867427,113
+J33 (nasal polyp),age40-60,0.5768125437008516,65
+J34 (other disorders of nose and nasal sinuses),age40-60,0.5565882895440553,166
+J35 (chronic diseases of tonsils and adenoids),age40-60,0.6191294615097624,15
+"J38 (diseases of vocal cords and larynx, not elsewhere classified)",age40-60,0.5381085112343447,23
+J39 (other diseases of upper respiratory tract),age40-60,0.5271402046379331,17
+"J40 (bronchitis, not specified as acute or chronic)",age40-60,0.41439371782811474,59
+J43 (emphysema),age40-60,0.41717029778485215,12
+J44 (other chronic obstructive pulmonary disease),age40-60,0.6630248466824697,81
+J45 (asthma),age40-60,0.5311112259579253,323
+J47 (bronchiectasis),age40-60,0.5449862979128755,28
+J61 (pneumoconiosis due to asbestos and other mineral fibres),age40-60,0.7823267109265568,3
+J69 (pneumonitis due to solids and liquids),age40-60,0.7122184096673131,2
+J84 (other interstitial pulmonary diseases),age40-60,0.5492518524328905,13
+"J90 (pleural effusion, not elsewhere classified)",age40-60,0.537222567674004,15
+J92 (pleural plaque),age40-60,0.5015324541650803,13
+J93 (pneumothorax),age40-60,0.499030976236438,13
+J94 (other pleural conditions),age40-60,0.3566236500319102,3
+"J96 (respiratory failure, not elsewhere classified)",age40-60,0.3139619701264899,6
+J98 (other respiratory disorders),age40-60,0.533880195344971,120
+K01 (embedded and impacted teeth),age40-60,0.39361599592080393,16
+K02 (dental caries),age40-60,0.5249463624718059,38
+K04 (diseases of pulp and periapical tissues),age40-60,0.4415793868394816,100
+K05 (gingivitis and periodontal diseases),age40-60,0.421523631840796,20
+K06 (other disorders of gingiva and edentulous alveolar ridge),age40-60,0.5855693432472087,7
+K07 (dentofacial anomalies [including malocclusion]),age40-60,0.5636518599301668,19
+K08 (other disorders of teeth and supporting structures),age40-60,0.4783859998341212,30
+"K09 (cysts of oral region, not elsewhere classified)",age40-60,0.5619642442631649,12
+K10 (other diseases of jaws),age40-60,0.4845610817363143,22
+K11 (diseases of salivary glands),age40-60,0.4221903007805741,42
+K12 (stomatitis and related lesions),age40-60,0.4729801184433164,32
+K13 (other diseases of lip and oral mucosa),age40-60,0.4768938827936686,66
+K14 (diseases of tongue),age40-60,0.4662858004877078,32
+K20 (oesophagitis),age40-60,0.5301895891245239,91
+K21 (gastro-oesophageal reflux disease),age40-60,0.49836153369322883,459
+K22 (other diseases of oesophagus),age40-60,0.5527226043254642,112
+K25 (gastric ulcer),age40-60,0.5324930295012735,57
+K26 (duodenal ulcer),age40-60,0.4927762889379638,38
+"K27 (peptic ulcer, site unspecified)",age40-60,0.5317260987052601,6
+K29 (gastritis and duodenitis),age40-60,0.48731703175925684,323
+K30 (dyspepsia),age40-60,0.5268083031142512,139
+K31 (other diseases of stomach and duodenum),age40-60,0.5584294033383159,80
+K35 (acute appendicitis),age40-60,0.4547899441137875,37
+K37 (unspecified appendicitis),age40-60,0.6337104980777567,14
+K40 (inguinal hernia),age40-60,0.7220671034632531,223
+K41 (femoral hernia),age40-60,0.4940838887783525,12
+K42 (umbilical hernia),age40-60,0.6714786330204471,66
+K43 (ventral hernia),age40-60,0.5017907166739513,54
+K44 (diaphragmatic hernia),age40-60,0.5427197989195722,289
+K46 (unspecified abdominal hernia),age40-60,0.5486095285483269,25
+K50 (crohn's disease [regional enteritis]),age40-60,0.5091580103271937,21
+K51 (ulcerative colitis),age40-60,0.5280130564828074,37
+K52 (other non-infective gastro-enteritis and colitis),age40-60,0.5158481530231782,181
+K55 (vascular disorders of intestine),age40-60,0.4662429747339103,8
+K56 (paralytic ileus and intestinal obstruction without hernia),age40-60,0.49312998809079434,35
+K57 (diverticular disease of intestine),age40-60,0.5587695070505634,340
+K58 (irritable bowel syndrome),age40-60,0.5844575789466837,281
+K59 (other functional intestinal disorders),age40-60,0.5853139482199948,127
+K60 (fissure and fistula of anal and rectal regions),age40-60,0.5949036594473488,50
+K61 (abscess of anal and rectal regions),age40-60,0.7223303728397519,24
+K62 (other diseases of anus and rectum),age40-60,0.5083756700230115,365
+K63 (other diseases of intestine),age40-60,0.5808453458110465,179
+K64 (haemorrhoids and perianal venous thrombosis),age40-60,0.5209357254293885,401
+K65 (peritonitis),age40-60,0.4704447926078823,9
+K66 (other disorders of peritoneum),age40-60,0.5830451548700086,25
+K70 (alcoholic liver disease),age40-60,0.6101987590768925,8
+K74 (fibrosis and cirrhosis of liver),age40-60,0.26195686411034297,6
+K75 (other inflammatory liver diseases),age40-60,0.47571304239711554,5
+K76 (other diseases of liver),age40-60,0.51323315631537,64
+K80 (cholelithiasis),age40-60,0.562277085441443,234
+K81 (cholecystitis),age40-60,0.520136116994316,44
+K82 (other diseases of gallbladder),age40-60,0.633242645677236,29
+K83 (other diseases of biliary tract),age40-60,0.563755307327429,24
+K85 (acute pancreatitis),age40-60,0.44040818423272615,31
+K86 (other diseases of pancreas),age40-60,0.6077997536065483,19
+K90 (intestinal malabsorption),age40-60,0.6565409921354719,23
+"K91 (postprocedural disorders of digestive system, not elsewhere classified)",age40-60,0.4764853859765067,14
+K92 (other diseases of digestive system),age40-60,0.5005448941951538,98
+L01 (impetigo),age40-60,0.34257796955829684,12
+"L02 (cutaneous abscess, furuncle and carbuncle)",age40-60,0.44506320205397,116
+L03 (cellulitis),age40-60,0.53150220110589,277
+L05 (pilonidal cyst),age40-60,0.6886657547873664,10
+L08 (other local infections of skin and subcutaneous tissue),age40-60,0.4861938176694076,175
+L20 (atopic dermatitis),age40-60,0.5053855794807129,147
+L21 (seborrhoeic dermatitis),age40-60,0.5231220954042841,105
+L24 (irritant contact dermatitis),age40-60,0.37814582711628375,8
+L25 (unspecified contact dermatitis),age40-60,0.5459216722906741,29
+L27 (dermatitis due to substances taken internally),age40-60,0.601142222443262,6
+L28 (lichen simplex chronicus and prurigo),age40-60,0.38438381620369383,14
+L29 (pruritus),age40-60,0.5423458662264291,128
+L30 (other dermatitis),age40-60,0.5312838794816116,451
+L40 (psoriasis),age40-60,0.4724324680505492,112
+L42 (pityriasis rosea),age40-60,0.549460680678191,15
+L43 (lichen planus),age40-60,0.5599514120358855,18
+L50 (urticaria),age40-60,0.500385352097913,118
+L51 (erythema multiforme),age40-60,0.6946896420253458,3
+L53 (other erythematous conditions),age40-60,0.36426626380185023,8
+L56 (other acute skin changes due to ultraviolet radiation),age40-60,0.7434292321464093,4
+L57 (skin changes due to chronic exposure to nonionising radiation),age40-60,0.5438032639856499,195
+L60 (nail disorders),age40-60,0.5363151374462707,103
+L63 (alopecia areata),age40-60,0.4831058062911849,5
+L65 (other nonscarring hair loss),age40-60,0.6590717929575712,35
+L70 (acne),age40-60,0.565877185297194,23
+L71 (rosacea),age40-60,0.47725307976880027,69
+L72 (follicular cysts of skin and subcutaneous tissue),age40-60,0.4990458208287778,127
+L73 (other follicular disorders),age40-60,0.5976651346107634,49
+L74 (eccrine sweat disorders),age40-60,0.6016292146263048,11
+L80 (vitiligo),age40-60,0.44946590230799843,12
+L81 (other disorders of pigmentation),age40-60,0.4693175689690936,45
+L82 (seborrhoeic keratosis),age40-60,0.5614825569176556,322
+L84 (corns and callosities),age40-60,0.4670628227782106,39
+L85 (other epidermal thickening),age40-60,0.5765848136537792,26
+L89 (decubitus ulcer),age40-60,0.5044874398658189,9
+L90 (atrophic disorders of skin),age40-60,0.552193871449653,41
+L91 (hypertrophic disorders of skin),age40-60,0.45905149555953345,46
+L92 (granulomatous disorders of skin and subcutaneous tissue),age40-60,0.49963276640146415,19
+"L97 (ulcer of lower limb, not elsewhere classified)",age40-60,0.7205825065685323,3
+"L98 (other disorders of skin and subcutaneous tissue, not elsewhere classified)",age40-60,0.5545618474612679,479
+M00 (pyogenic arthritis),age40-60,0.37672758920800703,5
+M05 (seropositive rheumatoid arthritis),age40-60,0.5676787268432177,5
+M06 (other rheumatoid arthritis),age40-60,0.5163842690490098,66
+M07 (psoriatic and enteropathic arthropathies),age40-60,0.3824699709034841,9
+M10 (gout),age40-60,0.6967657340089595,170
+M11 (other crystal arthropathies),age40-60,0.5970403735203421,8
+M12 (other specific arthropathies),age40-60,0.5062077240624689,8
+M13 (other arthritis),age40-60,0.5311545772012383,265
+M15 (polyarthrosis),age40-60,0.6196719233637502,93
+M16 (coxarthrosis [arthrosis of hip]),age40-60,0.519311635511003,145
+M17 (gonarthrosis [arthrosis of knee]),age40-60,0.5937301104637995,308
+M18 (arthrosis of first carpometacarpal joint),age40-60,0.6026668016856048,14
+M19 (other arthrosis),age40-60,0.536505887292648,741
+M20 (acquired deformities of fingers and toes),age40-60,0.6157734215691179,238
+M21 (other acquired deformities of limbs),age40-60,0.5742323087845043,38
+M22 (disorders of patella),age40-60,0.4789054677707053,29
+M23 (internal derangement of knee),age40-60,0.5852682632673895,178
+M24 (other specific joint derangements),age40-60,0.5510057864609259,40
+"M25 (other joint disorders, not elsewhere classified)",age40-60,0.5240716110626459,1187
+M31 (other necrotising vasculopathies),age40-60,0.55365254223239,6
+M35 (other systemic involvement of connective tissue),age40-60,0.5505135178371461,35
+M40 (kyphosis and lordosis),age40-60,0.3428423107530091,8
+M41 (scoliosis),age40-60,0.5342525507422168,13
+M43 (other deforming dorsopathies),age40-60,0.5406729737651249,36
+M45 (ankylosing spondylitis),age40-60,0.5360376790209423,9
+M46 (other inflammatory spondylopathies),age40-60,0.40572516234977973,29
+M47 (spondylosis),age40-60,0.5076789594763919,294
+M48 (other spondylopathies),age40-60,0.5016871827211512,76
+M50 (cervical disk disorders),age40-60,0.47521163374105246,46
+M51 (other intervertebral disk disorders),age40-60,0.5378629945269965,149
+"M53 (other dorsopathies, not elsewhere classified)",age40-60,0.4451500249003984,60
+M54 (dorsalgia),age40-60,0.5229159274331839,734
+M60 (myositis),age40-60,0.11387935750161621,2
+M62 (other disorders of muscle),age40-60,0.47856799148550855,42
+M65 (synovitis and tenosynovitis),age40-60,0.47608229203907654,215
+M66 (spontaneous rupture of synovium and tendon),age40-60,0.42457637215099386,19
+M67 (other disorders of synovium and tendon),age40-60,0.5290108325769056,131
+"M70 (soft tissue disorders related to use, overuse and pressure)",age40-60,0.587261533404243,223
+M71 (other bursopathies),age40-60,0.5482174359059437,36
+M72 (fibroblastic disorders),age40-60,0.5766992742775044,319
+M75 (shoulder lesions),age40-60,0.538260285137815,384
+"M76 (enthesopathies of lower limb, excluding foot)",age40-60,0.5002760189133902,92
+M77 (other enthesopathies),age40-60,0.5621574143186223,501
+"M79 (other soft tissue disorders, not elsewhere classified)",age40-60,0.49993085206641247,1119
+M80 (osteoporosis with pathological fracture),age40-60,0.5291010225908002,14
+M81 (osteoporosis without pathological fracture),age40-60,0.6488233610958782,141
+M84 (disorders of continuity of bone),age40-60,0.5990741950333432,32
+M85 (other disorders of bone density and structure),age40-60,0.7364653728257771,140
+M86 (osteomyelitis),age40-60,0.5306167619995026,10
+M87 (osteonecrosis),age40-60,0.36371750129179686,9
+M89 (other disorders of bone),age40-60,0.6004093854757875,48
+M90 (osteopathies in diseases classified elsewhere),age40-60,0.37894763017854477,6
+M94 (other disorders of cartilage),age40-60,0.450220756255239,26
+M95 (other acquired deformities of musculoskeletal system and connective tissue),age40-60,0.5951799784357634,30
+"M96 (postprocedural musculoskeletal disorders, not elsewhere classified)",age40-60,0.652589894066743,6
+"M99 (biomechanical lesions, not elsewhere classified)",age40-60,0.3128201462104635,4
+N02 (recurrent and persistent haematuria),age40-60,0.6461597284392718,8
+N03 (chronic nephritic syndrome),age40-60,0.4416525760891188,4
+N10 (acute tubulo-interstitial nephritis),age40-60,0.5529790620182027,6
+"N12 (tubulo-interstitial nephritis, not specified as acute or chronic)",age40-60,0.5246552671382934,11
+N13 (obstructive and reflux uropathy),age40-60,0.6354275508342455,24
+N17 (acute renal failure),age40-60,0.5408537874266388,8
+N18 (chronic renal failure),age40-60,0.6009948373884723,101
+N19 (unspecified renal failure),age40-60,0.5416231429897864,12
+N20 (calculus of kidney and ureter),age40-60,0.6439899236611974,65
+N21 (calculus of lower urinary tract),age40-60,0.7984393817209076,7
+N23 (unspecified renal colic),age40-60,0.6292822493637245,69
+"N28 (other disorders of kidney and ureter, not elsewhere classified)",age40-60,0.48271173981042625,47
+N30 (cystitis),age40-60,0.6594367823265102,160
+"N31 (neuromuscular dysfunction of bladder, not elsewhere classified)",age40-60,0.5193294410928713,53
+N32 (other disorders of bladder),age40-60,0.5936547976847202,123
+N34 (urethritis and urethral syndrome),age40-60,0.4977121826275085,7
+N35 (urethral stricture),age40-60,0.4725830037384984,34
+N36 (other disorders of urethra),age40-60,0.5162572150658803,13
+N39 (other disorders of urinary system),age40-60,0.6069377892066677,360
+N40 (hyperplasia of prostate),age40-60,0.8091036950978712,274
+N41 (inflammatory diseases of prostate),age40-60,0.8123866069205875,50
+N42 (other disorders of prostate),age40-60,0.818280529571765,24
+N43 (hydrocele and spermatocele),age40-60,0.7883646404841489,22
+N45 (orchitis and epididymitis),age40-60,0.818024328909309,27
+N46 (male infertility),age40-60,0.695603630486137,5
+"N47 (redundant prepuce, phimosis and paraphimosis)",age40-60,0.7643656394931493,27
+N48 (other disorders of penis),age40-60,0.7853593888588031,99
+N50 (other disorders of male genital organs),age40-60,0.8107597391964675,159
+N60 (benign mammary dysplasia),age40-60,0.8013825337586588,103
+N61 (inflammatory disorders of breast),age40-60,0.8357844309544262,13
+N62 (hypertrophy of breast),age40-60,0.39714448056411267,19
+N63 (unspecified lump in breast),age40-60,0.7713286765983762,159
+N64 (other disorders of breast),age40-60,0.7147995611407976,152
+N72 (inflammatory disease of cervix uteri),age40-60,0.8016122336141238,13
+N73 (other female pelvic inflammatory diseases),age40-60,0.7025111940298507,20
+N75 (diseases of bartholin's gland),age40-60,0.6985256617573887,24
+N76 (other inflammation of vagina and vulva),age40-60,0.7495940144350424,40
+N80 (endometriosis),age40-60,0.8153133505706929,38
+N81 (female genital prolapse),age40-60,0.740919500285144,140
+"N83 (noninflammatory disorders of ovary, fallopian tube and broad ligament)",age40-60,0.748876422107513,54
+N84 (polyp of female genital tract),age40-60,0.707884745832281,163
+"N85 (other noninflammatory disorders of uterus, except cervix)",age40-60,0.7396928904470346,42
+N86 (erosion and ectropion of cervix uteri),age40-60,0.8087831986959048,11
+N87 (dysplasia of cervix uteri),age40-60,0.821331548804781,60
+N88 (other noninflammatory disorders of cervix uteri),age40-60,0.760504515262333,23
+N89 (other noninflammatory disorders of vagina),age40-60,0.708213127316795,140
+N90 (other noninflammatory disorders of vulva and perineum),age40-60,0.7328631542253872,58
+"N91 (absent, scanty and rare menstruation)",age40-60,0.8357691829374456,15
+"N92 (excessive, frequent and irregular menstruation)",age40-60,0.8642704795107541,237
+N93 (other abnormal uterine and vaginal bleeding),age40-60,0.7892228540882953,101
+N94 (pain and other conditions associated with female genital organs and menstrual cycle),age40-60,0.8244228650967366,79
+N95 (menopausal and other perimenopausal disorders),age40-60,0.7633546195704786,527
+N97 (female infertility),age40-60,0.9404948402337436,5
+"N99 (postprocedural disorders of genito-urinary system, not elsewhere classified)",age40-60,0.6334543615760198,9
+O02 (other abnormal products of conception),age40-60,0.8728333043197134,9
+O03 (spontaneous abortion),age40-60,0.9652351229701838,7
+O04 (medical abortion),age40-60,0.6994889839359427,6
+O26 (maternal care for other conditions predominantly related to pregnancy),age40-60,0.9651657176956164,1
+O34 (maternal care for known or suspected abnormality of pelvic organs),age40-60,0.8898477914842817,12
+O36 (maternal care for other known or suspected foetal problems),age40-60,0.7868107185187027,3
+O68 (labour and delivery complicated by foetal stress [distress]),age40-60,0.9651888504861128,3
+O70 (perineal laceration during delivery),age40-60,0.9529736297075218,7
+O72 (postpartum haemorrhage),age40-60,0.7697464939327631,4
+O80 (single spontaneous delivery),age40-60,0.9247774406922962,6
+O82 (single delivery by caesarean section),age40-60,0.7103641352099601,6
+"O99 (other maternal diseases classifiable elsewhere but complicating pregnancy, childbirth and the puerperium)",age40-60,0.8166107173940073,5
+Q21 (congenital malformations of cardiac septa),age40-60,0.3342161104756221,6
+"Q38 (other congenital malformations of tongue, mouth and pharynx)",age40-60,0.5228278708907346,6
+Q61 (cystic kidney disease),age40-60,0.542946661693398,5
+Q66 (congenital deformities of feet),age40-60,0.6712683531622681,7
+Q76 (congenital malformations of spine and bony thorax),age40-60,0.8416465673720068,3
+Q82 (other congenital malformations of skin),age40-60,0.5049059841814655,14
+C18 Malignant neoplasm of colon,age40-60,0.6307934585992954,27
+C20 Malignant neoplasm of rectum,age40-60,0.5753207918253807,13
+C25 Malignant neoplasm of pancreas,age40-60,0.752306238655295,3
+C34 Malignant neoplasm of bronchus and lung,age40-60,0.7055581807932086,12
+C43 Malignant melanoma of skin,age40-60,0.41335041671849737,25
+C44 Other malignant neoplasms of skin,age40-60,0.5758968705433117,169
+C50 Malignant neoplasm of breast,age40-60,0.6936165477595226,147
+C54 Malignant neoplasm of corpus uteri,age40-60,0.752028309271623,17
+C56 Malignant neoplasm of ovary,age40-60,0.7380058332237975,7
+C61 Malignant neoplasm of prostate,age40-60,0.8435896123679323,54
+C62 Malignant neoplasm of testis,age40-60,0.8164275234376943,7
+"C64 Malignant neoplasm of kidney, except renal pelvis",age40-60,0.473388984219354,9
+C67 Malignant neoplasm of bladder,age40-60,0.536032227582434,6
+C73 Malignant neoplasm of thyroid gland,age40-60,0.7244044066447827,8
+C82 Follicular [nodular] non-Hodgkin's lymphoma,age40-60,0.4180517216129362,9
+C83 Diffuse non-Hodgkin's lymphoma,age40-60,0.5912305406346364,8
+C90 Multiple myeloma and malignant plasma cell neoplasms,age40-60,0.4076905863046397,2
+C91 Lymphoid leukaemia,age40-60,0.3430319307669353,8
+D03 Melanoma in situ,age40-60,0.5732104660995871,14
+D04 Carcinoma in situ of skin,age40-60,0.6374956478487939,10
+D05 Carcinoma in situ of breast,age40-60,0.7755914686594598,19
+D06 Carcinoma in situ of cervix uteri,age40-60,0.7298829524823706,11
+D07 Carcinoma in situ of other and unspecified genital organs,age40-60,0.7032773840606739,5
+D09 Carcinoma in situ of other and unspecified sites,age40-60,0.6744057387239545,2
+D41 Neoplasm of uncertain or unknown behaviour of urinary organs,age40-60,0.6891939775213844,4
+"D47 Other neoplasms of uncertain or unknown behaviour of lymphoid, haematopoietic and related tissue",age40-60,0.6803341870353333,3
+A04 (other bacterial intestinal infections),age>60,0.5258528724336242,177
+A07 (other protozoal intestinal diseases),age>60,0.6619818088427953,9
+A08 (viral and other specified intestinal infections),age>60,0.5094315747942735,200
+A09 (diarrhoea and gastro-enteritis of presumed infectious origin),age>60,0.5845730673213602,629
+"A15 (respiratory tuberculosis, bacteriologically and histologically confirmed)",age>60,0.07978566853066948,1
+A37 (whooping cough),age>60,0.3593872816357624,5
+A41 (other septicaemia),age>60,0.6462336741177638,296
+A49 (bacterial infection of unspecified site),age>60,0.5395368098835727,55
+"A63 (other predominantly sexually transmitted diseases, not elsewhere classified)",age>60,0.7970351454293628,3
+B00 (herpesviral [herpes simplex] infections),age>60,0.586191852014452,73
+B01 (varicella [chickenpox]),age>60,0.6451192959977838,12
+B02 (zoster [herpes zoster]),age>60,0.565557811534235,574
+B05 (measles),age>60,0.3726043524177213,1
+B06 (rubella [german measles]),age>60,0.5031444499268531,2
+B07 (viral warts),age>60,0.6362920844715865,302
+"B08 (other viral infections characterised by skin and mucous membrane lesions, not elsewhere classified)",age>60,0.7422428834984889,9
+B26 (mumps),age>60,0.6013264051801002,4
+B27 (infectious mononucleosis),age>60,0.6949495321116006,4
+B34 (viral infection of unspecified site),age>60,0.542977552146966,277
+B35 (dermatophytosis),age>60,0.6291489030049402,713
+B36 (other superficial mycoses),age>60,0.5872893535456762,122
+B37 (candidiasis),age>60,0.5478560723534126,286
+B49 (unspecified mycosis),age>60,0.4956237560239426,19
+B80 (enterobiasis),age>60,0.5391757623382591,13
+B86 (scabies),age>60,0.679107863339625,25
+B95 (streptococcus and staphylococcus as the cause of diseases classified to other chapters),age>60,0.5740320469401894,121
+B96 (other bacterial agents as the cause of diseases classified to other chapters),age>60,0.6139272817230832,243
+B97 (viral agents as the cause of diseases classified to other chapters),age>60,0.7088351518985918,57
+B98 (other specified infectious agents as the cause of diseases classified to other chapters),age>60,0.4964423275235842,74
+B99 (other and unspecified infectious diseases),age>60,0.5488987593605936,27
+D50 (iron deficiency anaemia),age>60,0.594294574032085,627
+D51 (vitamin b12 deficiency anaemia),age>60,0.5192945946648415,100
+D52 (folate deficiency anaemia),age>60,0.6478889677743338,25
+D61 (other aplastic anaemias),age>60,0.6054159181898002,43
+D63 (anaemia in chronic diseases classified elsewhere),age>60,0.6452811598553645,45
+D64 (other anaemias),age>60,0.6062303692103133,855
+D68 (other coagulation defects),age>60,0.4451257768277719,35
+D69 (purpura and other haemorrhagic conditions),age>60,0.5799926036998835,150
+D70 (agranulocytosis),age>60,0.5795688537725219,199
+D72 (other disorders of white blood cells),age>60,0.6195058632770266,52
+D73 (diseases of spleen),age>60,0.5353243229769337,33
+D75 (other diseases of blood and blood-forming organs),age>60,0.5346421735004101,70
+D86 (sarcoidosis),age>60,0.516150930789437,17
+"D89 (other disorders involving the immune mechanism, not elsewhere classified)",age>60,0.5253305108958208,20
+E03 (other hypothyroidism),age>60,0.6276620186339643,392
+E04 (other non-toxic goitre),age>60,0.6265132900472166,85
+E05 (thyrotoxicosis [hyperthyroidism]),age>60,0.6495828387756339,100
+E06 (thyroiditis),age>60,0.4608723963079884,19
+E07 (other disorders of thyroid),age>60,0.4858779319958786,30
+E10 (insulin-dependent diabetes mellitus),age>60,0.5610245558933086,54
+E11 (non-insulin-dependent diabetes mellitus),age>60,0.5799186571779138,929
+E14 (unspecified diabetes mellitus),age>60,0.6644287667431134,219
+E16 (other disorders of pancreatic internal secretion),age>60,0.5921379464967,138
+E21 (hyperparathyroidism and other disorders of parathyroid gland),age>60,0.6412375325920192,93
+E22 (hyperfunction of pituitary gland),age>60,0.6381367061336677,19
+E23 (hypofunction and other disorders of pituitary gland),age>60,0.7029073041899665,19
+E27 (other disorders of adrenal gland),age>60,0.6100445810077979,35
+E28 (ovarian dysfunction),age>60,0.6218632594054606,5
+E29 (testicular dysfunction),age>60,0.7305482625968809,11
+E53 (deficiency of other b group vitamins),age>60,0.5916417311806854,206
+E55 (vitamin d deficiency),age>60,0.6542130588328057,276
+E61 (deficiency of other nutrient elements),age>60,0.6367293415715708,39
+E66 (obesity),age>60,0.5346891518931988,792
+E73 (lactose intolerance),age>60,0.6544790548418002,15
+E78 (disorders of lipoprotein metabolism and other lipidaemias),age>60,0.5836503453010011,1754
+E79 (disorders of purine and pyrimidine metabolism),age>60,0.6259921390726184,15
+E80 (disorders of porphyrin and bilirubin metabolism),age>60,0.6070537690782167,52
+E83 (disorders of mineral metabolism),age>60,0.6424715276206747,289
+E86 (volume depletion),age>60,0.6767670243287226,227
+"E87 (other disorders of fluid, electrolyte and acid-base balance)",age>60,0.6353575307268253,587
+E88 (other metabolic disorders),age>60,0.5282830792396009,23
+"E89 (postprocedural endocrine and metabolic disorders, not elsewhere classified)",age>60,0.6685231384430982,81
+F00 (dementia in alzheimer's disease),age>60,0.6966200833193823,86
+F01 (vascular dementia),age>60,0.6589195240772601,77
+F02 (dementia in other diseases classified elsewhere),age>60,0.7311567223410365,30
+F03 (unspecified dementia),age>60,0.7064219188101366,193
+"F05 (delirium, not induced by alcohol and other psychoactive substances)",age>60,0.7333231427816409,179
+F06 (other mental disorders due to brain damage and dysfunction and to physical disease),age>60,0.58317543002396,47
+F10 (mental and behavioural disorders due to use of alcohol),age>60,0.6073922581098448,151
+F17 (mental and behavioural disorders due to use of tobacco),age>60,0.6238472270942135,457
+F20 (schizophrenia),age>60,0.31284039811429953,7
+F31 (bipolar affective disorder),age>60,0.529524154096281,19
+F32 (depressive episode),age>60,0.5573651713262682,564
+F33 (recurrent depressive disorder),age>60,0.5418582009083626,34
+F34 (persistent mood [affective] disorders),age>60,0.6858683563860605,13
+F39 (unspecified mood [affective] disorder),age>60,0.5060510911476196,13
+F40 (phobic anxiety disorders),age>60,0.5347714239343366,76
+F41 (other anxiety disorders),age>60,0.6089559526812195,546
+F42 (obsessive-compulsive disorder),age>60,0.6935378036323344,5
+"F43 (reaction to severe stress, and adjustment disorders)",age>60,0.736174722911482,114
+F45 (somatoform disorders),age>60,0.5826986017768234,53
+"F52 (sexual dysfunction, not caused by organic disorder or disease)",age>60,0.7189304615968743,27
+G03 (meningitis due to other and unspecified causes),age>60,0.4705058951851659,5
+"G04 (encephalitis, myelitis and encephalomyelitis)",age>60,0.5826923409891699,12
+G12 (spinal muscular atrophy and related syndromes),age>60,0.4856194240542067,23
+G20 (parkinson's disease),age>60,0.6104245234291943,126
+G24 (dystonia),age>60,0.5281026561397156,33
+G25 (other extrapyramidal and movement disorders),age>60,0.4974069398669187,217
+G30 (alzheimer's disease),age>60,0.7229822500426265,180
+"G31 (other degenerative diseases of nervous system, not elsewhere classified)",age>60,0.6615966112353684,73
+G35 (multiple sclerosis),age>60,0.47416769113560214,16
+G40 (epilepsy),age>60,0.5650171541845871,93
+G43 (migraine),age>60,0.56223390043818,158
+G44 (other headache syndromes),age>60,0.5359901367986687,85
+G45 (transient cerebral ischaemic attacks and related syndromes),age>60,0.5432073883254169,404
+G47 (sleep disorders),age>60,0.564674799170582,307
+G50 (disorders of trigeminal nerve),age>60,0.5820223591486366,63
+G51 (facial nerve disorders),age>60,0.4892473742356338,47
+G54 (nerve root and plexus disorders),age>60,0.5315044989165545,43
+G55 (nerve root and plexus compressions in diseases classified elsewhere),age>60,0.5660913229870677,162
+G56 (mononeuropathies of upper limb),age>60,0.5641663773012193,455
+G57 (mononeuropathies of lower limb),age>60,0.7126704739610481,117
+G58 (other mononeuropathies),age>60,0.5774916243177113,23
+G62 (other polyneuropathies),age>60,0.5607179629652439,152
+G63 (polyneuropathy in diseases classified elsewhere),age>60,0.5237099584340325,21
+G81 (hemiplegia),age>60,0.610900015733942,86
+G83 (other paralytic syndromes),age>60,0.41234907496963563,21
+G91 (hydrocephalus),age>60,0.496963878216111,19
+G93 (other disorders of brain),age>60,0.4844623392917142,76
+G95 (other diseases of spinal cord),age>60,0.4517229559067619,48
+"G98 (other disorders of nervous system, not elsewhere classified)",age>60,0.7123619611543466,6
+G99 (other disorders of nervous system in diseases classified elsewhere),age>60,0.49328385353517856,55
+H00 (hordeolum and chalazion),age>60,0.6327971802425134,242
+H01 (other inflammation of eyelid),age>60,0.5279355563312508,241
+H02 (other disorders of eyelid),age>60,0.5145860685451957,345
+H04 (disorders of lachrymal system),age>60,0.5897593213475028,509
+H05 (disorders of orbit),age>60,0.39502567453039356,33
+H10 (conjunctivitis),age>60,0.6046678318642399,352
+H11 (other disorders of conjunctiva),age>60,0.5675042890042727,284
+H15 (disorders of sclera),age>60,0.5416988948150201,27
+H16 (keratitis),age>60,0.5504016233610984,46
+H17 (corneal scars and opacities),age>60,0.6138700714299538,17
+H18 (other disorders of cornea),age>60,0.6606963045862397,146
+H20 (iridocyclitis),age>60,0.5236161723493729,61
+H21 (other disorders of iris and ciliary body),age>60,0.6544757267875222,37
+H25 (senile cataract),age>60,0.6188019612855553,1153
+H26 (other cataract),age>60,0.5779286254160705,2110
+H27 (other disorders of lens),age>60,0.4991902878150021,27
+H31 (other disorders of choroid),age>60,0.5310348879784665,35
+H33 (retinal detachments and breaks),age>60,0.5411293725906338,164
+H34 (retinal vascular occlusions),age>60,0.5174324548739525,143
+H35 (other retinal disorders),age>60,0.543783561194005,593
+H36 (retinal disorders in diseases classified elsewhere),age>60,0.5172773053043461,59
+H40 (glaucoma),age>60,0.5247093696128431,492
+H43 (disorders of vitreous body),age>60,0.6223880299640348,346
+H44 (disorders of globe),age>60,0.5167994749576775,47
+H46 (optic neuritis),age>60,0.5324976264886749,12
+H47 (other disorders of optic [2nd] nerve and visual pathways),age>60,0.45288681615876075,46
+H49 (paralytic strabismus),age>60,0.5086731325057566,31
+H50 (other strabismus),age>60,0.47161778298741897,32
+H52 (disorders of refraction and accommodation),age>60,0.669266545021941,310
+H53 (visual disturbances),age>60,0.5455588455713443,355
+H54 (blindness and low vision),age>60,0.5656809303454133,125
+H57 (other disorders of eye and adnexa),age>60,0.5906101429810471,204
+"H59 (postprocedural disorders of eye and adnexa, not elsewhere classified)",age>60,0.5046397702841146,18
+H60 (otitis externa),age>60,0.6073154359212235,499
+H61 (other disorders of external ear),age>60,0.6208666074018141,850
+H65 (nonsuppurative otitis media),age>60,0.6238598638159498,70
+H66 (suppurative and unspecified otitis media),age>60,0.6185068456498919,152
+H68 (eustachian salpingitis and obstruction),age>60,0.6355965349446426,29
+H69 (other disorders of eustachian tube),age>60,0.5823541262023616,82
+H72 (perforation of tympanic membrane),age>60,0.5414474156693304,34
+H73 (other disorders of tympanic membrane),age>60,0.49448109287346775,11
+H81 (disorders of vestibular function),age>60,0.5797076201433009,453
+H83 (other diseases of inner ear),age>60,0.5949636414957591,293
+H90 (conductive and sensorineural hearing loss),age>60,0.5153874818705655,242
+H91 (other hearing loss),age>60,0.5732226550599305,640
+H92 (otalgia and effusion of ear),age>60,0.6153320779004077,273
+"H93 (other disorders of ear, not elsewhere classified)",age>60,0.6226316123821896,297
+I00 (rheumatic fever without mention of heart involvement),age>60,0.23166150170530292,1
+I05 (rheumatic mitral valve diseases),age>60,0.5228293823611748,24
+I07 (rheumatic tricuspid valve diseases),age>60,0.663900501086494,68
+I08 (multiple valve diseases),age>60,0.6972467895867687,210
+I10 (essential (primary) hypertension),age>60,0.5375563516267836,3165
+I11 (hypertensive heart disease),age>60,0.6264940349922384,28
+I12 (hypertensive renal disease),age>60,0.6223261138286462,18
+I20 (angina pectoris),age>60,0.6023533047675812,729
+I21 (acute myocardial infarction),age>60,0.5930214556690814,357
+I22 (subsequent myocardial infarction),age>60,0.6115590124679035,17
+I24 (other acute ischaemic heart diseases),age>60,0.6264090030440069,107
+I25 (chronic ischaemic heart disease),age>60,0.6124897108712466,1517
+I26 (pulmonary embolism),age>60,0.6184062387286565,321
+I27 (other pulmonary heart diseases),age>60,0.6242383660875442,82
+I31 (other diseases of pericardium),age>60,0.6316015327671509,67
+I34 (nonrheumatic mitral valve disorders),age>60,0.6252402603805813,216
+I35 (nonrheumatic aortic valve disorders),age>60,0.6470810472415953,327
+"I38 (endocarditis, valve unspecified)",age>60,0.5526900791658111,21
+I42 (cardiomyopathy),age>60,0.5848381630567602,49
+I44 (atrioventricular and left bundle-branch block),age>60,0.6309079372997326,353
+I45 (other conduction disorders),age>60,0.6518065868791585,212
+I46 (cardiac arrest),age>60,0.620758670165623,60
+I47 (paroxysmal tachycardia),age>60,0.5587638255019136,184
+I48 (atrial fibrillation and flutter),age>60,0.6122325250405652,1228
+I49 (other cardiac arrhythmias),age>60,0.5410945869403738,310
+I50 (heart failure),age>60,0.6747525855212559,477
+I51 (complications and ill-defined descriptions of heart disease),age>60,0.6542878837918862,532
+I60 (subarachnoid haemorrhage),age>60,0.6336016520549042,42
+I61 (intracerebral haemorrhage),age>60,0.6462130725860233,60
+I62 (other nontraumatic intracranial haemorrhage),age>60,0.6969962626479261,47
+I63 (cerebral infarction),age>60,0.6323202608642988,259
+"I64 (stroke, not specified as haemorrhage or infarction)",age>60,0.5331715707675763,165
+"I65 (occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction)",age>60,0.6517116789971631,77
+I67 (other cerebrovascular diseases),age>60,0.6618713161349177,343
+I69 (sequelae of cerebrovascular disease),age>60,0.5676717385999575,33
+I70 (atherosclerosis),age>60,0.6527604726100967,98
+I71 (aortic aneurysm and dissection),age>60,0.6947044556526881,173
+I72 (other aneurysm),age>60,0.53802619495907,51
+I73 (other peripheral vascular diseases),age>60,0.56196117806939,331
+I74 (arterial embolism and thrombosis),age>60,0.646392888071011,48
+I77 (other disorders of arteries and arterioles),age>60,0.5837528177380735,109
+I78 (diseases of capillaries),age>60,0.47276401496777776,75
+I80 (phlebitis and thrombophlebitis),age>60,0.49015667472967306,401
+I82 (other venous embolism and thrombosis),age>60,0.5182474262509416,30
+I83 (varicose veins of lower extremities),age>60,0.5072652907117329,380
+I84 (haemorrhoids),age>60,0.6621830115315911,390
+I85 (oesophageal varices),age>60,0.5240694522868437,23
+I86 (varicose veins of other sites),age>60,0.66991198143514,36
+I87 (other disorders of veins),age>60,0.5109604791420598,58
+I89 (other non-infective disorders of lymphatic vessels and lymph nodes),age>60,0.66322681779585,82
+I95 (hypotension),age>60,0.626009034945167,644
+J00 (acute nasopharyngitis [common cold]),age>60,0.5265847590693858,144
+J01 (acute sinusitis),age>60,0.6379375367629287,311
+J02 (acute pharyngitis),age>60,0.6500924466360858,328
+J03 (acute tonsillitis),age>60,0.7166645271313945,83
+J04 (acute laryngitis and tracheitis),age>60,0.61218850692921,93
+J06 (acute upper respiratory infections of multiple and unspecified sites),age>60,0.601068061425179,1316
+J10 (influenza due to identified influenza virus),age>60,0.5992728896157657,68
+"J11 (influenza, virus not identified)",age>60,0.5917811690319947,134
+"J12 (viral pneumonia, not elsewhere classified)",age>60,0.7357410281125596,38
+J13 (pneumonia due to streptococcus pneumoniae),age>60,0.3491914911422577,12
+"J15 (bacterial pneumonia, not elsewhere classified)",age>60,0.5555628968875992,19
+"J18 (pneumonia, organism unspecified)",age>60,0.6426033833357574,753
+J20 (acute bronchitis),age>60,0.5505542429968997,165
+J22 (unspecified acute lower respiratory infection),age>60,0.5532663472756667,1978
+J30 (vasomotor and allergic rhinitis),age>60,0.6031950126492163,291
+"J31 (chronic rhinitis, nasopharyngitis and pharyngitis)",age>60,0.5453557515628977,177
+J32 (chronic sinusitis),age>60,0.5814530335580512,194
+J33 (nasal polyp),age>60,0.6416181570732716,93
+J34 (other disorders of nose and nasal sinuses),age>60,0.5865591340103576,252
+J35 (chronic diseases of tonsils and adenoids),age>60,0.6135847163231971,21
+"J38 (diseases of vocal cords and larynx, not elsewhere classified)",age>60,0.5448065651378904,83
+J39 (other diseases of upper respiratory tract),age>60,0.5281321100814373,37
+"J40 (bronchitis, not specified as acute or chronic)",age>60,0.5529608292117715,110
+J43 (emphysema),age>60,0.6564328324581015,125
+J44 (other chronic obstructive pulmonary disease),age>60,0.5564981993124322,739
+J45 (asthma),age>60,0.534441588075693,536
+J47 (bronchiectasis),age>60,0.5856391750166013,146
+J61 (pneumoconiosis due to asbestos and other mineral fibres),age>60,0.7156821878498141,28
+J69 (pneumonitis due to solids and liquids),age>60,0.7163312707274097,73
+J84 (other interstitial pulmonary diseases),age>60,0.6119437582875676,174
+"J90 (pleural effusion, not elsewhere classified)",age>60,0.6641279670239771,338
+J92 (pleural plaque),age>60,0.7441557438562016,115
+J93 (pneumothorax),age>60,0.5325197451327595,46
+J94 (other pleural conditions),age>60,0.6311533669588075,21
+"J96 (respiratory failure, not elsewhere classified)",age>60,0.6680311880899249,153
+J98 (other respiratory disorders),age>60,0.516945335260832,599
+K01 (embedded and impacted teeth),age>60,0.48978927857600035,26
+K02 (dental caries),age>60,0.4799278179561497,81
+K04 (diseases of pulp and periapical tissues),age>60,0.5795232469998047,138
+K05 (gingivitis and periodontal diseases),age>60,0.5886045678911106,34
+K06 (other disorders of gingiva and edentulous alveolar ridge),age>60,0.5017404309844766,20
+K07 (dentofacial anomalies [including malocclusion]),age>60,0.5270808088344526,52
+K08 (other disorders of teeth and supporting structures),age>60,0.5572193454205326,101
+"K09 (cysts of oral region, not elsewhere classified)",age>60,0.5335188904664612,15
+K10 (other diseases of jaws),age>60,0.5102810181857371,54
+K11 (diseases of salivary glands),age>60,0.5325601453321223,79
+K12 (stomatitis and related lesions),age>60,0.5487797537103203,146
+K13 (other diseases of lip and oral mucosa),age>60,0.5522241859280388,219
+K14 (diseases of tongue),age>60,0.5311497758941027,112
+K20 (oesophagitis),age>60,0.491160084350837,290
+K21 (gastro-oesophageal reflux disease),age>60,0.5398345277648962,1437
+K22 (other diseases of oesophagus),age>60,0.53312035361616,498
+K25 (gastric ulcer),age>60,0.48252301595623387,194
+K26 (duodenal ulcer),age>60,0.6301094333701993,90
+"K27 (peptic ulcer, site unspecified)",age>60,0.545277238755669,14
+K29 (gastritis and duodenitis),age>60,0.4985474441752996,1206
+K30 (dyspepsia),age>60,0.6138554256843125,251
+K31 (other diseases of stomach and duodenum),age>60,0.5622062583877945,444
+K35 (acute appendicitis),age>60,0.6061580078278952,49
+K37 (unspecified appendicitis),age>60,0.4460717872106771,7
+K40 (inguinal hernia),age>60,0.7213112406700167,634
+K41 (femoral hernia),age>60,0.5963779300849477,40
+K42 (umbilical hernia),age>60,0.6047896814390712,147
+K43 (ventral hernia),age>60,0.5410663797928305,180
+K44 (diaphragmatic hernia),age>60,0.5652278408047073,1211
+K46 (unspecified abdominal hernia),age>60,0.6022605556154843,66
+K50 (crohn's disease [regional enteritis]),age>60,0.4738177434754571,38
+K51 (ulcerative colitis),age>60,0.5108588465618926,85
+K52 (other non-infective gastro-enteritis and colitis),age>60,0.5588907290914149,449
+K55 (vascular disorders of intestine),age>60,0.5633793182564515,144
+K56 (paralytic ileus and intestinal obstruction without hernia),age>60,0.5820503664708192,277
+K57 (diverticular disease of intestine),age>60,0.5412717266470698,1938
+K58 (irritable bowel syndrome),age>60,0.6219860184164621,300
+K59 (other functional intestinal disorders),age>60,0.5692230314073421,831
+K60 (fissure and fistula of anal and rectal regions),age>60,0.6306028055943605,70
+K61 (abscess of anal and rectal regions),age>60,0.6896287500828975,41
+K62 (other diseases of anus and rectum),age>60,0.5251298344838294,950
+K63 (other diseases of intestine),age>60,0.5554073604427431,955
+K64 (haemorrhoids and perianal venous thrombosis),age>60,0.5046809502628029,978
+K65 (peritonitis),age>60,0.7006780395894399,26
+K66 (other disorders of peritoneum),age>60,0.5947625742496268,218
+K70 (alcoholic liver disease),age>60,0.6034382223838342,20
+K74 (fibrosis and cirrhosis of liver),age>60,0.5334919975137159,45
+K75 (other inflammatory liver diseases),age>60,0.5541017458262913,52
+K76 (other diseases of liver),age>60,0.5234175207261245,382
+K80 (cholelithiasis),age>60,0.5447267027609973,621
+K81 (cholecystitis),age>60,0.5236743055528894,149
+K82 (other diseases of gallbladder),age>60,0.5618743197070051,103
+K83 (other diseases of biliary tract),age>60,0.6414575714636654,179
+K85 (acute pancreatitis),age>60,0.5162553971306418,81
+K86 (other diseases of pancreas),age>60,0.6725118143624922,113
+K90 (intestinal malabsorption),age>60,0.4703687306689308,100
+"K91 (postprocedural disorders of digestive system, not elsewhere classified)",age>60,0.6041379151028803,87
+K92 (other diseases of digestive system),age>60,0.561724544794846,518
+L01 (impetigo),age>60,0.4636549781938133,22
+"L02 (cutaneous abscess, furuncle and carbuncle)",age>60,0.5609757159932226,228
+L03 (cellulitis),age>60,0.5173733308263557,888
+L05 (pilonidal cyst),age>60,0.5008903770022091,19
+L08 (other local infections of skin and subcutaneous tissue),age>60,0.5593466599449536,392
+L20 (atopic dermatitis),age>60,0.593719503714464,211
+L21 (seborrhoeic dermatitis),age>60,0.58347807941577,203
+L24 (irritant contact dermatitis),age>60,0.5393810575620289,29
+L25 (unspecified contact dermatitis),age>60,0.5937762557275381,72
+L27 (dermatitis due to substances taken internally),age>60,0.4936588262502193,31
+L28 (lichen simplex chronicus and prurigo),age>60,0.5146439293385531,64
+L29 (pruritus),age>60,0.5335261670541356,318
+L30 (other dermatitis),age>60,0.5997604232292197,863
+L40 (psoriasis),age>60,0.5336959979044661,190
+L42 (pityriasis rosea),age>60,0.6793041667267892,18
+L43 (lichen planus),age>60,0.5743363258233768,98
+L50 (urticaria),age>60,0.5989217139424011,199
+L51 (erythema multiforme),age>60,0.45120664685373923,14
+L53 (other erythematous conditions),age>60,0.5984627032028769,42
+L56 (other acute skin changes due to ultraviolet radiation),age>60,0.48617690396620633,21
+L57 (skin changes due to chronic exposure to nonionising radiation),age>60,0.5814092995877215,908
+L60 (nail disorders),age>60,0.5780666837718343,242
+L63 (alopecia areata),age>60,0.5437463404038305,11
+L65 (other nonscarring hair loss),age>60,0.7201240149693704,61
+L70 (acne),age>60,0.5728695652173913,23
+L71 (rosacea),age>60,0.5763630882837818,118
+L72 (follicular cysts of skin and subcutaneous tissue),age>60,0.5239910181663192,253
+L73 (other follicular disorders),age>60,0.5686988620454665,87
+L74 (eccrine sweat disorders),age>60,0.6121436062410832,34
+L80 (vitiligo),age>60,0.5494942880146632,14
+L81 (other disorders of pigmentation),age>60,0.5868435643497614,144
+L82 (seborrhoeic keratosis),age>60,0.5983332490725821,833
+L84 (corns and callosities),age>60,0.5765922983944338,112
+L85 (other epidermal thickening),age>60,0.5681861430359283,139
+L89 (decubitus ulcer),age>60,0.6773045271520624,115
+L90 (atrophic disorders of skin),age>60,0.5809841015440534,149
+L91 (hypertrophic disorders of skin),age>60,0.5650412343188023,93
+L92 (granulomatous disorders of skin and subcutaneous tissue),age>60,0.43325832930195973,31
+"L97 (ulcer of lower limb, not elsewhere classified)",age>60,0.5801896504576383,70
+"L98 (other disorders of skin and subcutaneous tissue, not elsewhere classified)",age>60,0.5574320157288262,1533
+M00 (pyogenic arthritis),age>60,0.5991042414437681,21
+M05 (seropositive rheumatoid arthritis),age>60,0.597459858372909,42
+M06 (other rheumatoid arthritis),age>60,0.5608037854188155,245
+M07 (psoriatic and enteropathic arthropathies),age>60,0.5532425646131867,28
+M10 (gout),age>60,0.635905561034281,436
+M11 (other crystal arthropathies),age>60,0.5537716298934705,51
+M12 (other specific arthropathies),age>60,0.6047438480365784,14
+M13 (other arthritis),age>60,0.5649710714569187,1238
+M15 (polyarthrosis),age>60,0.588101393075164,493
+M16 (coxarthrosis [arthrosis of hip]),age>60,0.5390193433825663,840
+M17 (gonarthrosis [arthrosis of knee]),age>60,0.5152374520362364,1043
+M18 (arthrosis of first carpometacarpal joint),age>60,0.5938679032775096,100
+M19 (other arthrosis),age>60,0.547228439443289,1890
+M20 (acquired deformities of fingers and toes),age>60,0.6608875433070873,401
+M21 (other acquired deformities of limbs),age>60,0.5211955699845333,124
+M22 (disorders of patella),age>60,0.6287951306516131,25
+M23 (internal derangement of knee),age>60,0.6412623876135327,202
+M24 (other specific joint derangements),age>60,0.4842315060362198,68
+"M25 (other joint disorders, not elsewhere classified)",age>60,0.587021450129079,1860
+M31 (other necrotising vasculopathies),age>60,0.6360404781714539,79
+M35 (other systemic involvement of connective tissue),age>60,0.6420242289274465,280
+M40 (kyphosis and lordosis),age>60,0.5665444073108858,24
+M41 (scoliosis),age>60,0.6619847718303685,111
+M43 (other deforming dorsopathies),age>60,0.5963022044246138,161
+M45 (ankylosing spondylitis),age>60,0.5132415225055116,22
+M46 (other inflammatory spondylopathies),age>60,0.5973018811915514,144
+M47 (spondylosis),age>60,0.5418109870012664,824
+M48 (other spondylopathies),age>60,0.51106183860035,411
+M50 (cervical disk disorders),age>60,0.4569616595453524,81
+M51 (other intervertebral disk disorders),age>60,0.5745208620076148,405
+"M53 (other dorsopathies, not elsewhere classified)",age>60,0.6399736195374283,146
+M54 (dorsalgia),age>60,0.5193831886828739,1487
+M60 (myositis),age>60,0.4998717051643,22
+M62 (other disorders of muscle),age>60,0.5497570090300996,118
+M65 (synovitis and tenosynovitis),age>60,0.5910119934892364,484
+M66 (spontaneous rupture of synovium and tendon),age>60,0.5257106092104393,61
+M67 (other disorders of synovium and tendon),age>60,0.5791116938014985,273
+"M70 (soft tissue disorders related to use, overuse and pressure)",age>60,0.5564824200803538,519
+M71 (other bursopathies),age>60,0.5860741212261804,141
+M72 (fibroblastic disorders),age>60,0.6512931890516305,687
+M75 (shoulder lesions),age>60,0.610162555981139,773
+"M76 (enthesopathies of lower limb, excluding foot)",age>60,0.6403080000142292,195
+M77 (other enthesopathies),age>60,0.6858203935931585,457
+"M79 (other soft tissue disorders, not elsewhere classified)",age>60,0.5881455337924341,2399
+M80 (osteoporosis with pathological fracture),age>60,0.6544915374888289,97
+M81 (osteoporosis without pathological fracture),age>60,0.702774805595108,707
+M84 (disorders of continuity of bone),age>60,0.6313236534201438,154
+M85 (other disorders of bone density and structure),age>60,0.673431109851381,695
+M86 (osteomyelitis),age>60,0.5826083840124382,36
+M87 (osteonecrosis),age>60,0.5659108728144111,29
+M89 (other disorders of bone),age>60,0.6283230262460613,103
+M90 (osteopathies in diseases classified elsewhere),age>60,0.6344348323480716,33
+M94 (other disorders of cartilage),age>60,0.6027379485593993,34
+M95 (other acquired deformities of musculoskeletal system and connective tissue),age>60,0.6281878479226367,16
+"M96 (postprocedural musculoskeletal disorders, not elsewhere classified)",age>60,0.5248597779032562,23
+"M99 (biomechanical lesions, not elsewhere classified)",age>60,0.5478225673792022,20
+N02 (recurrent and persistent haematuria),age>60,0.5010117104401013,42
+N03 (chronic nephritic syndrome),age>60,0.6193102407626832,21
+N10 (acute tubulo-interstitial nephritis),age>60,0.5237155880338328,27
+"N12 (tubulo-interstitial nephritis, not specified as acute or chronic)",age>60,0.5931645101877032,57
+N13 (obstructive and reflux uropathy),age>60,0.6462804372128753,214
+N17 (acute renal failure),age>60,0.7188762473496978,568
+N18 (chronic renal failure),age>60,0.5135519494423354,881
+N19 (unspecified renal failure),age>60,0.559004287942141,51
+N20 (calculus of kidney and ureter),age>60,0.5716075955604366,177
+N21 (calculus of lower urinary tract),age>60,0.7050550666516531,72
+N23 (unspecified renal colic),age>60,0.6583111223729476,46
+"N28 (other disorders of kidney and ureter, not elsewhere classified)",age>60,0.6161695701169385,231
+N30 (cystitis),age>60,0.5679364528598292,449
+"N31 (neuromuscular dysfunction of bladder, not elsewhere classified)",age>60,0.5858780967095971,114
+N32 (other disorders of bladder),age>60,0.5851127521028128,608
+N34 (urethritis and urethral syndrome),age>60,0.5143962151446158,10
+N35 (urethral stricture),age>60,0.5945674364647382,117
+N36 (other disorders of urethra),age>60,0.45530422717282,57
+N39 (other disorders of urinary system),age>60,0.5642234747605284,1000
+N40 (hyperplasia of prostate),age>60,0.7655625568156108,848
+N41 (inflammatory diseases of prostate),age>60,0.7700665965650193,135
+N42 (other disorders of prostate),age>60,0.7489899326823943,100
+N43 (hydrocele and spermatocele),age>60,0.7653581108702983,77
+N45 (orchitis and epididymitis),age>60,0.7671750896203388,91
+"N47 (redundant prepuce, phimosis and paraphimosis)",age>60,0.7662478027459736,93
+N48 (other disorders of penis),age>60,0.7694550902774386,179
+N50 (other disorders of male genital organs),age>60,0.7868757200347922,188
+N60 (benign mammary dysplasia),age>60,0.7865628070748394,42
+N61 (inflammatory disorders of breast),age>60,0.7653451197762906,16
+N62 (hypertrophy of breast),age>60,0.6093142639433163,35
+N63 (unspecified lump in breast),age>60,0.7245134369011987,93
+N64 (other disorders of breast),age>60,0.7466737685019629,183
+N72 (inflammatory disease of cervix uteri),age>60,0.6643092105263158,3
+N73 (other female pelvic inflammatory diseases),age>60,0.7077784176025909,40
+N75 (diseases of bartholin's gland),age>60,0.6836811108101657,14
+N76 (other inflammation of vagina and vulva),age>60,0.7555845454781625,44
+N80 (endometriosis),age>60,0.6783892154571137,12
+N81 (female genital prolapse),age>60,0.7602763580101186,328
+"N83 (noninflammatory disorders of ovary, fallopian tube and broad ligament)",age>60,0.7107347069537308,73
+N84 (polyp of female genital tract),age>60,0.8024079786496603,115
+"N85 (other noninflammatory disorders of uterus, except cervix)",age>60,0.7895012685849866,40
+N86 (erosion and ectropion of cervix uteri),age>60,0.43449907663896575,3
+N87 (dysplasia of cervix uteri),age>60,0.7965399631229495,4
+N88 (other noninflammatory disorders of cervix uteri),age>60,0.7230078885461475,21
+N89 (other noninflammatory disorders of vagina),age>60,0.8425860413525365,125
+N90 (other noninflammatory disorders of vulva and perineum),age>60,0.7859175703383029,110
+"N92 (excessive, frequent and irregular menstruation)",age>60,0.8077908979941653,10
+N93 (other abnormal uterine and vaginal bleeding),age>60,0.7921979525392867,35
+N94 (pain and other conditions associated with female genital organs and menstrual cycle),age>60,0.7639386058765685,28
+N95 (menopausal and other perimenopausal disorders),age>60,0.8083299621165129,338
+"N99 (postprocedural disorders of genito-urinary system, not elsewhere classified)",age>60,0.5984546623006629,42
+O02 (other abnormal products of conception),age>60,0.5015826985226224,3
+O04 (medical abortion),age>60,0.23166150170530292,1
+O26 (maternal care for other conditions predominantly related to pregnancy),age>60,0.611857481691799,1
+O36 (maternal care for other known or suspected foetal problems),age>60,0.5088078461245478,1
+O70 (perineal laceration during delivery),age>60,0.4989915340800887,1
+O80 (single spontaneous delivery),age>60,0.31934573533358146,4
+Q21 (congenital malformations of cardiac septa),age>60,0.5878001914299045,18
+"Q38 (other congenital malformations of tongue, mouth and pharynx)",age>60,0.5340796019900498,15
+Q61 (cystic kidney disease),age>60,0.4750226313732668,7
+Q66 (congenital deformities of feet),age>60,0.5910052406182544,15
+Q76 (congenital malformations of spine and bony thorax),age>60,0.638359371543228,9
+Q82 (other congenital malformations of skin),age>60,0.49361858509343026,19
+C15 Malignant neoplasm of oesophagus,age>60,0.6087701863354038,23
+C18 Malignant neoplasm of colon,age>60,0.5746036834242061,99
+C20 Malignant neoplasm of rectum,age>60,0.5755976115647725,31
+C25 Malignant neoplasm of pancreas,age>60,0.6167054621193944,21
+C34 Malignant neoplasm of bronchus and lung,age>60,0.5877438283102174,90
+C43 Malignant melanoma of skin,age>60,0.5693416578416124,67
+C44 Other malignant neoplasms of skin,age>60,0.6161447294804658,613
+C50 Malignant neoplasm of breast,age>60,0.8098503326116676,193
+C54 Malignant neoplasm of corpus uteri,age>60,0.7886894831101174,26
+C56 Malignant neoplasm of ovary,age>60,0.7822777606805451,22
+C61 Malignant neoplasm of prostate,age>60,0.827063803439576,315
+C62 Malignant neoplasm of testis,age>60,0.954255466491231,1
+"C64 Malignant neoplasm of kidney, except renal pelvis",age>60,0.5339371066381664,35
+C67 Malignant neoplasm of bladder,age>60,0.7749161999223876,17
+C73 Malignant neoplasm of thyroid gland,age>60,0.638559386226897,8
+C82 Follicular [nodular] non-Hodgkin's lymphoma,age>60,0.744464253249283,14
+C83 Diffuse non-Hodgkin's lymphoma,age>60,0.5234188567002407,26
+C90 Multiple myeloma and malignant plasma cell neoplasms,age>60,0.7382850300292665,47
+C91 Lymphoid leukaemia,age>60,0.6357182882219242,11
+D03 Melanoma in situ,age>60,0.7130370788631658,23
+D04 Carcinoma in situ of skin,age>60,0.6048805390644509,43
+D05 Carcinoma in situ of breast,age>60,0.8070455721066532,38
+D06 Carcinoma in situ of cervix uteri,age>60,0.43915286662800057,4
+D07 Carcinoma in situ of other and unspecified genital organs,age>60,0.7493819281861773,14
+D09 Carcinoma in situ of other and unspecified sites,age>60,0.5083275556274856,26
+D41 Neoplasm of uncertain or unknown behaviour of urinary organs,age>60,0.709044595838088,29
+"D47 Other neoplasms of uncertain or unknown behaviour of lymphoid, haematopoietic and related tissue",age>60,0.5520888348239668,24
